@@ -1,11 +1,14 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 -u
 
 from collections import defaultdict
 import csv
 import io
 import json
 import semver
+import subprocess
 import tarfile
+import tempfile
+import time
 import urllib.request
 
 csv.field_size_limit(1024 * 1024)
@@ -56,6 +59,7 @@ def extract_crate_meta(data):
         if member.name.endswith('.cargo_vcs_info.json'):
             json_data = tarball.extractfile(member).read()
             return json.loads(json_data)
+    print('ERROR: no .cargo_vcs_info file in crate tarball')
 
 
 def load_crates():
@@ -94,19 +98,66 @@ def load_versions():
         return versions
 
 
+def git_clone_rev_read_tags(url, hash):
+    """ Shallow-clone a repo, then find the tags associated with a hash.
+
+    Returns (tags-list, errors)
+    """
+    repo_dir = tempfile.TemporaryDirectory()
+
+    def run(*args, **kwargs):
+        return subprocess.run(*args, **kwargs, cwd=repo_dir.name, check=True)
+
+    run(['git', 'init', '-q', '.'])
+    try:
+        run(['git', 'remote', 'add', 'origin', url])
+        run(['git', 'fetch', '-q', '-t', '--depth=1', 'origin', hash])
+        result = run(['git', 'tag', '--points-at', hash], capture_output=True)
+    except Exception as e:
+        raise Exception(f'git error: {e}')
+    tags = result.stdout.split()
+    # Parse bytes to str.
+    tags = [t.decode() for t in tags]
+    return tags
+
+
+def match_tags(crate, version, tags):
+    def try_match(tag):
+        if tag in tags:
+            print(f'yay! found tag {tag}')
+            return True
+        return False
+    success = try_match(version) or try_match(
+        f'v{version}') or try_match(f'{crate}-{version}') or try_match(f'{crate}-v{version}')
+    if not success:
+        print(f'tag fail: {tags}')
+
+
 crates = load_crates()
 versions = load_versions()
 
-TOPN = 10
+# The set of crates to investigate
+TOP_START = 0
+TOP_END = 100
 
-for crate in crates[:TOPN]:
+for index, crate in enumerate(crates[TOP_START:TOP_END], start=TOP_START):
+    print(f'ranking: {index}')
     crate_id = crate[1]
     crate_name = crate[2]
     vers = versions[crate_id]
     latest = latest_version(vers)
-    print(f'{crate[0]} {crate_name} {latest} {crate[3]}')
-    tarball = download_crate(crate_name, latest)
-    print(f'got {len(tarball)} bytes')
-    meta = extract_crate_meta(tarball)
-    print('meta:', meta)
-    break
+    url = crate[3]
+    print(f'{crate[0]} {crate_name} {latest} {url}')
+    try:
+        tarball = download_crate(crate_name, latest)
+        meta = extract_crate_meta(tarball)
+    except:
+        print(f'ERROR: failed to download crate {crate_name} {latest}')
+    try:
+        hash = meta['git']['sha1']
+        print('hash:', hash)
+        tags = git_clone_rev_read_tags(url, hash)
+        match_tags(crate_name, latest, tags)
+    except Exception as e:
+        print(f'ERROR: failed reading tags for {crate_name} {latest}: {e}')
+    time.sleep(2)

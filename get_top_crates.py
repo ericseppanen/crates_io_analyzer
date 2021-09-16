@@ -1,5 +1,6 @@
 #!/usr/bin/python3 -u
 
+import argparse
 from collections import defaultdict
 import csv
 import io
@@ -159,35 +160,57 @@ def match_tags(crate, version, tags):
 
 
 # Download from https://static.crates.io/db-dump.tar.gz
-db = CratesDbDump('db-dump.tar.gz')
+DBDUMPFILE_DEFAULT = 'db-dump.tar.gz'
 
-# The set of crates to investigate
-TOP_START = 0
-TOP_END = 100
 
-for index, crate in enumerate(db.crates[TOP_START:TOP_END], start=TOP_START):
-    print(f'ranking: {index}')
-    crate_id = crate[1]
-    crate_name = crate[2]
-    vers = db.versions[crate_id]
-    latest = latest_version(vers)
-    url = crate[3]
-    print(f'{crate_name} {latest} has {crate[0]} downloads')
-    print(f'{crate_name} {latest} repo url is {url}')
+def parse_range(val):
+    """ Parse a number or a numeric range, e.g. '7' or '0-10'. """
+    vals = val.split(sep='-', maxsplit=1)
+    if len(vals) == 1:
+        x = int(vals[0])
+        return (x, x + 1)
+    if len(vals) == 2:
+        return (int(vals[0]), int(vals[1]))
 
-    # Try to download the crate source from crates.io .
-    # We don't write it to a file, but instead examine it in-memory.
-    try:
-        tarball = download_crate(crate_name, latest)
-        meta = extract_crate_meta(tarball)
-    except:
-        print(f'{crate_name} {latest} ERROR: failed to download crate')
-    try:
-        hash = meta['git']['sha1']
-        print(f'{crate_name} {latest} scm hash {hash}')
-        tags = git_clone_rev_read_tags(url, hash)
-        match_tags(crate_name, latest, tags)
-    except Exception as e:
-        print(
-            f'{crate_name} {latest} ERROR: failed reading tags for {crate_name} {latest}: {e}')
-    time.sleep(2)
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--dbdumpfile', default=DBDUMPFILE_DEFAULT)
+    parser.add_argument('--rank', type=parse_range, default=(0, 100))
+    args = parser.parse_args()
+
+    db = CratesDbDump(args.dbdumpfile)
+
+    # Examine crates by their ranking
+    rank_start, rank_end = args.rank
+
+    for index, crate in enumerate(db.crates[rank_start:rank_end], start=rank_start):
+        print(f'ranking: {index}')
+        crate_id = crate[1]
+        crate_name = crate[2]
+        vers = db.versions[crate_id]
+        latest = latest_version(vers)
+        url = crate[3]
+        print(f'{crate_name} {latest} has {crate[0]} downloads')
+        print(f'{crate_name} {latest} repo url is {url}')
+
+        # Try to download the crate source from crates.io .
+        # We don't write it to a file, but instead examine it in-memory.
+        try:
+            tarball = download_crate(crate_name, latest)
+            meta = extract_crate_meta(tarball)
+        except:
+            print(f'{crate_name} {latest} ERROR: failed to download crate')
+        try:
+            hash = meta['git']['sha1']
+            print(f'{crate_name} {latest} scm hash {hash}')
+            tags = git_clone_rev_read_tags(url, hash)
+            match_tags(crate_name, latest, tags)
+        except Exception as e:
+            print(
+                f'{crate_name} {latest} ERROR: failed reading tags for {crate_name} {latest}: {e}')
+        time.sleep(2)
+
+
+if __name__ == '__main__':
+    main()

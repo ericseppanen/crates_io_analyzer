@@ -124,7 +124,7 @@ def git_clone_rev_read_tags(url, hash):
 def match_tags(crate, version, tags):
     def try_match(tag):
         if tag in tags:
-            print(f'yay! found tag {tag}')
+            print(f'{crate} {version} hash matches tag "{tag}"')
             return True
         return False
     success = try_match(version) or try_match(
@@ -147,17 +147,18 @@ for index, crate in enumerate(crates[TOP_START:TOP_END], start=TOP_START):
     vers = versions[crate_id]
     latest = latest_version(vers)
     url = crate[3]
-    print(f'{crate[0]} {crate_name} {latest} {url}')
+    print(f'{crate_name} {latest} has {crate[0]} downloads')
+    print(f'{crate_name} {latest} repo url is {url}')
     try:
         tarball = download_crate(crate_name, latest)
         meta = extract_crate_meta(tarball)
     except:
-        print(f'ERROR: failed to download crate {crate_name} {latest}')
+        print(f'{crate_name} {latest} ERROR: failed to download crate')
     try:
         hash = meta['git']['sha1']
-        print('hash:', hash)
+        print(f'{crate_name} {latest} scm hash {hash}')
         tags = git_clone_rev_read_tags(url, hash)
         match_tags(crate_name, latest, tags)
     except Exception as e:
-        print(f'ERROR: failed reading tags for {crate_name} {latest}: {e}')
+        print(f'{crate_name} {latest} ERROR: failed reading tags for {crate_name} {latest}: {e}')
     time.sleep(2)

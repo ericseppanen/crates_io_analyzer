@@ -62,8 +62,9 @@ def extract_crate_meta(data):
     print('ERROR: no .cargo_vcs_info file in crate tarball')
 
 
-# This extracts a crate/version listing from the crates.io database dump.
 class CratesDbDump:
+    """ This extracts a crate/version listing from the crates.io database dump. """
+
     def __init__(self, filename):
         tarball = tarfile.open(filename)
         for member in tarball.getmembers():
@@ -136,11 +137,21 @@ def git_clone_rev_read_tags(url, hash):
 
 
 def match_tags(crate, version, tags):
+    """ Examine a list of tags to see if one matches this version.
+
+    The tag formats we expect are:
+    - 1.2.3
+    - v1.2.3
+    - cratename-1.2.3
+    - cratename-v1.2.3
+
+    """
     def try_match(tag):
         if tag in tags:
             print(f'{crate} {version} hash matches tag "{tag}"')
             return True
         return False
+
     success = try_match(version) or try_match(
         f'v{version}') or try_match(f'{crate}-{version}') or try_match(f'{crate}-v{version}')
     if not success:

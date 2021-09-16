@@ -62,9 +62,24 @@ def extract_crate_meta(data):
     print('ERROR: no .cargo_vcs_info file in crate tarball')
 
 
-def load_crates():
-    with open('2021-09-09-020123/data/crates.csv') as crates_file:
-        data = csv.reader(crates_file)
+# This extracts a crate/version listing from the crates.io database dump.
+class CratesDbDump:
+    def __init__(self, filename):
+        tarball = tarfile.open(filename)
+        for member in tarball.getmembers():
+            if member.name.endswith('crates.csv'):
+                tar_reader = tarball.extractfile(member)
+                text_reader = io.TextIOWrapper(tar_reader)
+                self.load_crates(text_reader)
+            elif member.name.endswith('versions.csv'):
+                tar_reader = tarball.extractfile(member)
+                text_reader = io.TextIOWrapper(tar_reader)
+                self.load_versions(text_reader)
+        assert self.crates
+        assert self.versions
+
+    def load_crates(self, reader):
+        data = csv.reader(reader)
         # crates.csv:
         #     0           1          2             3        4      5       6          7     8        9         10
         # created_at,description,documentation,downloads,homepage,id,max_upload_size,name,readme,repository,updated_at
@@ -76,13 +91,12 @@ def load_crates():
         for row in data:
             crates.append(crates_csv_extract(row))
 
+        # Do a reverse-sort so that the most popular crates come first.
         crates.sort(reverse=True)
-        return crates
+        self.crates = crates
 
-
-def load_versions():
-    with open('2021-09-09-020123/data/versions.csv') as versions_file:
-        data = csv.reader(versions_file)
+    def load_versions(self, reader):
+        data = csv.reader(reader)
         # versions.csv:
         #     0         1          2         3         4     5    6     7      8            9        10
         # crate_id,crate_size,created_at,downloads,features,id,license,num,published_by,updated_at,yanked
@@ -95,7 +109,7 @@ def load_versions():
             vers = try_semver(version_string)
             versions[crate_id].append((vers, version_string))
 
-        return versions
+        self.versions = versions
 
 
 def git_clone_rev_read_tags(url, hash):
@@ -133,22 +147,25 @@ def match_tags(crate, version, tags):
         print(f'tag fail: {tags}')
 
 
-crates = load_crates()
-versions = load_versions()
+# Download from https://static.crates.io/db-dump.tar.gz
+db = CratesDbDump('db-dump.tar.gz')
 
 # The set of crates to investigate
 TOP_START = 0
 TOP_END = 100
 
-for index, crate in enumerate(crates[TOP_START:TOP_END], start=TOP_START):
+for index, crate in enumerate(db.crates[TOP_START:TOP_END], start=TOP_START):
     print(f'ranking: {index}')
     crate_id = crate[1]
     crate_name = crate[2]
-    vers = versions[crate_id]
+    vers = db.versions[crate_id]
     latest = latest_version(vers)
     url = crate[3]
     print(f'{crate_name} {latest} has {crate[0]} downloads')
     print(f'{crate_name} {latest} repo url is {url}')
+
+    # Try to download the crate source from crates.io .
+    # We don't write it to a file, but instead examine it in-memory.
     try:
         tarball = download_crate(crate_name, latest)
         meta = extract_crate_meta(tarball)
@@ -160,5 +177,6 @@ for index, crate in enumerate(crates[TOP_START:TOP_END], start=TOP_START):
         tags = git_clone_rev_read_tags(url, hash)
         match_tags(crate_name, latest, tags)
     except Exception as e:
-        print(f'{crate_name} {latest} ERROR: failed reading tags for {crate_name} {latest}: {e}')
+        print(
+            f'{crate_name} {latest} ERROR: failed reading tags for {crate_name} {latest}: {e}')
     time.sleep(2)

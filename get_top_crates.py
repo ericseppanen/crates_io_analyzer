@@ -3,8 +3,10 @@
 import argparse
 from collections import defaultdict
 import csv
+import hashlib
 import io
 import json
+import re
 import semver
 import subprocess
 import tarfile
@@ -52,15 +54,31 @@ def download_crate(name, version):
     return response.read()
 
 
-def extract_crate_meta(data):
-    """ Extract the cargo_vcs_info data from the crates.io tarball. """
-    filelike = io.BytesIO(data)
-    tarball = tarfile.open(fileobj=filelike, mode='r:gz')
-    for member in tarball.getmembers():
-        if member.name.endswith('.cargo_vcs_info.json'):
-            json_data = tarball.extractfile(member).read()
-            return json.loads(json_data)
-    print('ERROR: no .cargo_vcs_info file in crate tarball')
+class CrateTarball:
+    def __init__(self, data):
+        filelike = io.BytesIO(data)
+        self.tarball = tarfile.open(fileobj=filelike, mode='r:gz')
+
+    def extract_crate_meta(self):
+        """ Extract the cargo_vcs_info data from the crates.io tarball. """
+        for member in self.tarball.getmembers():
+            if member.name.endswith('.cargo_vcs_info.json'):
+                json_data = self.tarball.extractfile(member).read()
+                return json.loads(json_data)
+        print('ERROR: no .cargo_vcs_info file in crate tarball')
+
+    def examine_files(self, filename_pattern):
+        """ Provide an iterator over files that match a particular pattern.
+
+        The filename_pattern is in python regex format.
+
+        Returns (filename, file_reader)
+
+        """
+        for member in self.tarball.getmembers():
+            if re.match(filename_pattern, member.name):
+                #print(f'*** examine file {member.name}')
+                yield (member.name, self.tarball.extractfile(member))
 
 
 class CratesDbDump:
@@ -114,27 +132,54 @@ class CratesDbDump:
         self.versions = versions
 
 
-def git_clone_rev_read_tags(url, hash):
-    """ Shallow-clone a repo, then find the tags associated with a hash.
+class Git:
+    def __init__(self):
+        self.repo_dir = tempfile.TemporaryDirectory()
 
-    Returns (tags-list, errors)
-    """
-    repo_dir = tempfile.TemporaryDirectory()
+    def run(self, *args, **kwargs):
+        try:
+            kwargs['cwd'] = self.repo_dir.name
+            if 'check' not in kwargs:
+                kwargs['check'] = True
+            return subprocess.run(*args, **kwargs)
+        except Exception as e:
+            print(f'git error: {e}')
+            raise
 
-    def run(*args, **kwargs):
-        return subprocess.run(*args, **kwargs, cwd=repo_dir.name, check=True)
+    @staticmethod
+    def hash_blob(data):
+        """ hash some bytes the same way git hashes a file. """
 
-    run(['git', 'init', '-q', '.'])
-    try:
-        run(['git', 'remote', 'add', 'origin', url])
-        run(['git', 'fetch', '-q', '-t', '--depth=1', 'origin', hash])
-        result = run(['git', 'tag', '--points-at', hash], capture_output=True)
-    except Exception as e:
-        raise Exception(f'git error: {e}')
-    tags = result.stdout.split()
-    # Parse bytes to str.
-    tags = [t.decode() for t in tags]
-    return tags
+        # FIXME: might fail if the file is stored with different line-endings?
+        stuff = b'blob ' + str(len(data)).encode() + b'\0'
+        return hashlib.sha1(stuff + data).hexdigest()
+
+    def blob_exists(self, blob_hash):
+        """ Returns True if the blob exists in this repo. """
+
+        result = self.run(['git', 'cat-file', '-e', blob_hash], check=False)
+        return result.returncode == 0
+
+    def clone_full(self, url):
+        """ Clone a repo. """
+        self.run(['git', 'clone', '-q', '--bare', url, '.'])
+
+    def clone_rev_read_tags(self, url, hash):
+        """ Shallow-clone a repo, then find the tags associated with a hash.
+
+        Returns (tags-list, errors)
+        """
+
+        self.run(['git', 'init', '-q', '.'])
+        self.run(['git', 'remote', 'add', 'origin', url])
+        self.run(['git', 'fetch', '-q', '-t', '--depth=1', 'origin', hash])
+        result = self.run(['git', 'tag', '--points-at',
+                          hash], capture_output=True)
+
+        tags = result.stdout.split()
+        # Parse bytes to str.
+        tags = [t.decode() for t in tags]
+        return tags
 
 
 def match_tags(crate, version, tags):
@@ -197,18 +242,69 @@ def main():
         # Try to download the crate source from crates.io .
         # We don't write it to a file, but instead examine it in-memory.
         try:
-            tarball = download_crate(crate_name, latest)
-            meta = extract_crate_meta(tarball)
-        except:
-            print(f'{crate_name} {latest} ERROR: failed to download crate')
-        try:
-            hash = meta['git']['sha1']
-            print(f'{crate_name} {latest} scm hash {hash}')
-            tags = git_clone_rev_read_tags(url, hash)
-            match_tags(crate_name, latest, tags)
+            tarball_data = download_crate(crate_name, latest)
         except Exception as e:
+            print(f'{crate_name} {latest} ERROR: failed to download crate: {e}')
+            # If crates.io is unreachable, then we should just stop the script.
+            raise
+        try:
+            tarball = CrateTarball(tarball_data)
+        except Exception:
+            print(f'{crate_name} {latest} ERROR: failed to extract crate tarball')
+            continue
+
+        def match_hash_exact():
+            try:
+                meta = tarball.extract_crate_meta()
+                hash = meta['git']['sha1']
+            except Exception:
+                print(
+                    f'{crate_name} {latest} ERROR: failed to extract crate metadata')
+                raise
+            try:
+                print(f'{crate_name} {latest} scm hash {hash}')
+                tags = Git().clone_rev_read_tags(url, hash)
+                match_tags(crate_name, latest, tags)
+            except Exception as e:
+                print(
+                    f'{crate_name} {latest} ERROR: failed reading tags for {crate_name} {latest}: {e}')
+                raise
+
+        # TODO: allow multiple strategies:
+        # - lazy: just search for a matching tag at the specified scm hash
+        # - fallback: try "lazy" but fall back to a full clone object search
+        # - object-search: clone the full repo and try to find the matching files
+
+        try:
+            match_hash_exact()
+        except Exception:
+            print('exact scm match failed.')
+
+        if True:
+            print(f'{crate_name} {latest} doing full repo clone...')
+            repo = Git()
+            repo.clone_full(url)
+            file_count = 0
+            files_unmatched = 0
+            for filename, file_reader in tarball.examine_files('.*\.rs$'):
+                blob_hash = repo.hash_blob(file_reader.read())
+                blob_exists = repo.blob_exists(blob_hash)
+                file_count += 1
+                if not blob_exists:
+                    print(
+                        f'{crate_name} {latest} ERROR: file not in repo: {filename}')
+
+                    files_unmatched += 1
             print(
-                f'{crate_name} {latest} ERROR: failed reading tags for {crate_name} {latest}: {e}')
+                f'{crate_name} {latest} files checked: {file_count} unmatched files: {files_unmatched}')
+
+            # Next steps:
+            # for each .rs file in the download, compute its git blob hash and check whether that
+            # object exists in the repo.
+
+            # TODO: if the crate download contains a meta hash, check whether the tarball files
+            # match the files in that rev.
+
         time.sleep(2)
 
 

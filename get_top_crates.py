@@ -182,26 +182,93 @@ class Git:
         return tags
 
 
-def match_tags(crate, version, tags):
-    """ Examine a list of tags to see if one matches this version.
+class Verifier:
+    """ Do all the verification steps on a crate. """
 
-    The tag formats we expect are:
-    - 1.2.3
-    - v1.2.3
-    - cratename-1.2.3
-    - cratename-v1.2.3
+    def __init__(self, crate_name, crate_version, repo_url):
+        self.repo = Git()
+        self.crate_name = crate_name
+        self.crate_version = crate_version
+        self.repo_url = repo_url
 
-    """
-    def try_match(tag):
-        if tag in tags:
-            print(f'{crate} {version} hash matches tag "{tag}"')
-            return True
-        return False
 
-    success = try_match(version) or try_match(
-        f'v{version}') or try_match(f'{crate}-{version}') or try_match(f'{crate}-v{version}')
-    if not success:
-        print(f'tag fail: {tags}')
+    def print(self, msg):
+        print(f'{self.crate_name} {self.crate_version} {msg}')
+
+
+    def download(self):
+        # Try to download the crate source from crates.io .
+        # We don't write it to a file, but instead examine it in-memory.
+        try:
+            tarball_data = download_crate(self.crate_name, self.crate_version)
+        except Exception as e:
+            self.print(f'ERROR: failed to download crate: {e}')
+            # If crates.io is unreachable, then we should just stop the script.
+            raise
+        try:
+            self.tarball = CrateTarball(tarball_data)
+        except Exception:
+            self.print(f'ERROR: failed to extract crate tarball')
+            raise
+
+
+    def match_tags(self, tags):
+        """ Examine a list of tags to see if one matches this version.
+
+        The tag formats we expect are:
+        - 1.2.3
+        - v1.2.3
+        - cratename-1.2.3
+        - cratename-v1.2.3
+
+        """
+        def try_match(tag):
+            if tag in tags:
+                self.print(f'hash matches tag "{tag}"')
+                return True
+            return False
+
+        nn = self.crate_name
+        vv = self.crate_version
+        success = try_match(self.crate_version) or try_match(f'v{vv}') or try_match(f'{nn}-{vv}') or try_match(f'{nn}-v{vv}')
+        if not success:
+            self.print(f'tag match fail: {tags}')
+
+
+    def match_hash_exact(self):
+        try:
+            meta = self.tarball.extract_crate_meta()
+            hash = meta['git']['sha1']
+        except Exception:
+            self.print(f'ERROR: failed to extract crate metadata')
+            raise
+        try:
+            self.print(f'scm hash {hash}')
+            tags = Git().clone_rev_read_tags(self.repo_url, hash)
+            self.match_tags(tags)
+        except Exception as e:
+            self.print(f'ERROR: failed to read tags: {e}')
+            raise
+
+
+    def search_blobs(self):
+        self.print(f'doing full repo clone...')
+        repo = Git()
+        repo.clone_full(self.repo_url)
+        file_count = 0
+        files_unmatched = 0
+        for filename, file_reader in self.tarball.examine_files('.*\.rs$'):
+            blob_hash = repo.hash_blob(file_reader.read())
+            blob_exists = repo.blob_exists(blob_hash)
+            file_count += 1
+            if not blob_exists:
+                self.print(f'ERROR: file not in repo: {filename}')
+                files_unmatched += 1
+        self.print(f'files checked: {file_count} unmatched files: {files_unmatched}')
+
+
+
+
 
 
 # Download from https://static.crates.io/db-dump.tar.gz
@@ -236,74 +303,28 @@ def main():
         vers = db.versions[crate_id]
         latest = latest_version(vers)
         url = crate[3]
-        print(f'{crate_name} {latest} has {crate[0]} downloads')
-        print(f'{crate_name} {latest} repo url is {url}')
 
-        # Try to download the crate source from crates.io .
-        # We don't write it to a file, but instead examine it in-memory.
-        try:
-            tarball_data = download_crate(crate_name, latest)
-        except Exception as e:
-            print(f'{crate_name} {latest} ERROR: failed to download crate: {e}')
-            # If crates.io is unreachable, then we should just stop the script.
-            raise
-        try:
-            tarball = CrateTarball(tarball_data)
-        except Exception:
-            print(f'{crate_name} {latest} ERROR: failed to extract crate tarball')
-            continue
+        verifier = Verifier(crate_name, latest, url)
 
-        def match_hash_exact():
-            try:
-                meta = tarball.extract_crate_meta()
-                hash = meta['git']['sha1']
-            except Exception:
-                print(
-                    f'{crate_name} {latest} ERROR: failed to extract crate metadata')
-                raise
-            try:
-                print(f'{crate_name} {latest} scm hash {hash}')
-                tags = Git().clone_rev_read_tags(url, hash)
-                match_tags(crate_name, latest, tags)
-            except Exception as e:
-                print(
-                    f'{crate_name} {latest} ERROR: failed reading tags for {crate_name} {latest}: {e}')
-                raise
+        verifier.print(f'has {crate[0]} downloads')
+        verifier.print(f'repo url is {url}')
 
         # TODO: allow multiple strategies:
         # - lazy: just search for a matching tag at the specified scm hash
         # - fallback: try "lazy" but fall back to a full clone object search
         # - object-search: clone the full repo and try to find the matching files
 
+        # TODO: if the crate download contains a meta hash, check whether the tarball files
+        # match the files in that rev.
+
+        verifier.download()
+
         try:
-            match_hash_exact()
+            verifier.match_hash_exact()
         except Exception:
             print('exact scm match failed.')
+            verifier.search_blobs()
 
-        if True:
-            print(f'{crate_name} {latest} doing full repo clone...')
-            repo = Git()
-            repo.clone_full(url)
-            file_count = 0
-            files_unmatched = 0
-            for filename, file_reader in tarball.examine_files('.*\.rs$'):
-                blob_hash = repo.hash_blob(file_reader.read())
-                blob_exists = repo.blob_exists(blob_hash)
-                file_count += 1
-                if not blob_exists:
-                    print(
-                        f'{crate_name} {latest} ERROR: file not in repo: {filename}')
-
-                    files_unmatched += 1
-            print(
-                f'{crate_name} {latest} files checked: {file_count} unmatched files: {files_unmatched}')
-
-            # Next steps:
-            # for each .rs file in the download, compute its git blob hash and check whether that
-            # object exists in the repo.
-
-            # TODO: if the crate download contains a meta hash, check whether the tarball files
-            # match the files in that rev.
 
         time.sleep(2)
 

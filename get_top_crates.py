@@ -142,7 +142,7 @@ class Git:
             if 'check' not in kwargs:
                 kwargs['check'] = True
             return subprocess.run(*args, **kwargs)
-        except Exception as e:
+        except subprocess.CalledProcessError as e:
             print(f'git error: {e}')
             raise
 
@@ -164,17 +164,22 @@ class Git:
         """ Clone a repo. """
         self.run(['git', 'clone', '-q', '--bare', url, '.'])
 
-    def clone_rev_read_tags(self, url, hash):
-        """ Shallow-clone a repo, then find the tags associated with a hash.
-
-        Returns (tags-list, errors)
-        """
+    def clone_shallow(self, url, commit_hash):
+        """ Shallow-clone a repo, then find the tags associated with a hash. """
 
         self.run(['git', 'init', '-q', '.'])
         self.run(['git', 'remote', 'add', 'origin', url])
-        self.run(['git', 'fetch', '-q', '-t', '--depth=1', 'origin', hash])
+        self.run(['git', 'fetch', '-q', '-t',
+                 '--depth=1', 'origin', commit_hash])
+
+    def get_tags(self, commit_hash):
+        """ Find the tags associated with a commit.
+
+        Returns a list of strings (one for each tag).
+        """
+
         result = self.run(['git', 'tag', '--points-at',
-                          hash], capture_output=True)
+                          commit_hash], capture_output=True)
 
         tags = result.stdout.split()
         # Parse bytes to str.
@@ -186,15 +191,14 @@ class Verifier:
     """ Do all the verification steps on a crate. """
 
     def __init__(self, crate_name, crate_version, repo_url):
-        self.repo = Git()
+        self.repo = None
+        self.commit_hash = None
         self.crate_name = crate_name
         self.crate_version = crate_version
         self.repo_url = repo_url
 
-
     def print(self, msg):
         print(f'{self.crate_name} {self.crate_version} {msg}')
-
 
     def download(self):
         # Try to download the crate source from crates.io .
@@ -211,8 +215,7 @@ class Verifier:
             self.print(f'ERROR: failed to extract crate tarball')
             raise
 
-
-    def match_tags(self, tags):
+    def match_tags(self):
         """ Examine a list of tags to see if one matches this version.
 
         The tag formats we expect are:
@@ -221,54 +224,73 @@ class Verifier:
         - cratename-1.2.3
         - cratename-v1.2.3
 
+        returns True if a tag match is found, False otherwise.
+
         """
+
+        try:
+            tags = self.repo.get_tags(self.commit_hash)
+        except Exception as e:
+            self.print(f'ERROR: failed to read tags: {e}')
+
         def try_match(tag):
             if tag in tags:
-                self.print(f'hash matches tag "{tag}"')
+                self.print(f'commit-hash matches tag "{tag}"')
                 return True
             return False
 
         nn = self.crate_name
         vv = self.crate_version
-        success = try_match(self.crate_version) or try_match(f'v{vv}') or try_match(f'{nn}-{vv}') or try_match(f'{nn}-v{vv}')
+        success = try_match(self.crate_version) or try_match(
+            f'v{vv}') or try_match(f'{nn}-{vv}') or try_match(f'{nn}-v{vv}')
         if not success:
-            self.print(f'tag match fail: {tags}')
+            self.print(f'ERROR: tag match fail: {tags}')
+        return success
 
-
-    def match_hash_exact(self):
+    def clone_shallow(self):
+        """ Try to extract the crates.io scm hash, and then shallow-clone the repo. """
         try:
             meta = self.tarball.extract_crate_meta()
-            hash = meta['git']['sha1']
+            self.commit_hash = meta['git']['sha1']
         except Exception:
             self.print(f'ERROR: failed to extract crate metadata')
             raise
+        self.print(f'scm hash {self.commit_hash}')
+
         try:
-            self.print(f'scm hash {hash}')
-            tags = Git().clone_rev_read_tags(self.repo_url, hash)
-            self.match_tags(tags)
+            repo = Git()
+            repo.clone_shallow(self.repo_url, self.commit_hash)
+            self.repo = repo
         except Exception as e:
-            self.print(f'ERROR: failed to read tags: {e}')
+            self.print(f'ERROR: failed to clone repo: {e}')
             raise
 
+    def clone_full(self):
+        try:
+            self.print(f'doing full repo clone...')
+            repo = Git()
+            repo.clone_full(self.repo_url)
+            self.repo = repo
+        except Exception as e:
+            self.print(f'ERROR: failed to clone repo: {e}')
+            raise
 
     def search_blobs(self):
-        self.print(f'doing full repo clone...')
-        repo = Git()
-        repo.clone_full(self.repo_url)
+        """ Returns True if all files exist in the repo. """
         file_count = 0
         files_unmatched = 0
         for filename, file_reader in self.tarball.examine_files('.*\.rs$'):
-            blob_hash = repo.hash_blob(file_reader.read())
-            blob_exists = repo.blob_exists(blob_hash)
+            blob_hash = self.repo.hash_blob(file_reader.read())
+            blob_exists = self.repo.blob_exists(blob_hash)
             file_count += 1
             if not blob_exists:
                 self.print(f'ERROR: file not in repo: {filename}')
                 files_unmatched += 1
-        self.print(f'files checked: {file_count} unmatched files: {files_unmatched}')
-
-
-
-
+        self.print(
+            f'files checked: {file_count} unmatched files: {files_unmatched}')
+        if files_unmatched:
+            self.print(f'ERROR: {files_unmatched} files not found in repo')
+        return files_unmatched == 0
 
 
 # Download from https://static.crates.io/db-dump.tar.gz
@@ -320,11 +342,19 @@ def main():
         verifier.download()
 
         try:
-            verifier.match_hash_exact()
+            verifier.clone_shallow()
+            verifier.match_tags()
+            if not verifier.search_blobs():
+                # Hacky way of forcing the clone_full to execute.
+                raise Exception
         except Exception:
-            print('exact scm match failed.')
-            verifier.search_blobs()
-
+            print('shallow match failed.')
+            try:
+                verifier.clone_full()
+                verifier.search_blobs()
+            except Exception:
+                # Clone failed, nothing more we can do.
+                continue
 
         time.sleep(2)
 

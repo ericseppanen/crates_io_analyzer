@@ -227,6 +227,14 @@ class Verifier:
     def print(self, msg):
         print(f'{self.crate_name} {self.crate_version} {msg}')
 
+    def check_url(self):
+        if self.repo_url:
+            self.print(f'repo url is {self.repo_url}')
+            return True
+        else:
+            self.print(f'ERROR: invalid repo url: "{self.repo_url}"')
+            return False
+
     def download(self):
         # Try to download the crate source from crates.io .
         # We don't write it to a file, but instead examine it in-memory.
@@ -361,15 +369,9 @@ def main():
         verifier = Verifier(crate_name, latest, url)
 
         verifier.print(f'has {crate[0]} downloads')
-        verifier.print(f'repo url is {url}')
-
-        # TODO: allow multiple strategies:
-        # - lazy: just search for a matching tag at the specified scm hash
-        # - fallback: try "lazy" but fall back to a full clone object search
-        # - object-search: clone the full repo and try to find the matching files
-
-        # TODO: if the crate download contains a meta hash, check whether the tarball files
-        # match the files in that rev.
+        if not verifier.check_url():
+            # Without a valid repo URL, there's nothing else we can do.
+            continue
 
         verifier.download()
 

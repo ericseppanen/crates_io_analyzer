@@ -284,7 +284,7 @@ class Verifier:
             repo.clone_shallow(self.repo_url, self.commit_hash)
             self.repo = repo
         except Exception as e:
-            self.print(f'ERROR: failed to clone repo: {e}')
+            self.print(f'ERROR: failed to shallow-clone repo: {e}')
             raise
 
     def clone_full(self):

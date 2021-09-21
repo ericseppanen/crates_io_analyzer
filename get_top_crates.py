@@ -147,8 +147,11 @@ class Git:
             raise
 
     @staticmethod
-    def hash_blob(data):
+    def hash_blob(data, fix_crlf=True):
         """ hash some bytes the same way git hashes a file. """
+
+        if fix_crlf:
+            data = data.replace(b'\r\n', b'\n')
 
         # FIXME: might fail if the file is stored with different line-endings?
         stuff = b'blob ' + str(len(data)).encode() + b'\0'

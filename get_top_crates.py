@@ -7,6 +7,7 @@ import hashlib
 import io
 import json
 import re
+import os
 import semver
 import subprocess
 import tarfile
@@ -135,10 +136,14 @@ class CratesDbDump:
 class Git:
     def __init__(self):
         self.repo_dir = tempfile.TemporaryDirectory()
+        self.env = my_env = os.environ.copy()
+        self.env['GIT_TERMINAL_PROMPT'] = "0"
 
     def run(self, *args, **kwargs):
         try:
             kwargs['cwd'] = self.repo_dir.name
+            kwargs['stdin'] = subprocess.DEVNULL
+            kwargs['env'] = self.env
             if 'check' not in kwargs:
                 kwargs['check'] = True
             return subprocess.run(*args, **kwargs)

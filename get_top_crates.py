@@ -341,6 +341,11 @@ def main():
     rank_start, rank_end = args.rank
 
     for index, crate in enumerate(db.crates[rank_start:rank_end], start=rank_start):
+
+        if index > rank_start:
+            # Time delay between steps, to honor the crates.io crawling policy.
+            time.sleep(2)
+
         print(f'ranking: {index}')
         crate_id = crate[1]
         crate_name = crate[2]
@@ -377,8 +382,6 @@ def main():
             except Exception:
                 # Clone failed, nothing more we can do.
                 continue
-
-        time.sleep(2)
 
 
 if __name__ == '__main__':

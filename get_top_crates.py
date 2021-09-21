@@ -163,13 +163,32 @@ class Git:
         result = self.run(['git', 'cat-file', '-e', blob_hash], check=False)
         return result.returncode == 0
 
+    @staticmethod
+    def fixup_url(url):
+        """ Try to derive a git-clone-able URL from the specified URL.
+
+        Some projects put a github URL in their crate metadata that only
+        works in a web browser. We can derive a git-compatible url by
+        stripping off the '/tree/branchname/etc' suffix.
+        """
+
+        # Note that '\w+(?:-\w+)+' captures a word that can contain hypens.
+        m = re.match(r'(https://github.com/[\w\-_]+/[\w\-_]+)/tree/', url)
+        if m:
+            return m.groups()[0]
+        else:
+            return url
+
     def clone_full(self, url):
         """ Clone a repo. """
+
+        url = self.fixup_url(url)
         self.run(['git', 'clone', '-q', '--bare', url, '.'])
 
     def clone_shallow(self, url, commit_hash):
         """ Shallow-clone a repo, then find the tags associated with a hash. """
 
+        url = self.fixup_url(url)
         self.run(['git', 'init', '-q', '.'])
         self.run(['git', 'remote', 'add', 'origin', url])
         self.run(['git', 'fetch', '-q', '-t',

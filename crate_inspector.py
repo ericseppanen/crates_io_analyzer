@@ -152,15 +152,27 @@ class Git:
             raise
 
     @staticmethod
-    def hash_blob(data, fix_crlf=True):
-        """ hash some bytes the same way git hashes a file. """
+    def hash_blob(data):
+        """ Return one or more git-style hashes for a blob of data.
 
-        if fix_crlf:
-            data = data.replace(b'\r\n', b'\n')
+        Because git may handle line-endings different ways, we return
+        one or two hashes; first we hash the file as-is, then if the file
+        contains any `\r\n` patterns we hash it again with those converted
+        to `\n`.
 
-        # FIXME: might fail if the file is stored with different line-endings?
-        stuff = b'blob ' + str(len(data)).encode() + b'\0'
-        return hashlib.sha1(stuff + data).hexdigest()
+        Returns a list of sha1 hashes (each hash as a hex string).
+
+        """
+
+        def hashit(data):
+            stuff = b'blob ' + str(len(data)).encode() + b'\0'
+            return hashlib.sha1(stuff + data).hexdigest()
+
+        hashes = [hashit(data)]
+        if b'\r\n' in data:
+            data2 = data.replace(b'\r\n', b'\n')
+            hashes.append(hashit(data2))
+        return hashes
 
     def blob_exists(self, blob_hash):
         """ Returns True if the blob exists in this repo. """
@@ -315,8 +327,12 @@ class Verifier:
         file_count = 0
         files_unmatched = 0
         for filename, file_reader in self.tarball.examine_files('.*\.rs$'):
-            blob_hash = self.repo.hash_blob(file_reader.read())
-            blob_exists = self.repo.blob_exists(blob_hash)
+            blob_hashes = self.repo.hash_blob(file_reader.read())
+            blob_exists = False
+            for blob_hash in blob_hashes:
+                if self.repo.blob_exists(blob_hash):
+                    blob_exists = True
+                    break
             file_count += 1
             if not blob_exists:
                 self.print(f'ERROR: file not in repo: {filename}')

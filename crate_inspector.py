@@ -35,15 +35,29 @@ def versions_csv_extract(row):
     return (try_int(row[0]), row[7])
 
 
+SEMVER_PLACEHOLDER = semver.VersionInfo.parse('0.0.0')
+
+
 def try_semver(s):
     """ try to parse a semver string """
     try:
         return semver.VersionInfo.parse(s)
     except:
-        return s
+        # The only thing we need semver structs for is to get the sort
+        # order correct; for strings that don't parse as semver we'll just
+        # return a placeholder value.
+        # Returning the original string here almost works, except that when
+        # we do the version sort later semver will try again to parse the
+        # string and raise an exception.
+        return SEMVER_PLACEHOLDER
 
 
 def latest_version(vlist):
+    """ Sort a list of (semver, string) version tuples.
+
+    The first element is used to get the sort order correct, while the second
+    is returned once sorting is complete.
+    """
     vlist = sorted(vlist, reverse=True)
     return vlist[0][1]
 

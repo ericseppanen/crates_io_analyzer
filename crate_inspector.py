@@ -10,6 +10,7 @@ import re
 import os
 import semver
 import subprocess
+import sys
 import tarfile
 import tempfile
 import time
@@ -372,54 +373,68 @@ def parse_range(val):
         return (int(vals[0]), int(vals[1]))
 
 
+def do_verify(db, crate_db_row):
+    crate_id = crate_db_row[1]
+    crate_name = crate_db_row[2]
+    vers = db.versions[crate_id]
+    latest = latest_version(vers)
+    url = crate_db_row[3]
+
+    verifier = Verifier(crate_name, latest, url)
+
+    verifier.print(f'has {crate_db_row[0]} downloads')
+    if not verifier.check_url():
+        # Without a valid repo URL, there's nothing else we can do.
+        return
+
+    verifier.download()
+
+    try:
+        verifier.clone_shallow()
+        verifier.match_tags()
+        if not verifier.search_blobs():
+            # Hacky way of forcing the clone_full to execute.
+            raise Exception
+    except Exception:
+        print('shallow match failed.')
+        try:
+            verifier.clone_full()
+            verifier.search_blobs()
+        except Exception:
+            # Clone failed, nothing more we can do.
+            return
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--dbdumpfile', default=DBDUMPFILE_DEFAULT)
     parser.add_argument('--rank', type=parse_range, default=(0, 100))
+    parser.add_argument('--crate', help='crate name to inspect')
     args = parser.parse_args()
 
     db = CratesDbDump(args.dbdumpfile)
 
-    # Examine crates by their ranking
+    if args.crate:
+        # Search for the crate by name
+        for crate_db_row in db.crates:
+            crate_name = crate_db_row[2]
+            if crate_name == args.crate:
+                do_verify(db, crate_db_row)
+                return
+        print(f'failed to find a crate named "{args.crate}"')
+        sys.exit(1)
+
+    # Examine crates by their ranking (by number of downloads)
     rank_start, rank_end = args.rank
 
-    for index, crate in enumerate(db.crates[rank_start:rank_end], start=rank_start):
+    for index, crate_db_row in enumerate(db.crates[rank_start:rank_end], start=rank_start):
 
         if index > rank_start:
             # Time delay between steps, to honor the crates.io crawling policy.
             time.sleep(2)
 
         print(f'ranking: {index}')
-        crate_id = crate[1]
-        crate_name = crate[2]
-        vers = db.versions[crate_id]
-        latest = latest_version(vers)
-        url = crate[3]
-
-        verifier = Verifier(crate_name, latest, url)
-
-        verifier.print(f'has {crate[0]} downloads')
-        if not verifier.check_url():
-            # Without a valid repo URL, there's nothing else we can do.
-            continue
-
-        verifier.download()
-
-        try:
-            verifier.clone_shallow()
-            verifier.match_tags()
-            if not verifier.search_blobs():
-                # Hacky way of forcing the clone_full to execute.
-                raise Exception
-        except Exception:
-            print('shallow match failed.')
-            try:
-                verifier.clone_full()
-                verifier.search_blobs()
-            except Exception:
-                # Clone failed, nothing more we can do.
-                continue
-
+        do_verify(db, crate_db_row)
 
 if __name__ == '__main__':
     main()

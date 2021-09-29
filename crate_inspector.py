@@ -65,8 +65,13 @@ def latest_version(vlist):
 
 def download_crate(name, version):
     url = f'https://crates.io/api/v1/crates/{name}/{version}/download'
-    response = urllib.request.urlopen(url)
-    assert response.status == 200
+    try:
+        response = urllib.request.urlopen(url)
+    except urllib.error.HTTPError as e:
+        if e.code == 403:
+            print(f'HTTP 403 (Forbidden) error.')
+            return None
+        raise
     return response.read()
 
 
@@ -263,10 +268,19 @@ class Verifier:
             return False
 
     def download(self):
-        # Try to download the crate source from crates.io .
-        # We don't write it to a file, but instead examine it in-memory.
+        """ Try to download the crate source from crates.io .
+
+        We don't write it to a file, but instead examine it in-memory.
+
+        Returns True on success; False on a permissions error.
+        May raise exceptions on other errors (e.g. http/connectivity problems).
+
+        """
         try:
             tarball_data = download_crate(self.crate_name, self.crate_version)
+            if not tarball_data:
+                self.print(f'ERROR: permanent crate download failure')
+                return False
         except Exception as e:
             self.print(f'ERROR: failed to download crate: {e}')
             # If crates.io is unreachable, then we should just stop the script.
@@ -276,6 +290,7 @@ class Verifier:
         except Exception:
             self.print(f'ERROR: failed to extract crate tarball')
             raise
+        return True
 
     def match_tags(self):
         """ Examine a list of tags to see if one matches this version.
@@ -387,7 +402,10 @@ def do_verify(db, crate_db_row):
         # Without a valid repo URL, there's nothing else we can do.
         return
 
-    verifier.download()
+    if not verifier.download():
+        # If crates.io returns a permissions error,
+        # there's nothing more we can do.
+        return
 
     try:
         verifier.clone_shallow()

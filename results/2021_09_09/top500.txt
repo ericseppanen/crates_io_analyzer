@@ -1,0 +1,3194 @@
+ranking: 0
+rand 0.8.4 has 80538436 downloads
+rand 0.8.4 repo url is https://github.com/rust-random/rand
+rand 0.8.4 scm hash 8792268dfe57e49bb4518190bf4fe66176759a44
+rand 0.8.4 commit-hash matches tag "0.8.4"
+rand 0.8.4 files checked: 26 unmatched files: 0
+ranking: 1
+syn 1.0.76 has 74664188 downloads
+syn 1.0.76 repo url is https://github.com/dtolnay/syn
+syn 1.0.76 scm hash 8820d7320f98befc3715d651edc33463393967d3
+syn 1.0.76 commit-hash matches tag "1.0.76"
+syn 1.0.76 files checked: 88 unmatched files: 0
+ranking: 2
+rand_core 0.6.3 has 68598391 downloads
+rand_core 0.6.3 repo url is https://github.com/rust-random/rand
+rand_core 0.6.3 scm hash 8792268dfe57e49bb4518190bf4fe66176759a44
+rand_core 0.6.3 commit-hash matches tag "rand_core-0.6.3"
+rand_core 0.6.3 files checked: 6 unmatched files: 0
+ranking: 3
+libc 0.2.101 has 68482405 downloads
+libc 0.2.101 repo url is https://github.com/rust-lang/libc
+libc 0.2.101 scm hash 2cffe84529fb86a150c6848409d75aa96d237944
+libc 0.2.101 commit-hash matches tag "0.2.101"
+libc 0.2.101 files checked: 177 unmatched files: 0
+ranking: 4
+quote 1.0.9 has 66483638 downloads
+quote 1.0.9 repo url is https://github.com/dtolnay/quote
+quote 1.0.9 scm hash 68ebadbc1b4242531c5a78fbba01c648bd58c8e7
+quote 1.0.9 commit-hash matches tag "1.0.9"
+quote 1.0.9 files checked: 16 unmatched files: 0
+ranking: 5
+cfg-if 1.0.0 has 63154901 downloads
+cfg-if 1.0.0 repo url is https://github.com/alexcrichton/cfg-if
+cfg-if 1.0.0 scm hash e60fa1efeab0ec6e90c50d93ec526e1410459c23
+cfg-if 1.0.0 commit-hash matches tag "1.0.0"
+cfg-if 1.0.0 files checked: 2 unmatched files: 0
+ranking: 6
+proc-macro2 1.0.29 has 63054531 downloads
+proc-macro2 1.0.29 repo url is https://github.com/alexcrichton/proc-macro2
+proc-macro2 1.0.29 scm hash 4fc89676e7bdef2ba68e8a1383d07df0bb7bbeb0
+proc-macro2 1.0.29 commit-hash matches tag "1.0.29"
+proc-macro2 1.0.29 files checked: 12 unmatched files: 0
+ranking: 7
+unicode-xid 0.2.2 has 63017028 downloads
+unicode-xid 0.2.2 repo url is https://github.com/unicode-rs/unicode-xid
+unicode-xid 0.2.2 scm hash aa989880611f325b2eacc8c6da21e5826c11565c
+unicode-xid 0.2.2 ERROR: tag match fail: []
+unicode-xid 0.2.2 files checked: 5 unmatched files: 0
+ranking: 8
+serde 1.0.130 has 55649890 downloads
+serde 1.0.130 repo url is https://github.com/serde-rs/serde
+serde 1.0.130 scm hash 65e1a50749938612cfbdb69b57fc4cf249f87149
+serde 1.0.130 commit-hash matches tag "v1.0.130"
+serde 1.0.130 files checked: 20 unmatched files: 0
+ranking: 9
+bitflags 1.3.2 has 54326989 downloads
+bitflags 1.3.2 repo url is https://github.com/bitflags/bitflags
+bitflags 1.3.2 scm hash ed185cfb1c447c1b4bd6ac021c9ec3bb02c9e2f2
+bitflags 1.3.2 commit-hash matches tag "1.3.2"
+bitflags 1.3.2 files checked: 20 unmatched files: 0
+ranking: 10
+log 0.4.14 has 53565224 downloads
+log 0.4.14 repo url is https://github.com/rust-lang/log
+log 0.4.14 scm hash 9d4206770dd93f07cb27c3e1f41dc21c45031302
+log 0.4.14 commit-hash matches tag "0.4.14"
+log 0.4.14 files checked: 10 unmatched files: 0
+ranking: 11
+lazy_static 1.4.0 has 52706251 downloads
+lazy_static 1.4.0 repo url is https://github.com/rust-lang-nursery/lazy-static.rs
+lazy_static 1.4.0 scm hash 421669662b35fcb455f2902daed2e20bbbba79b6
+lazy_static 1.4.0 commit-hash matches tag "1.4.0"
+lazy_static 1.4.0 files checked: 5 unmatched files: 0
+ranking: 12
+autocfg 1.0.1 has 49945324 downloads
+autocfg 1.0.1 repo url is https://github.com/cuviper/autocfg
+autocfg 1.0.1 scm hash d2c60343b63239dd514622df39172f90463db886
+autocfg 1.0.1 commit-hash matches tag "1.0.1"
+autocfg 1.0.1 files checked: 9 unmatched files: 0
+ranking: 13
+num-traits 0.2.14 has 48167368 downloads
+num-traits 0.2.14 repo url is https://github.com/rust-num/num-traits
+num-traits 0.2.14 scm hash e8da6fe581f0e14a6322c5d51f57bec641772dac
+num-traits 0.2.14 commit-hash matches tag "num-traits-0.2.14"
+num-traits 0.2.14 files checked: 19 unmatched files: 0
+ranking: 14
+regex 1.5.4 has 47502408 downloads
+regex 1.5.4 repo url is https://github.com/rust-lang/regex
+regex 1.5.4 scm hash f2dc1b788f773a49f1b6633a6302054978344452
+regex 1.5.4 commit-hash matches tag "1.5.4"
+regex 1.5.4 files checked: 63 unmatched files: 0
+ranking: 15
+regex-syntax 0.6.25 has 47398244 downloads
+regex-syntax 0.6.25 repo url is https://github.com/rust-lang/regex
+regex-syntax 0.6.25 scm hash 3ea9e3eca7b762c30fbc09205522e3935cd70052
+regex-syntax 0.6.25 ERROR: tag match fail: []
+regex-syntax 0.6.25 files checked: 32 unmatched files: 0
+ranking: 16
+memchr 2.4.1 has 47269298 downloads
+memchr 2.4.1 repo url is https://github.com/BurntSushi/memchr
+memchr 2.4.1 scm hash 8e1da98fee06d66c13e66c330e3a3dd6ccf0e3a0
+memchr 2.4.1 commit-hash matches tag "2.4.1"
+memchr 2.4.1 files checked: 35 unmatched files: 0
+ranking: 17
+base64 0.13.0 has 46885296 downloads
+base64 0.13.0 repo url is https://github.com/marshallpierce/rust-base64
+base64 0.13.0 scm hash b4fc91325ec985e2a18e83e95a3c08eebd636af4
+base64 0.13.0 commit-hash matches tag "v0.13.0"
+base64 0.13.0 files checked: 21 unmatched files: 0
+ranking: 18
+rand_chacha 0.3.1 has 46542800 downloads
+rand_chacha 0.3.1 repo url is https://github.com/rust-random/rand
+rand_chacha 0.3.1 scm hash 98a0339f99ecfe0467b2829c329bd8b7525a1c21
+rand_chacha 0.3.1 commit-hash matches tag "rand_chacha-0.3.1"
+rand_chacha 0.3.1 files checked: 3 unmatched files: 0
+ranking: 19
+serde_derive 1.0.130 has 45253843 downloads
+serde_derive 1.0.130 repo url is https://github.com/serde-rs/serde
+serde_derive 1.0.130 scm hash 65e1a50749938612cfbdb69b57fc4cf249f87149
+serde_derive 1.0.130 commit-hash matches tag "v1.0.130"
+serde_derive 1.0.130 files checked: 18 unmatched files: 0
+ranking: 20
+serde_json 1.0.67 has 44047617 downloads
+serde_json 1.0.67 repo url is https://github.com/serde-rs/json
+serde_json 1.0.67 scm hash f6bbab4835275565ece6d492683b23657f53df8b
+serde_json 1.0.67 commit-hash matches tag "v1.0.67"
+serde_json 1.0.67 files checked: 40 unmatched files: 0
+ranking: 21
+smallvec 1.6.1 has 42893572 downloads
+smallvec 1.6.1 repo url is https://github.com/servo/rust-smallvec
+smallvec 1.6.1 scm hash 4e53e072808815ed6b847c77193c568ee076c29d
+smallvec 1.6.1 commit-hash matches tag "v1.6.1"
+smallvec 1.6.1 files checked: 5 unmatched files: 0
+ranking: 22
+aho-corasick 0.7.18 has 42754917 downloads
+aho-corasick 0.7.18 repo url is https://github.com/BurntSushi/aho-corasick
+aho-corasick 0.7.18 scm hash 1b116376d6a8f920adf5add27a689b2134eec8d0
+aho-corasick 0.7.18 commit-hash matches tag "0.7.18"
+aho-corasick 0.7.18 files checked: 21 unmatched files: 0
+ranking: 23
+cc 1.0.70 has 42339169 downloads
+cc 1.0.70 repo url is https://github.com/alexcrichton/cc-rs
+cc 1.0.70 scm hash 114437e178739d4c4c195b551524bd560f54fc34
+cc 1.0.70 commit-hash matches tag "1.0.70"
+cc 1.0.70 files checked: 13 unmatched files: 0
+ranking: 24
+time 0.3.2 has 41832476 downloads
+time 0.3.2 repo url is https://github.com/time-rs/time
+time 0.3.2 scm hash 4020fd632f6cad4fb2ba9a3bc972f6769c210e87
+time 0.3.2 commit-hash matches tag "v0.3.2"
+time 0.3.2 files checked: 38 unmatched files: 0
+ranking: 25
+byteorder 1.4.3 has 41397350 downloads
+byteorder 1.4.3 repo url is https://github.com/BurntSushi/byteorder
+byteorder 1.4.3 scm hash abffade8232229db557e0a30c395963071624b2b
+byteorder 1.4.3 commit-hash matches tag "1.4.3"
+byteorder 1.4.3 files checked: 3 unmatched files: 0
+ranking: 26
+itoa 0.4.8 has 40750393 downloads
+itoa 0.4.8 repo url is https://github.com/dtolnay/itoa
+itoa 0.4.8 scm hash de247d6ac25d2e62d4cbd195f064ed4af35fd4eb
+itoa 0.4.8 commit-hash matches tag "0.4.8"
+itoa 0.4.8 files checked: 4 unmatched files: 0
+ranking: 27
+crossbeam-utils 0.8.5 has 39720513 downloads
+crossbeam-utils 0.8.5 repo url is https://github.com/crossbeam-rs/crossbeam
+crossbeam-utils 0.8.5 scm hash 6d4cdd4daf9a897deef6cde9569f2fbf12c29bc5
+crossbeam-utils 0.8.5 commit-hash matches tag "crossbeam-utils-0.8.5"
+crossbeam-utils 0.8.5 files checked: 22 unmatched files: 0
+ranking: 28
+version_check 0.9.3 has 38174029 downloads
+version_check 0.9.3 repo url is https://github.com/SergioBenitez/version_check
+version_check 0.9.3 scm hash 11875244ee2afacf47218e8f2e322a39d61dc5df
+version_check 0.9.3 commit-hash matches tag "v0.9.3"
+version_check 0.9.3 files checked: 4 unmatched files: 0
+ranking: 29
+getrandom 0.2.3 has 38124833 downloads
+getrandom 0.2.3 repo url is https://github.com/rust-random/getrandom
+getrandom 0.2.3 scm hash de51e2961d05c7af3f19c0c78f9a414cdcb83b67
+getrandom 0.2.3 commit-hash matches tag "v0.2.3"
+getrandom 0.2.3 files checked: 25 unmatched files: 0
+ranking: 30
+bytes 1.1.0 has 37582963 downloads
+bytes 1.1.0 repo url is https://github.com/tokio-rs/bytes
+bytes 1.1.0 scm hash ebc61e5af14cd9b436ba880cf19e849b05a04c29
+bytes 1.1.0 commit-hash matches tag "v1.1.0"
+bytes 1.1.0 files checked: 33 unmatched files: 0
+ranking: 31
+num_cpus 1.13.0 has 37416878 downloads
+num_cpus 1.13.0 repo url is https://github.com/seanmonstar/num_cpus
+num_cpus 1.13.0 scm hash b347731fc0c008dbb88b406c595b1e644458fffe
+num_cpus 1.13.0 commit-hash matches tag "v1.13.0"
+num_cpus 1.13.0 files checked: 3 unmatched files: 0
+ranking: 32
+url 2.2.2 has 37373554 downloads
+url 2.2.2 repo url is https://github.com/servo/rust-url
+url 2.2.2 scm hash 6c22912c313064a8c5a6fa043882c9ad55dba162
+url 2.2.2 commit-hash matches tag "v2.2.2"
+url 2.2.2 files checked: 9 unmatched files: 0
+ranking: 33
+parking_lot_core 0.8.5 has 37033137 downloads
+parking_lot_core 0.8.5 repo url is https://github.com/Amanieu/parking_lot
+parking_lot_core 0.8.5 scm hash aecb031e795391025d33f3f26f83ab24102ca42f
+parking_lot_core 0.8.5 ERROR: tag match fail: ['core-0.8.5']
+parking_lot_core 0.8.5 files checked: 17 unmatched files: 0
+ranking: 34
+parking_lot 0.11.2 has 36589539 downloads
+parking_lot 0.11.2 repo url is https://github.com/Amanieu/parking_lot
+parking_lot 0.11.2 scm hash 18001b819c1539c06c176c671bbe54e70b5c3d69
+parking_lot 0.11.2 commit-hash matches tag "0.11.2"
+parking_lot 0.11.2 files checked: 14 unmatched files: 0
+ranking: 35
+semver 1.0.4 has 36153778 downloads
+semver 1.0.4 repo url is https://github.com/dtolnay/semver
+semver 1.0.4 scm hash ea9ea80c023ba3913b9ab0af1d983f137b4110a5
+semver 1.0.4 commit-hash matches tag "1.0.4"
+semver 1.0.4 files checked: 16 unmatched files: 0
+ranking: 36
+scopeguard 1.1.0 has 35826771 downloads
+scopeguard 1.1.0 repo url is https://github.com/bluss/scopeguard
+scopeguard 1.1.0 scm hash c1ae9969f7c9bc9013602b4bf29bb789e6e7eb16
+scopeguard 1.1.0 commit-hash matches tag "v1.1.0"
+scopeguard 1.1.0 files checked: 2 unmatched files: 0
+ranking: 37
+percent-encoding 2.1.0 has 35555958 downloads
+percent-encoding 2.1.0 repo url is https://github.com/servo/rust-url/
+percent-encoding 2.1.0 scm hash 0e874ddcd6fc68a19dc2b6d91bbde2928bac2d0f
+percent-encoding 2.1.0 commit-hash matches tag "percent-encoding-v2.1.0"
+percent-encoding 2.1.0 files checked: 1 unmatched files: 0
+ranking: 38
+strsim 0.10.0 has 35465746 downloads
+strsim 0.10.0 repo url is https://github.com/dguo/strsim-rs
+strsim 0.10.0 scm hash 72784f07f22cab2c93512a6eebca272467b1789e
+strsim 0.10.0 commit-hash matches tag "0.10.0"
+strsim 0.10.0 files checked: 3 unmatched files: 0
+ranking: 39
+idna 0.2.3 has 35357610 downloads
+idna 0.2.3 repo url is https://github.com/servo/rust-url/
+idna 0.2.3 scm hash 837538c549f3458f157ee154ae76e3e2b9e27118
+idna 0.2.3 commit-hash matches tag "idna-v0.2.3"
+idna 0.2.3 files checked: 9 unmatched files: 0
+ranking: 40
+winapi 0.3.9 has 35352421 downloads
+winapi 0.3.9 repo url is https://github.com/retep998/winapi-rs
+winapi 0.3.9 scm hash 796a8e6c2971dc2ff1bcff166e6671284f9b5b6b
+winapi 0.3.9 commit-hash matches tag "0.3.9"
+winapi 0.3.9 files checked: 405 unmatched files: 0
+ranking: 41
+num-integer 0.1.44 has 35137988 downloads
+num-integer 0.1.44 repo url is https://github.com/rust-num/num-integer
+num-integer 0.1.44 scm hash 4d166cbb754244760e28ea4ce826d54fafd3e629
+num-integer 0.1.44 commit-hash matches tag "num-integer-0.1.44"
+num-integer 0.1.44 files checked: 9 unmatched files: 0
+ranking: 42
+ryu 1.0.5 has 34753303 downloads
+ryu 1.0.5 repo url is https://github.com/dtolnay/ryu
+ryu 1.0.5 scm hash 9edbbd939fa80fb364d0a1ae65ff05efbc2ac894
+ryu 1.0.5 commit-hash matches tag "1.0.5"
+ryu 1.0.5 files checked: 27 unmatched files: 0
+ranking: 43
+thread_local 1.1.3 has 34665412 downloads
+thread_local 1.1.3 repo url is https://github.com/Amanieu/thread_local-rs
+thread_local 1.1.3 scm hash c7d8dcdf4b93a5d80ec4075c3d8e7351c1a32012
+thread_local 1.1.3 commit-hash matches tag "v1.1.3"
+thread_local 1.1.3 files checked: 5 unmatched files: 0
+ranking: 44
+atty 0.2.14 has 34506848 downloads
+atty 0.2.14 repo url is https://github.com/softprops/atty
+atty 0.2.14 scm hash 7b5df17888997d57c2c1c8f91da1db5691f49953
+atty 0.2.14 commit-hash matches tag "0.2.14"
+atty 0.2.14 files checked: 2 unmatched files: 0
+ranking: 45
+lock_api 0.4.5 has 32532404 downloads
+lock_api 0.4.5 repo url is https://github.com/Amanieu/parking_lot
+lock_api 0.4.5 scm hash 18001b819c1539c06c176c671bbe54e70b5c3d69
+lock_api 0.4.5 commit-hash matches tag "lock_api-0.4.5"
+lock_api 0.4.5 files checked: 4 unmatched files: 0
+ranking: 46
+ansi_term 0.12.1 has 32116253 downloads
+ansi_term 0.12.1 repo url is https://github.com/ogham/rust-ansi-term
+ansi_term 0.12.1 scm hash ff7eba98d55ad609c7fcc8c7bb0859b37c7545cc
+ansi_term 0.12.1 commit-hash matches tag "v0.12.1"
+ansi_term 0.12.1 files checked: 12 unmatched files: 0
+ranking: 47
+generic-array 0.14.4 has 31975013 downloads
+generic-array 0.14.4 repo url is https://github.com/fizyk20/generic-array.git
+generic-array 0.14.4 scm hash a1b3c3cfdf64ad99fd2004c0d8ce81b0e56e5ebe
+generic-array 0.14.4 commit-hash matches tag "0.14.4"
+generic-array 0.14.4 files checked: 15 unmatched files: 0
+ranking: 48
+futures 0.3.17 has 31891887 downloads
+futures 0.3.17 repo url is https://github.com/rust-lang/futures-rs
+futures 0.3.17 scm hash 7caefa51304e78fd5018cd5d2a03f3b9089cc010
+futures 0.3.17 commit-hash matches tag "0.3.17"
+futures 0.3.17 files checked: 58 unmatched files: 0
+ranking: 49
+unicode-width 0.1.8 has 31373413 downloads
+unicode-width 0.1.8 repo url is https://github.com/unicode-rs/unicode-width
+unicode-width 0.1.8 scm hash d0aa541144151c09268878dd781f06011498389a
+unicode-width 0.1.8 commit-hash matches tag "v0.1.8"
+unicode-width 0.1.8 files checked: 3 unmatched files: 0
+ranking: 50
+unicode-normalization 0.1.19 has 31247443 downloads
+unicode-normalization 0.1.19 repo url is https://github.com/unicode-rs/unicode-normalization
+unicode-normalization 0.1.19 scm hash cc28b8ca9f9ef38173793573c14c1a6106908ea2
+unicode-normalization 0.1.19 ERROR: tag match fail: []
+unicode-normalization 0.1.19 files checked: 14 unmatched files: 0
+ranking: 51
+chrono 0.4.19 has 31141964 downloads
+chrono 0.4.19 repo url is https://github.com/chronotope/chrono
+chrono 0.4.19 scm hash 4eeedcfcc409f19d965f477d767d05f3418c4df1
+chrono 0.4.19 commit-hash matches tag "v0.4.19"
+chrono 0.4.19 files checked: 28 unmatched files: 0
+ranking: 52
+tokio 1.11.0 has 31140449 downloads
+tokio 1.11.0 repo url is https://github.com/tokio-rs/tokio
+tokio 1.11.0 scm hash 9a97eb36bcdcd7d9954b2f13990f6d8232b86f32
+tokio 1.11.0 commit-hash matches tag "tokio-1.11.0"
+tokio 1.11.0 files checked: 384 unmatched files: 0
+ranking: 53
+mio 0.7.13 has 30792820 downloads
+mio 0.7.13 repo url is https://github.com/tokio-rs/mio
+mio 0.7.13 scm hash 75f41fb304d299dfbc07679d15193e03273c4597
+mio 0.7.13 commit-hash matches tag "v0.7.13"
+mio 0.7.13 files checked: 56 unmatched files: 0
+ranking: 54
+env_logger 0.9.0 has 30750139 downloads
+env_logger 0.9.0 repo url is https://github.com/env-logger-rs/env_logger/
+env_logger 0.9.0 scm hash 04856ac38baf422baebb40729cf51127a75b82ed
+env_logger 0.9.0 commit-hash matches tag "v0.9.0"
+env_logger 0.9.0 files checked: 17 unmatched files: 0
+ranking: 55
+either 1.6.1 has 30543603 downloads
+either 1.6.1 repo url is https://github.com/bluss/either
+either 1.6.1 scm hash 6d3216446d4828d9fa254a6952b40408fbc9c9bd
+either 1.6.1 commit-hash matches tag "1.6.1"
+either 1.6.1 files checked: 3 unmatched files: 0
+ranking: 56
+semver-parser 0.10.2 has 30429263 downloads
+semver-parser 0.10.2 repo url is https://github.com/steveklabnik/semver-parser
+semver-parser 0.10.2 scm hash bee9de80aaa9653c5eb46a83658606cb21151e65
+semver-parser 0.10.2 commit-hash matches tag "v0.10.2"
+semver-parser 0.10.2 files checked: 9 unmatched files: 0
+ranking: 57
+slab 0.4.4 has 30404805 downloads
+slab 0.4.4 repo url is https://github.com/tokio-rs/slab
+slab 0.4.4 scm hash 76d9ca4e0c0313c1eeafa691e11446906e2bb4a7
+slab 0.4.4 commit-hash matches tag "v0.4.4"
+slab 0.4.4 files checked: 4 unmatched files: 0
+ranking: 58
+itertools 0.10.1 has 30398097 downloads
+itertools 0.10.1 repo url is https://github.com/rust-itertools/itertools
+itertools 0.10.1 scm hash 20c09bd4fed037fa3df6f2a6a1e717b01be89f11
+itertools 0.10.1 commit-hash matches tag "v0.10.1"
+itertools 0.10.1 files checked: 68 unmatched files: 0
+ranking: 59
+clap 3.0.0-beta.4 has 30234939 downloads
+clap 3.0.0-beta.4 repo url is https://github.com/clap-rs/clap
+clap 3.0.0-beta.4 scm hash 52be134949a420a2606dd03915906caf1805cba1
+clap 3.0.0-beta.4 commit-hash matches tag "v3.0.0-beta.4"
+clap 3.0.0-beta.4 files checked: 39 unmatched files: 0
+ranking: 60
+indexmap 1.7.0 has 30019291 downloads
+indexmap 1.7.0 repo url is https://github.com/bluss/indexmap
+indexmap 1.7.0 scm hash 8e843a9c1d62cbc4892b71488c1f43685f994e2c
+indexmap 1.7.0 commit-hash matches tag "1.7.0"
+indexmap 1.7.0 files checked: 21 unmatched files: 0
+ranking: 61
+fnv 1.0.7 has 29185844 downloads
+fnv 1.0.7 repo url is https://github.com/servo/rust-fnv
+fnv 1.0.7 scm hash 4b4784ebfd3332dc61f0640764d6f1140e03a9ab
+fnv 1.0.7 commit-hash matches tag "v1.0.7"
+fnv 1.0.7 files checked: 1 unmatched files: 0
+ranking: 62
+pkg-config 0.3.19 has 29074886 downloads
+pkg-config 0.3.19 repo url is https://github.com/rust-lang/pkg-config-rs
+pkg-config 0.3.19 scm hash 54325785816695df031cef3b26b6a9a203bbc01b
+pkg-config 0.3.19 commit-hash matches tag "0.3.19"
+pkg-config 0.3.19 files checked: 2 unmatched files: 0
+ranking: 63
+crossbeam-epoch 0.9.5 has 28988238 downloads
+crossbeam-epoch 0.9.5 repo url is https://github.com/crossbeam-rs/crossbeam
+crossbeam-epoch 0.9.5 scm hash 6d4cdd4daf9a897deef6cde9569f2fbf12c29bc5
+crossbeam-epoch 0.9.5 commit-hash matches tag "crossbeam-epoch-0.9.5"
+crossbeam-epoch 0.9.5 files checked: 18 unmatched files: 0
+ranking: 64
+hyper 0.14.12 has 28969952 downloads
+hyper 0.14.12 repo url is https://github.com/hyperium/hyper
+hyper 0.14.12 scm hash f46b175bf71b202fbb907c4970b5743881b891e1
+hyper 0.14.12 commit-hash matches tag "v0.14.12"
+hyper 0.14.12 files checked: 66 unmatched files: 0
+ranking: 65
+matches 0.1.9 has 28857626 downloads
+matches 0.1.9 repo url is https://github.com/SimonSapin/rust-std-candidates
+ERROR: no .cargo_vcs_info file in crate tarball
+matches 0.1.9 ERROR: failed to extract crate metadata
+shallow match failed.
+matches 0.1.9 doing full repo clone...
+matches 0.1.9 ERROR: file not in repo: matches-0.1.9/tests/use_star.rs
+matches 0.1.9 files checked: 3 unmatched files: 1
+matches 0.1.9 ERROR: 1 files not found in repo
+ranking: 66
+backtrace 0.3.61 has 28697089 downloads
+backtrace 0.3.61 repo url is https://github.com/rust-lang/backtrace-rs
+backtrace 0.3.61 scm hash 7f6f4628dd20603fbc7d278542b66839bab9e220
+backtrace 0.3.61 commit-hash matches tag "0.3.61"
+backtrace 0.3.61 files checked: 41 unmatched files: 0
+ranking: 67
+unicode-bidi 0.3.6 has 28507270 downloads
+unicode-bidi 0.3.6 repo url is https://github.com/servo/unicode-bidi
+unicode-bidi 0.3.6 scm hash 2c89f8f02566cfaeb1266706b259c6c7c3aae8dd
+unicode-bidi 0.3.6 commit-hash matches tag "v0.3.6"
+unicode-bidi 0.3.6 files checked: 9 unmatched files: 0
+ranking: 68
+textwrap 0.14.2 has 28447681 downloads
+textwrap 0.14.2 repo url is https://github.com/mgeisler/textwrap
+textwrap 0.14.2 scm hash 1964d6f19d8e84fa08e3dd8a8c986ecd26287367
+textwrap 0.14.2 commit-hash matches tag "0.14.2"
+textwrap 0.14.2 files checked: 10 unmatched files: 0
+ranking: 69
+rustc_version 0.4.0 has 27872262 downloads
+rustc_version 0.4.0 repo url is https://github.com/Kimundi/rustc-version-rs
+rustc_version 0.4.0 scm hash 6093aa9de6428df2e1c04aa9e969f1af7c34664f
+rustc_version 0.4.0 commit-hash matches tag "v0.4.0"
+rustc_version 0.4.0 files checked: 2 unmatched files: 0
+ranking: 70
+ppv-lite86 0.2.10 has 27606034 downloads
+ppv-lite86 0.2.10 repo url is https://github.com/cryptocorrosion/cryptocorrosion
+ppv-lite86 0.2.10 scm hash 3012849c2d9c50228a780031e7c200b193a6b4fa
+ppv-lite86 0.2.10 commit-hash matches tag "ppv-lite86-0.2.10"
+ppv-lite86 0.2.10 files checked: 6 unmatched files: 0
+ranking: 71
+memoffset 0.6.4 has 27575471 downloads
+memoffset 0.6.4 repo url is https://github.com/Gilnaa/memoffset
+memoffset 0.6.4 scm hash bbd58f2cbe92d3424d8c3161c46dd5d022c30437
+memoffset 0.6.4 commit-hash matches tag "v0.6.4"
+memoffset 0.6.4 files checked: 5 unmatched files: 0
+ranking: 72
+crossbeam-deque 0.8.1 has 27445012 downloads
+crossbeam-deque 0.8.1 repo url is https://github.com/crossbeam-rs/crossbeam
+crossbeam-deque 0.8.1 scm hash 0e2a930eac3586ab52498413310c45af6c67d830
+crossbeam-deque 0.8.1 commit-hash matches tag "crossbeam-deque-0.8.1"
+crossbeam-deque 0.8.1 files checked: 6 unmatched files: 0
+ranking: 73
+digest 0.10.0-pre.3 has 27244974 downloads
+digest 0.10.0-pre.3 repo url is https://github.com/RustCrypto/traits
+digest 0.10.0-pre.3 scm hash 073edacf50e04c257053b6c2ef2fea8276a241e1
+digest 0.10.0-pre.3 commit-hash matches tag "digest-v0.10.0-pre.3"
+digest 0.10.0-pre.3 files checked: 9 unmatched files: 0
+ranking: 74
+toml 0.5.8 has 26994769 downloads
+toml 0.5.8 repo url is https://github.com/alexcrichton/toml-rs
+toml 0.5.8 scm hash 94b319f5eeb80dbc7420246416a69d5bd0a9557d
+toml 0.5.8 commit-hash matches tag "0.5.8"
+toml 0.5.8 files checked: 13 unmatched files: 0
+ranking: 75
+rustc-demangle 0.1.21 has 26951230 downloads
+rustc-demangle 0.1.21 repo url is https://github.com/alexcrichton/rustc-demangle
+rustc-demangle 0.1.21 scm hash 2811a1ad6f7c8bead2ef3671e4fdc10de1553e96
+rustc-demangle 0.1.21 commit-hash matches tag "0.1.21"
+rustc-demangle 0.1.21 files checked: 3 unmatched files: 0
+ranking: 76
+vec_map 0.8.2 has 26287503 downloads
+vec_map 0.8.2 repo url is https://github.com/contain-rs/vec-map
+vec_map 0.8.2 scm hash 9509befa7bc96a7f8bd202cc472dc9ecc23be890
+vec_map 0.8.2 commit-hash matches tag "v0.8.2"
+vec_map 0.8.2 files checked: 1 unmatched files: 0
+ranking: 77
+arrayvec 0.7.1 has 26039526 downloads
+arrayvec 0.7.1 repo url is https://github.com/bluss/arrayvec
+arrayvec 0.7.1 scm hash 0c866b32f019561875806bc7d949a0dd363a9f11
+arrayvec 0.7.1 commit-hash matches tag "0.7.1"
+arrayvec 0.7.1 files checked: 11 unmatched files: 0
+ranking: 78
+pin-project-lite 0.2.7 has 25830573 downloads
+pin-project-lite 0.2.7 repo url is https://github.com/taiki-e/pin-project-lite
+pin-project-lite 0.2.7 scm hash d21bbea70a60718cc2ff67dc0e6a4049126ff9e6
+pin-project-lite 0.2.7 commit-hash matches tag "v0.2.7"
+pin-project-lite 0.2.7 files checked: 52 unmatched files: 0
+ranking: 79
+block-buffer 0.10.0-pre.4 has 25744247 downloads
+block-buffer 0.10.0-pre.4 repo url is https://github.com/RustCrypto/utils
+block-buffer 0.10.0-pre.4 scm hash d6b09f336fa8dff7ddecfafd65e6db4f7e12c8d8
+block-buffer 0.10.0-pre.4 ERROR: tag match fail: []
+block-buffer 0.10.0-pre.4 files checked: 4 unmatched files: 0
+ranking: 80
+rand_hc 0.3.1 has 25263444 downloads
+rand_hc 0.3.1 repo url is https://github.com/rust-random/rand
+rand_hc 0.3.1 scm hash 8792268dfe57e49bb4518190bf4fe66176759a44
+rand_hc 0.3.1 commit-hash matches tag "rand_hc-0.3.1"
+rand_hc 0.3.1 files checked: 2 unmatched files: 0
+ranking: 81
+miniz_oxide 0.4.4 has 25060323 downloads
+miniz_oxide 0.4.4 repo url is https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
+miniz_oxide 0.4.4 scm hash 3db0b43dcb320753d37a2693854f5b0af23e1a36
+miniz_oxide 0.4.4 ERROR: tag match fail: []
+miniz_oxide 0.4.4 files checked: 11 unmatched files: 0
+ranking: 82
+unicode-segmentation 1.8.0 has 24832800 downloads
+unicode-segmentation 1.8.0 repo url is https://github.com/unicode-rs/unicode-segmentation
+unicode-segmentation 1.8.0 scm hash 907d4d0b7e5c6f5e0f815c90a51d28b793d0c7a4
+unicode-segmentation 1.8.0 commit-hash matches tag "v1.8.0"
+unicode-segmentation 1.8.0 files checked: 10 unmatched files: 0
+ranking: 83
+http 0.2.4 has 24664327 downloads
+http 0.2.4 repo url is https://github.com/hyperium/http
+http 0.2.4 scm hash 97c35dd0c10ee623922e3071a68fdfb779f963d2
+http 0.2.4 commit-hash matches tag "v0.2.4"
+http 0.2.4 files checked: 31 unmatched files: 0
+ranking: 84
+termcolor 1.1.2 has 24618688 downloads
+termcolor 1.1.2 repo url is https://github.com/BurntSushi/termcolor
+termcolor 1.1.2 scm hash 949875368995c00bef275dc8c554f5b34bc35a05
+termcolor 1.1.2 commit-hash matches tag "1.1.2"
+termcolor 1.1.2 files checked: 1 unmatched files: 0
+ranking: 85
+proc-macro-hack 0.5.19 has 24521327 downloads
+proc-macro-hack 0.5.19 repo url is https://github.com/dtolnay/proc-macro-hack
+proc-macro-hack 0.5.19 scm hash 758784bb05c3d68569ca5001972fe5c31b8175c5
+proc-macro-hack 0.5.19 commit-hash matches tag "0.5.19"
+proc-macro-hack 0.5.19 files checked: 11 unmatched files: 0
+ranking: 86
+typenum 1.14.0 has 24481640 downloads
+typenum 1.14.0 repo url is https://github.com/paholg/typenum
+typenum 1.14.0 scm hash 3389ca9fbb40832750b1e04bd88233c09943db3d
+typenum 1.14.0 commit-hash matches tag "v1.14.0"
+typenum 1.14.0 files checked: 13 unmatched files: 0
+ranking: 87
+once_cell 1.8.0 has 24369065 downloads
+once_cell 1.8.0 repo url is https://github.com/matklad/once_cell
+once_cell 1.8.0 scm hash 8671ffc69cb78e345b7647802e5a5fd0c53f8c07
+once_cell 1.8.0 commit-hash matches tag "v1.8.0"
+once_cell 1.8.0 files checked: 12 unmatched files: 0
+ranking: 88
+quick-error 2.0.1 has 24260252 downloads
+quick-error 2.0.1 repo url is http://github.com/tailhook/quick-error
+quick-error 2.0.1 scm hash 25ab982bb0c43130ae48485151f4a232eeab7d0c
+quick-error 2.0.1 commit-hash matches tag "v2.0.1"
+quick-error 2.0.1 files checked: 2 unmatched files: 0
+ranking: 89
+hashbrown 0.11.2 has 24204798 downloads
+hashbrown 0.11.2 repo url is https://github.com/rust-lang/hashbrown
+hashbrown 0.11.2 scm hash bbb5d3bb1c23569c15e54c670bc0c3669ae3e7dc
+hashbrown 0.11.2 commit-hash matches tag "v0.11.2"
+hashbrown 0.11.2 files checked: 23 unmatched files: 0
+ranking: 90
+httparse 1.5.1 has 24039834 downloads
+httparse 1.5.1 repo url is https://github.com/seanmonstar/httparse
+httparse 1.5.1 scm hash 0f40729e36777bc23fbc01da6dbf0e5ded116a1a
+httparse 1.5.1 commit-hash matches tag "v1.5.1"
+httparse 1.5.1 files checked: 10 unmatched files: 0
+ranking: 91
+opaque-debug 0.3.0 has 23746289 downloads
+opaque-debug 0.3.0 repo url is https://github.com/RustCrypto/utils
+opaque-debug 0.3.0 scm hash 16464056b59eeb223318ad36de9b01eeb06c0c6b
+opaque-debug 0.3.0 commit-hash matches tag "opaque-debug-v0.3.0"
+opaque-debug 0.3.0 files checked: 2 unmatched files: 0
+ranking: 92
+pin-project 1.0.8 has 23472903 downloads
+pin-project 1.0.8 repo url is https://github.com/taiki-e/pin-project
+pin-project 1.0.8 scm hash 6bd40906acb8574a3a0bbadc7cf1349fadac7d3c
+pin-project 1.0.8 commit-hash matches tag "v1.0.8"
+pin-project 1.0.8 files checked: 145 unmatched files: 0
+ranking: 93
+pin-project-internal 1.0.8 has 23462841 downloads
+pin-project-internal 1.0.8 repo url is https://github.com/taiki-e/pin-project
+pin-project-internal 1.0.8 scm hash 6bd40906acb8574a3a0bbadc7cf1349fadac7d3c
+pin-project-internal 1.0.8 commit-hash matches tag "v1.0.8"
+pin-project-internal 1.0.8 files checked: 7 unmatched files: 0
+ranking: 94
+humantime 2.1.0 has 23391912 downloads
+humantime 2.1.0 repo url is https://github.com/tailhook/humantime
+humantime 2.1.0 scm hash c600fff7dbb8c513ced7fc1a4655c9881ef476f8
+humantime 2.1.0 commit-hash matches tag "v2.1.0"
+humantime 2.1.0 files checked: 6 unmatched files: 0
+ranking: 95
+crossbeam-channel 0.5.1 has 23209138 downloads
+crossbeam-channel 0.5.1 repo url is https://github.com/crossbeam-rs/crossbeam
+crossbeam-channel 0.5.1 scm hash b13fdeef2ab90bac1482d38959beadbc6b0a08ed
+crossbeam-channel 0.5.1 commit-hash matches tag "crossbeam-channel-0.5.1"
+crossbeam-channel 0.5.1 files checked: 34 unmatched files: 0
+ranking: 96
+unicase 2.6.0 has 23110894 downloads
+unicase 2.6.0 repo url is https://github.com/seanmonstar/unicase
+unicase 2.6.0 scm hash 7b116bc70c16b972a06c2e084ad1e9f3edfbaa2f
+unicase 2.6.0 commit-hash matches tag "v2.6.0"
+unicase 2.6.0 files checked: 5 unmatched files: 0
+ranking: 97
+h2 0.3.4 has 23044237 downloads
+h2 0.3.4 repo url is https://github.com/hyperium/h2
+h2 0.3.4 scm hash 507229232095e7492076d0819fa5f6199d5b1630
+h2 0.3.4 commit-hash matches tag "v0.3.4"
+h2 0.3.4 files checked: 54 unmatched files: 0
+ranking: 98
+mime 0.3.16 has 22795177 downloads
+mime 0.3.16 repo url is https://github.com/hyperium/mime
+mime 0.3.16 scm hash d6f2ec7c80854068bd4502ceb94c71141bb4532d
+mime 0.3.16 commit-hash matches tag "v0.3.16"
+mime 0.3.16 files checked: 5 unmatched files: 0
+ranking: 99
+net2 0.2.37 has 22264586 downloads
+net2 0.2.37 repo url is https://github.com/deprecrated/net2-rs
+net2 0.2.37 scm hash a18347549413975fbbeb5567165f163e5f60a627
+net2 0.2.37 commit-hash matches tag "0.2.37"
+net2 0.2.37 files checked: 15 unmatched files: 0
+ranking: 100
+socket2 0.4.1 has 22100704 downloads
+socket2 0.4.1 repo url is https://github.com/rust-lang/socket2
+socket2 0.4.1 scm hash 877a789982a87bb487381ada36f15c0786fa221b
+socket2 0.4.1 commit-hash matches tag "v0.4.1"
+socket2 0.4.1 files checked: 6 unmatched files: 0
+ranking: 101
+openssl-sys 0.9.66 has 22053218 downloads
+openssl-sys 0.9.66 repo url is https://github.com/sfackler/rust-openssl
+openssl-sys 0.9.66 scm hash 040ec64144f4b9ee450354bf337e279334e656b7
+openssl-sys 0.9.66 commit-hash matches tag "openssl-sys-v0.9.66"
+openssl-sys 0.9.66 files checked: 40 unmatched files: 0
+ranking: 102
+heck 0.3.3 has 21553748 downloads
+heck 0.3.3 repo url is https://github.com/withoutboats/heck
+heck 0.3.3 scm hash d2f9cda3a00a62ae1e0eeeea8f0a081c7598b8c5
+heck 0.3.3 ERROR: tag match fail: []
+heck 0.3.3 files checked: 8 unmatched files: 0
+
+
+ranking: 103
+uuid 0.8.2 has 21543892 downloads
+uuid 0.8.2 repo url is https://github.com/uuid-rs/uuid
+uuid 0.8.2 scm hash b68733dfafb4cc384c50ca24af56221bfd2458d7
+uuid 0.8.2 commit-hash matches tag "0.8.2"
+uuid 0.8.2 files checked: 24 unmatched files: 0
+ranking: 104
+remove_dir_all 0.7.0 has 21482724 downloads
+remove_dir_all 0.7.0 repo url is https://github.com/XAMPPRocky/remove_dir_all.git
+remove_dir_all 0.7.0 scm hash ed8d8dff1753253fb4dd35ab91586599f5492a58
+remove_dir_all 0.7.0 commit-hash matches tag "v0.7.0"
+remove_dir_all 0.7.0 files checked: 4 unmatched files: 0
+ranking: 105
+synstructure 0.12.5 has 21263022 downloads
+synstructure 0.12.5 repo url is https://github.com/mystor/synstructure
+synstructure 0.12.5 scm hash 9dcacf2de9388355d2b4b4df7ac449d70e51f90d
+synstructure 0.12.5 ERROR: tag match fail: []
+synstructure 0.12.5 files checked: 2 unmatched files: 0
+ranking: 106
+futures-core 0.3.17 has 21094555 downloads
+futures-core 0.3.17 repo url is https://github.com/rust-lang/futures-rs
+futures-core 0.3.17 scm hash 7caefa51304e78fd5018cd5d2a03f3b9089cc010
+futures-core 0.3.17 commit-hash matches tag "0.3.17"
+futures-core 0.3.17 files checked: 9 unmatched files: 0
+ranking: 107
+walkdir 2.3.2 has 20964144 downloads
+walkdir 2.3.2 repo url is https://github.com/BurntSushi/walkdir
+walkdir 2.3.2 scm hash abf3a15887758e0af54ebca827c7b6f8b311cb45
+walkdir 2.3.2 commit-hash matches tag "2.3.2"
+walkdir 2.3.2 files checked: 7 unmatched files: 0
+ranking: 108
+iovec 0.2.0 has 20920321 downloads
+iovec 0.2.0 repo url is https://github.com/carllerche/iovec
+iovec 0.2.0 scm hash b54dfbe145d41385ac8826819b3603ed27cd7612
+iovec 0.2.0 ERROR: tag match fail: []
+iovec 0.2.0 files checked: 7 unmatched files: 0
+ranking: 109
+dtoa 0.4.8 has 20856679 downloads
+dtoa 0.4.8 repo url is https://github.com/dtolnay/dtoa
+dtoa 0.4.8 scm hash 74dfce1c414cd264ab269528ecb5c908bb780ca4
+dtoa 0.4.8 commit-hash matches tag "0.4.8"
+dtoa 0.4.8 files checked: 5 unmatched files: 0
+ranking: 110
+futures-util 0.3.17 has 20608531 downloads
+futures-util 0.3.17 repo url is https://github.com/rust-lang/futures-rs
+futures-util 0.3.17 scm hash 7caefa51304e78fd5018cd5d2a03f3b9089cc010
+futures-util 0.3.17 commit-hash matches tag "0.3.17"
+futures-util 0.3.17 files checked: 176 unmatched files: 0
+ranking: 111
+tempfile 3.2.0 has 20596288 downloads
+tempfile 3.2.0 repo url is https://github.com/Stebalien/tempfile
+tempfile 3.2.0 scm hash a7d19dbc2216547d2bfb649737f9113743759875
+tempfile 3.2.0 commit-hash matches tag "v3.2.0"
+tempfile 3.2.0 files checked: 14 unmatched files: 0
+ranking: 112
+futures-task 0.3.17 has 20583652 downloads
+futures-task 0.3.17 repo url is https://github.com/rust-lang/futures-rs
+futures-task 0.3.17 scm hash 7caefa51304e78fd5018cd5d2a03f3b9089cc010
+futures-task 0.3.17 commit-hash matches tag "0.3.17"
+futures-task 0.3.17 files checked: 9 unmatched files: 0
+ranking: 113
+want 0.3.0 has 20482820 downloads
+want 0.3.0 repo url is https://github.com/seanmonstar/want
+want 0.3.0 scm hash 13093a962ac4ea1a623c08f4ac726842cd422980
+want 0.3.0 commit-hash matches tag "v0.3.0"
+want 0.3.0 files checked: 2 unmatched files: 0
+ranking: 114
+flate2 1.0.21 has 20366592 downloads
+flate2 1.0.21 repo url is https://github.com/rust-lang/flate2-rs
+flate2 1.0.21 scm hash d0f01469a7fd70e87049be389b8110a2f01bbd05
+flate2 1.0.21 commit-hash matches tag "1.0.21"
+flate2 1.0.21 files checked: 48 unmatched files: 0
+ranking: 115
+futures-channel 0.3.17 has 20344621 downloads
+futures-channel 0.3.17 repo url is https://github.com/rust-lang/futures-rs
+futures-channel 0.3.17 scm hash 7caefa51304e78fd5018cd5d2a03f3b9089cc010
+futures-channel 0.3.17 commit-hash matches tag "0.3.17"
+futures-channel 0.3.17 files checked: 13 unmatched files: 0
+ranking: 116
+same-file 1.0.6 has 20102202 downloads
+same-file 1.0.6 repo url is https://github.com/BurntSushi/same-file
+same-file 1.0.6 scm hash 5799cd323b8eefd17a089c950dac113f66c89c9e
+same-file 1.0.6 commit-hash matches tag "1.0.6"
+same-file 1.0.6 files checked: 6 unmatched files: 0
+ranking: 117
+nom 7.0.0 has 20071773 downloads
+nom 7.0.0 repo url is https://github.com/Geal/nom
+nom 7.0.0 scm hash 9678b061d3ed0a6b8e31ce569e024ec25f3dd354
+nom 7.0.0 commit-hash matches tag "7.0.0"
+nom 7.0.0 files checked: 44 unmatched files: 0
+ranking: 118
+futures-sink 0.3.17 has 20045264 downloads
+futures-sink 0.3.17 repo url is https://github.com/rust-lang/futures-rs
+futures-sink 0.3.17 scm hash 7caefa51304e78fd5018cd5d2a03f3b9089cc010
+futures-sink 0.3.17 commit-hash matches tag "0.3.17"
+futures-sink 0.3.17 files checked: 1 unmatched files: 0
+ranking: 119
+http-body 0.4.3 has 19998108 downloads
+http-body 0.4.3 repo url is https://github.com/hyperium/http-body
+http-body 0.4.3 scm hash f6841f7ac89a36492632c1d2bc857d4dc00b5c37
+http-body 0.4.3 commit-hash matches tag "v0.4.3"
+http-body 0.4.3 files checked: 10 unmatched files: 0
+ranking: 120
+rand_pcg 0.3.1 has 19940111 downloads
+rand_pcg 0.3.1 repo url is https://github.com/rust-random/rand
+rand_pcg 0.3.1 scm hash 8792268dfe57e49bb4518190bf4fe66176759a44
+rand_pcg 0.3.1 commit-hash matches tag "rand_pcg-0.3.1"
+rand_pcg 0.3.1 files checked: 6 unmatched files: 0
+ranking: 121
+openssl 0.10.36 has 19790340 downloads
+openssl 0.10.36 repo url is https://github.com/sfackler/rust-openssl
+openssl 0.10.36 scm hash d95befdd7e90c363dc88ef3bf25cadb417335f4c
+openssl 0.10.36 commit-hash matches tag "openssl-v0.10.36"
+openssl 0.10.36 files checked: 51 unmatched files: 0
+ranking: 122
+futures-io 0.3.17 has 19741274 downloads
+futures-io 0.3.17 repo url is https://github.com/rust-lang/futures-rs
+futures-io 0.3.17 scm hash 7caefa51304e78fd5018cd5d2a03f3b9089cc010
+futures-io 0.3.17 commit-hash matches tag "0.3.17"
+futures-io 0.3.17 files checked: 1 unmatched files: 0
+ranking: 123
+hex 0.4.3 has 19700352 downloads
+hex 0.4.3 repo url is https://github.com/KokaKiwi/rust-hex
+hex 0.4.3 scm hash b2b4370b5bf021b98ee7adc92233e8de3f2de792
+hex 0.4.3 commit-hash matches tag "v0.4.3"
+hex 0.4.3 files checked: 6 unmatched files: 0
+ranking: 124
+serde_urlencoded 0.7.0 has 19659078 downloads
+serde_urlencoded 0.7.0 repo url is https://github.com/nox/serde_urlencoded
+serde_urlencoded 0.7.0 scm hash 26b1a99659dda63429efd1db7eac7c95521b4668
+serde_urlencoded 0.7.0 ERROR: tag match fail: []
+serde_urlencoded 0.7.0 files checked: 9 unmatched files: 0
+ranking: 125
+crc32fast 1.2.1 has 19558346 downloads
+crc32fast 1.2.1 repo url is https://github.com/srijs/rust-crc32fast
+crc32fast 1.2.1 scm hash c6a423b4da80da8e80f757f94d2e718187302e40
+crc32fast 1.2.1 commit-hash matches tag "v1.2.1"
+crc32fast 1.2.1 files checked: 9 unmatched files: 0
+ranking: 126
+pin-utils 0.1.0 has 19489000 downloads
+pin-utils 0.1.0 repo url is https://github.com/rust-lang-nursery/pin-utils
+pin-utils 0.1.0 scm hash cddb4e490757830eff709310b32376420d7f5e93
+pin-utils 0.1.0 commit-hash matches tag "0.1.0"
+pin-utils 0.1.0 files checked: 5 unmatched files: 0
+ranking: 127
+nix 0.22.1 has 19403574 downloads
+nix 0.22.1 repo url is https://github.com/nix-rust/nix
+nix 0.22.1 scm hash b29a85165b0bf494974642cc6ba58a924f143948
+nix 0.22.1 commit-hash matches tag "v0.22.1"
+nix 0.22.1 files checked: 95 unmatched files: 0
+ranking: 128
+linked-hash-map 0.5.4 has 19393558 downloads
+linked-hash-map 0.5.4 repo url is https://github.com/contain-rs/linked-hash-map
+linked-hash-map 0.5.4 scm hash 0531e100ef052fd49b2f465abf96cd88aea84692
+linked-hash-map 0.5.4 ERROR: tag match fail: []
+linked-hash-map 0.5.4 files checked: 6 unmatched files: 0
+ranking: 129
+thiserror 1.0.29 has 19333341 downloads
+thiserror 1.0.29 repo url is https://github.com/dtolnay/thiserror
+thiserror 1.0.29 scm hash c7dd271dcd92af17168746a809503ee392d6f6ad
+thiserror 1.0.29 commit-hash matches tag "1.0.29"
+thiserror 1.0.29 files checked: 35 unmatched files: 0
+ranking: 130
+thiserror-impl 1.0.29 has 19328729 downloads
+thiserror-impl 1.0.29 repo url is https://github.com/dtolnay/thiserror
+thiserror-impl 1.0.29 scm hash c7dd271dcd92af17168746a809503ee392d6f6ad
+thiserror-impl 1.0.29 commit-hash matches tag "1.0.29"
+thiserror-impl 1.0.29 files checked: 8 unmatched files: 0
+ranking: 131
+glob 0.3.0 has 18889730 downloads
+glob 0.3.0 repo url is https://github.com/rust-lang/glob
+glob 0.3.0 scm hash b003dc3218b006f4e9eb7cff6e63e9087706615e
+glob 0.3.0 commit-hash matches tag "0.3.0"
+glob 0.3.0 files checked: 2 unmatched files: 0
+ranking: 132
+sha2 0.9.7 has 18353300 downloads
+sha2 0.9.7 repo url is https://github.com/RustCrypto/hashes
+sha2 0.9.7 scm hash 726e3c3978a77eb4318b4511eed5ac885375acd0
+sha2 0.9.7 commit-hash matches tag "sha2-v0.9.7"
+sha2 0.9.7 files checked: 14 unmatched files: 0
+ranking: 133
+try-lock 0.2.3 has 18294927 downloads
+try-lock 0.2.3 repo url is https://github.com/seanmonstar/try-lock
+try-lock 0.2.3 scm hash 5e2b0591ce48cc071d6d9cde31339b3ccaed4a36
+fatal: remote error: upload-pack: not our ref 5e2b0591ce48cc071d6d9cde31339b3ccaed4a36
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '5e2b0591ce48cc071d6d9cde31339b3ccaed4a36']' returned non-zero exit status 128.
+try-lock 0.2.3 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '5e2b0591ce48cc071d6d9cde31339b3ccaed4a36']' returned non-zero exit status 128.
+shallow match failed.
+try-lock 0.2.3 doing full repo clone...
+try-lock 0.2.3 files checked: 1 unmatched files: 0
+ranking: 134
+futures-macro 0.3.17 has 18166251 downloads
+futures-macro 0.3.17 repo url is https://github.com/rust-lang/futures-rs
+futures-macro 0.3.17 scm hash 7caefa51304e78fd5018cd5d2a03f3b9089cc010
+futures-macro 0.3.17 commit-hash matches tag "0.3.17"
+futures-macro 0.3.17 files checked: 6 unmatched files: 0
+ranking: 135
+tokio-util 0.6.8 has 17962281 downloads
+tokio-util 0.6.8 repo url is https://github.com/tokio-rs/tokio
+tokio-util 0.6.8 scm hash 01a6feb0dcbac8e960cc63c709be7fe8506ff107
+tokio-util 0.6.8 ERROR: tag match fail: []
+tokio-util 0.6.8 files checked: 52 unmatched files: 0
+ranking: 136
+rayon 1.5.1 has 17927917 downloads
+rayon 1.5.1 repo url is https://github.com/rayon-rs/rayon
+rayon 1.5.1 scm hash ebcb09b1dc53211c6b5abdf4dc5b40e4bcd0a965
+rayon 1.5.1 commit-hash matches tag "v1.5.1"
+rayon 1.5.1 files checked: 105 unmatched files: 0
+ranking: 137
+anyhow 1.0.43 has 17711226 downloads
+anyhow 1.0.43 repo url is https://github.com/dtolnay/anyhow
+anyhow 1.0.43 scm hash 39899cc16830efe97edeede701bdd507d002e62b
+anyhow 1.0.43 commit-hash matches tag "1.0.43"
+anyhow 1.0.43 files checked: 28 unmatched files: 0
+ranking: 138
+proc-macro-nested 0.1.7 has 17528829 downloads
+proc-macro-nested 0.1.7 repo url is https://github.com/dtolnay/proc-macro-hack
+proc-macro-nested 0.1.7 scm hash 0d6c7a078176d77e3fc8911c00bf4bb06d3ba9bd
+proc-macro-nested 0.1.7 ERROR: tag match fail: []
+proc-macro-nested 0.1.7 files checked: 2 unmatched files: 0
+ranking: 139
+rayon-core 1.9.1 has 17455855 downloads
+rayon-core 1.9.1 repo url is https://github.com/rayon-rs/rayon
+rayon-core 1.9.1 scm hash ebcb09b1dc53211c6b5abdf4dc5b40e4bcd0a965
+rayon-core 1.9.1 commit-hash matches tag "rayon-core-v1.9.1"
+rayon-core 1.9.1 files checked: 32 unmatched files: 0
+ranking: 140
+crossbeam-queue 0.3.2 has 17391081 downloads
+crossbeam-queue 0.3.2 repo url is https://github.com/crossbeam-rs/crossbeam
+crossbeam-queue 0.3.2 scm hash 6d4cdd4daf9a897deef6cde9569f2fbf12c29bc5
+crossbeam-queue 0.3.2 commit-hash matches tag "crossbeam-queue-0.3.2"
+crossbeam-queue 0.3.2 files checked: 7 unmatched files: 0
+ranking: 141
+foreign-types 0.5.0 has 17379396 downloads
+foreign-types 0.5.0 repo url is https://github.com/sfackler/foreign-types
+foreign-types 0.5.0 scm hash c5a90ed3f39dd5fe8b5af6e9cee1bc446746272c
+foreign-types 0.5.0 commit-hash matches tag "v0.5.0"
+foreign-types 0.5.0 files checked: 2 unmatched files: 0
+ranking: 142
+futures-executor 0.3.17 has 17205661 downloads
+futures-executor 0.3.17 repo url is https://github.com/rust-lang/futures-rs
+futures-executor 0.3.17 scm hash 7caefa51304e78fd5018cd5d2a03f3b9089cc010
+futures-executor 0.3.17 commit-hash matches tag "0.3.17"
+futures-executor 0.3.17 files checked: 7 unmatched files: 0
+ranking: 143
+failure 0.1.8 has 17199245 downloads
+failure 0.1.8 repo url is https://github.com/rust-lang-nursery/failure
+failure 0.1.8 scm hash dcd867b0257fa95ae0e393d1a857aa57191af36c
+fatal: remote error: upload-pack: not our ref dcd867b0257fa95ae0e393d1a857aa57191af36c
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'dcd867b0257fa95ae0e393d1a857aa57191af36c']' returned non-zero exit status 128.
+failure 0.1.8 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'dcd867b0257fa95ae0e393d1a857aa57191af36c']' returned non-zero exit status 128.
+shallow match failed.
+failure 0.1.8 doing full repo clone...
+failure 0.1.8 files checked: 22 unmatched files: 0
+ranking: 144
+tinyvec 1.3.1 has 17128794 downloads
+tinyvec 1.3.1 repo url is https://github.com/Lokathor/tinyvec
+tinyvec 1.3.1 scm hash a4bbfa9864d6a9d5ac607841025b517e618f3c8f
+tinyvec 1.3.1 commit-hash matches tag "v1.3.1"
+tinyvec 1.3.1 files checked: 12 unmatched files: 0
+ranking: 145
+redox_syscall 0.2.10 has 16980955 downloads
+redox_syscall 0.2.10 repo url is https://gitlab.redox-os.org/redox-os/syscall
+redox_syscall 0.2.10 scm hash 14796acfed7dd6fc353b18c001d3798c3aed03bf
+redox_syscall 0.2.10 commit-hash matches tag "0.2.10"
+redox_syscall 0.2.10 files checked: 24 unmatched files: 0
+ranking: 146
+openssl-probe 0.1.4 has 16819970 downloads
+openssl-probe 0.1.4 repo url is https://github.com/alexcrichton/openssl-probe
+openssl-probe 0.1.4 scm hash fc8fd44093b32c03aae760266427c36522c74ff5
+openssl-probe 0.1.4 commit-hash matches tag "0.1.4"
+openssl-probe 0.1.4 files checked: 1 unmatched files: 0
+ranking: 147
+foreign-types-shared 0.3.0 has 16817465 downloads
+foreign-types-shared 0.3.0 repo url is https://github.com/sfackler/foreign-types
+foreign-types-shared 0.3.0 scm hash fbae59e20fb10b66ee27fc7449a6c8a117be5c91
+foreign-types-shared 0.3.0 ERROR: tag match fail: []
+foreign-types-shared 0.3.0 files checked: 1 unmatched files: 0
+ranking: 148
+encoding_rs 0.8.28 has 16661392 downloads
+encoding_rs 0.8.28 repo url is https://github.com/hsivonen/encoding_rs
+encoding_rs 0.8.28 scm hash f69ab46b827d857349fe33c27af648a9456de023
+encoding_rs 0.8.28 commit-hash matches tag "v0.8.28"
+encoding_rs 0.8.28 files checked: 22 unmatched files: 0
+ranking: 149
+num-bigint 0.4.2 has 16513552 downloads
+num-bigint 0.4.2 repo url is https://github.com/rust-num/num-bigint
+num-bigint 0.4.2 scm hash 8ee0b9ac69a43a44cbc648e3524e594e7db54eb3
+num-bigint 0.4.2 commit-hash matches tag "num-bigint-0.4.2"
+num-bigint 0.4.2 files checked: 43 unmatched files: 0
+ranking: 150
+error-chain 0.12.4 has 16450947 downloads
+error-chain 0.12.4 repo url is https://github.com/rust-lang-nursery/error-chain
+error-chain 0.12.4 scm hash 210e7f6eac4397b28911cfac7f5daf4748ac554d
+error-chain 0.12.4 ERROR: tag match fail: []
+error-chain 0.12.4 files checked: 15 unmatched files: 0
+ranking: 151
+void 1.0.2 has 16421775 downloads
+void 1.0.2 repo url is https://github.com/reem/rust-void.git
+ERROR: no .cargo_vcs_info file in crate tarball
+void 1.0.2 ERROR: failed to extract crate metadata
+shallow match failed.
+void 1.0.2 doing full repo clone...
+void 1.0.2 files checked: 1 unmatched files: 0
+ranking: 152
+reqwest 0.11.4 has 16284552 downloads
+reqwest 0.11.4 repo url is https://github.com/seanmonstar/reqwest
+reqwest 0.11.4 scm hash f5fe17876a79b7736657f091fb0ae92f0907ddd3
+reqwest 0.11.4 commit-hash matches tag "v0.11.4"
+reqwest 0.11.4 files checked: 50 unmatched files: 0
+ranking: 153
+dirs 3.0.2 has 16278815 downloads
+dirs 3.0.2 repo url is https://github.com/soc/dirs-rs
+dirs 3.0.2 scm hash 840acfc44c41fbbfefd3ab4d14320e67bd11012c
+dirs 3.0.2 ERROR: tag match fail: []
+dirs 3.0.2 files checked: 5 unmatched files: 0
+ranking: 154
+failure_derive 0.1.8 has 16272874 downloads
+failure_derive 0.1.8 repo url is https://github.com/rust-lang-nursery/failure
+failure_derive 0.1.8 scm hash dcd867b0257fa95ae0e393d1a857aa57191af36c
+fatal: remote error: upload-pack: not our ref dcd867b0257fa95ae0e393d1a857aa57191af36c
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'dcd867b0257fa95ae0e393d1a857aa57191af36c']' returned non-zero exit status 128.
+failure_derive 0.1.8 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'dcd867b0257fa95ae0e393d1a857aa57191af36c']' returned non-zero exit status 128.
+shallow match failed.
+failure_derive 0.1.8 doing full repo clone...
+failure_derive 0.1.8 files checked: 7 unmatched files: 0
+ranking: 155
+rand_xorshift 0.3.0 has 16249049 downloads
+rand_xorshift 0.3.0 repo url is https://github.com/rust-random/rngs
+rand_xorshift 0.3.0 scm hash eae0a9b91c5de272706134d25bc1ea3457bc9670
+rand_xorshift 0.3.0 commit-hash matches tag "rand_xorshift-0.3.0"
+rand_xorshift 0.3.0 files checked: 2 unmatched files: 0
+ranking: 156
+byte-tools 0.3.1 has 16061573 downloads
+byte-tools 0.3.1 repo url is https://github.com/RustCrypto/utils
+byte-tools 0.3.1 scm hash 5276f2015b69fa05b939a237b9ca31788e16d423
+byte-tools 0.3.1 commit-hash matches tag "byte-tools-v0.3.1"
+byte-tools 0.3.1 files checked: 1 unmatched files: 0
+ranking: 157
+tracing 0.1.26 has 15859648 downloads
+tracing 0.1.26 repo url is https://github.com/tokio-rs/tracing
+tracing 0.1.26 scm hash d9e8eceafda5d4f8c36f556bd9c468edb79b8dd3
+tracing 0.1.26 commit-hash matches tag "tracing-0.1.26"
+tracing 0.1.26 files checked: 28 unmatched files: 0
+ranking: 158
+miow 0.3.7 has 15684589 downloads
+miow 0.3.7 repo url is https://github.com/yoshuawuyts/miow
+miow 0.3.7 scm hash a84a1c0a3e96d48f89d3468f86d8dafc06b56268
+miow 0.3.7 commit-hash matches tag "v0.3.7"
+miow 0.3.7 files checked: 6 unmatched files: 0
+ranking: 159
+sha-1 0.9.8 has 15645534 downloads
+sha-1 0.9.8 repo url is https://github.com/RustCrypto/hashes
+sha-1 0.9.8 scm hash 308dcd7259f1268a5bd1558e5ef087ebfcd6af5e
+sha-1 0.9.8 ERROR: tag match fail: []
+sha-1 0.9.8 files checked: 9 unmatched files: 0
+ranking: 160
+tracing-core 0.1.19 has 15429674 downloads
+tracing-core 0.1.19 repo url is https://github.com/tokio-rs/tracing
+tracing-core 0.1.19 scm hash 0049ae3d823edae0e914914957a57a253e9c1d82
+tracing-core 0.1.19 commit-hash matches tag "tracing-core-0.1.19"
+tracing-core 0.1.19 files checked: 19 unmatched files: 0
+ranking: 161
+object 0.26.2 has 15395093 downloads
+object 0.26.2 repo url is https://github.com/gimli-rs/object
+object 0.26.2 scm hash cfe6a69943408438a6dba77b77ec62f52e8fec4f
+object 0.26.2 commit-hash matches tag "0.26.2"
+object 0.26.2 files checked: 68 unmatched files: 0
+ranking: 162
+native-tls 0.2.8 has 15353180 downloads
+native-tls 0.2.8 repo url is https://github.com/sfackler/rust-native-tls
+native-tls 0.2.8 scm hash 82ae9a35f92b3e86f44ee5c7245aa991eb8e63d2
+native-tls 0.2.8 commit-hash matches tag "v0.2.8"
+native-tls 0.2.8 files checked: 8 unmatched files: 0
+ranking: 163
+winapi-x86_64-pc-windows-gnu 0.4.0 has 15339260 downloads
+winapi-x86_64-pc-windows-gnu 0.4.0 repo url is https://github.com/retep998/winapi-rs
+ERROR: no .cargo_vcs_info file in crate tarball
+winapi-x86_64-pc-windows-gnu 0.4.0 ERROR: failed to extract crate metadata
+shallow match failed.
+winapi-x86_64-pc-windows-gnu 0.4.0 doing full repo clone...
+winapi-x86_64-pc-windows-gnu 0.4.0 files checked: 2 unmatched files: 0
+ranking: 164
+crypto-mac 0.11.1 has 15116131 downloads
+crypto-mac 0.11.1 repo url is https://github.com/RustCrypto/traits
+crypto-mac 0.11.1 scm hash 95e57639399c193e22b5ea54c02f74bd7b6a9b6c
+crypto-mac 0.11.1 commit-hash matches tag "crypto-mac-v0.11.1"
+crypto-mac 0.11.1 files checked: 3 unmatched files: 0
+ranking: 165
+winapi-i686-pc-windows-gnu 0.4.0 has 15022932 downloads
+winapi-i686-pc-windows-gnu 0.4.0 repo url is https://github.com/retep998/winapi-rs
+ERROR: no .cargo_vcs_info file in crate tarball
+winapi-i686-pc-windows-gnu 0.4.0 ERROR: failed to extract crate metadata
+shallow match failed.
+winapi-i686-pc-windows-gnu 0.4.0 doing full repo clone...
+winapi-i686-pc-windows-gnu 0.4.0 files checked: 2 unmatched files: 0
+ranking: 166
+instant 0.1.10 has 14999335 downloads
+instant 0.1.10 repo url is https://github.com/sebcrozet/instant
+instant 0.1.10 scm hash 1f72ffddf0dbc4e6905d8543d113324d6967e038
+instant 0.1.10 ERROR: tag match fail: []
+instant 0.1.10 files checked: 4 unmatched files: 0
+ranking: 167
+tower-service 0.3.1 has 14886240 downloads
+tower-service 0.3.1 repo url is https://github.com/tower-rs/tower
+tower-service 0.3.1 scm hash 776f2151356435ce4a5fd6c16a796f5e78bf65c7
+tower-service 0.3.1 ERROR: tag match fail: []
+tower-service 0.3.1 files checked: 1 unmatched files: 0
+ranking: 168
+adler 1.0.2 has 14799504 downloads
+adler 1.0.2 repo url is https://github.com/jonas-schievink/adler.git
+adler 1.0.2 scm hash a94f525f62698d699d1fb3cc9112db8c35662b16
+adler 1.0.2 commit-hash matches tag "v1.0.2"
+adler 1.0.2 files checked: 3 unmatched files: 0
+ranking: 169
+mime_guess 2.0.3 has 14727717 downloads
+mime_guess 2.0.3 repo url is https://github.com/abonander/mime_guess
+mime_guess 2.0.3 scm hash 41e2dee59979d48c2900ed3b900c6a4efbce36d2
+mime_guess 2.0.3 ERROR: tag match fail: []
+mime_guess 2.0.3 files checked: 7 unmatched files: 0
+ranking: 170
+signal-hook-registry 1.4.0 has 14717892 downloads
+signal-hook-registry 1.4.0 repo url is https://github.com/vorner/signal-hook
+signal-hook-registry 1.4.0 scm hash 4f848598dcd796c73e96768a91438550beea3e9c
+signal-hook-registry 1.4.0 ERROR: tag match fail: ['registry-v1.4.0', 'v0.3.9']
+signal-hook-registry 1.4.0 files checked: 3 unmatched files: 0
+ranking: 171
+wasi 0.10.2+wasi-snapshot-preview1 has 14709724 downloads
+wasi 0.10.2+wasi-snapshot-preview1 repo url is https://github.com/bytecodealliance/wasi
+wasi 0.10.2+wasi-snapshot-preview1 scm hash ad108be04b000a510f4c2b2aba282cfe99149d7a
+wasi 0.10.2+wasi-snapshot-preview1 ERROR: tag match fail: ['0.10.2']
+wasi 0.10.2+wasi-snapshot-preview1 files checked: 3 unmatched files: 0
+ranking: 172
+block-padding 0.3.0-pre has 14688832 downloads
+block-padding 0.3.0-pre repo url is https://github.com/RustCrypto/utils
+block-padding 0.3.0-pre scm hash ffd252471a58356f90730b6bf863f481d1dea1fe
+block-padding 0.3.0-pre commit-hash matches tag "block-padding-v0.3.0-pre"
+block-padding 0.3.0-pre files checked: 1 unmatched files: 0
+ranking: 173
+subtle 2.4.1 has 14614275 downloads
+subtle 2.4.1 repo url is https://github.com/dalek-cryptography/subtle
+subtle 2.4.1 scm hash b4b070c3faf87cb8f324bd0ed0a5e5ec32d3a5b0
+subtle 2.4.1 commit-hash matches tag "2.4.1"
+subtle 2.4.1 files checked: 2 unmatched files: 0
+ranking: 174
+gimli 0.25.0 has 14591869 downloads
+gimli 0.25.0 repo url is https://github.com/gimli-rs/gimli
+gimli 0.25.0 scm hash d777d0d93887f8f11a40079c35ca1ff11e7114a1
+gimli 0.25.0 commit-hash matches tag "0.25.0"
+gimli 0.25.0 files checked: 47 unmatched files: 0
+ranking: 175
+num-rational 0.4.0 has 14519314 downloads
+num-rational 0.4.0 repo url is https://github.com/rust-num/num-rational
+num-rational 0.4.0 scm hash 7635b197b5e19b6fb48a5eac0edc8f12ab844396
+num-rational 0.4.0 commit-hash matches tag "num-rational-0.4.0"
+num-rational 0.4.0 files checked: 3 unmatched files: 0
+ranking: 176
+tokio-macros 1.3.0 has 14347146 downloads
+tokio-macros 1.3.0 repo url is https://github.com/tokio-rs/tokio
+tokio-macros 1.3.0 scm hash c505a2f81aa7a73d95bd2b0c56a5a5205054656e
+tokio-macros 1.3.0 commit-hash matches tag "tokio-macros-1.3.0"
+tokio-macros 1.3.0 files checked: 3 unmatched files: 0
+ranking: 177
+addr2line 0.16.0 has 14315930 downloads
+addr2line 0.16.0 repo url is https://github.com/gimli-rs/addr2line
+addr2line 0.16.0 scm hash e8d938c1241458a40f9d9fc6466f7f18ffeacba4
+addr2line 0.16.0 commit-hash matches tag "0.16.0"
+addr2line 0.16.0 files checked: 7 unmatched files: 0
+ranking: 178
+hyper-tls 0.5.0 has 14310905 downloads
+hyper-tls 0.5.0 repo url is https://github.com/hyperium/hyper-tls
+hyper-tls 0.5.0 scm hash 89b5768f2a7167854cb44a9f3ae9c34c43639220
+hyper-tls 0.5.0 commit-hash matches tag "v0.5.0"
+hyper-tls 0.5.0 files checked: 4 unmatched files: 0
+ranking: 179
+winapi-build 0.1.1 has 14267434 downloads
+winapi-build 0.1.1 repo url is https://github.com/retep998/winapi-rs
+ERROR: no .cargo_vcs_info file in crate tarball
+winapi-build 0.1.1 ERROR: failed to extract crate metadata
+shallow match failed.
+winapi-build 0.1.1 doing full repo clone...
+winapi-build 0.1.1 files checked: 1 unmatched files: 0
+ranking: 180
+bstr 0.2.16 has 14138029 downloads
+bstr 0.2.16 repo url is https://github.com/BurntSushi/bstr
+bstr 0.2.16 scm hash fffcb0ff62d8bebadefebbcbf20ae4460fa7a461
+bstr 0.2.16 commit-hash matches tag "0.2.16"
+bstr 0.2.16 files checked: 34 unmatched files: 0
+ranking: 181
+proc-macro-error 1.0.4 has 14119453 downloads
+proc-macro-error 1.0.4 repo url is https://gitlab.com/CreepySkeleton/proc-macro-error
+proc-macro-error 1.0.4 scm hash e231741c47af1beda78d53aee29500cccb8266cd
+proc-macro-error 1.0.4 commit-hash matches tag "v1.0.4"
+proc-macro-error 1.0.4 files checked: 26 unmatched files: 0
+ranking: 182
+fake-simd 0.1.2 has 14084708 downloads
+fake-simd 0.1.2 repo url is https://github.com/RustCrypto/utils
+ERROR: no .cargo_vcs_info file in crate tarball
+fake-simd 0.1.2 ERROR: failed to extract crate metadata
+shallow match failed.
+fake-simd 0.1.2 doing full repo clone...
+fake-simd 0.1.2 files checked: 1 unmatched files: 0
+ranking: 183
+kernel32-sys 0.2.2 has 14061489 downloads
+kernel32-sys 0.2.2 repo url is https://github.com/retep998/winapi-rs
+ERROR: no .cargo_vcs_info file in crate tarball
+kernel32-sys 0.2.2 ERROR: failed to extract crate metadata
+shallow match failed.
+kernel32-sys 0.2.2 doing full repo clone...
+kernel32-sys 0.2.2 files checked: 2 unmatched files: 0
+ranking: 184
+lazycell 1.3.0 has 13905759 downloads
+lazycell 1.3.0 repo url is https://github.com/indiv0/lazycell
+lazycell 1.3.0 scm hash b78f3f10c0d005b81d97011fd7f98fc3cdff5982
+lazycell 1.3.0 ERROR: tag match fail: []
+lazycell 1.3.0 files checked: 2 unmatched files: 0
+ranking: 185
+maybe-uninit 2.0.0 has 13886419 downloads
+maybe-uninit 2.0.0 repo url is https://github.com/est31/maybe-uninit
+maybe-uninit 2.0.0 scm hash 758af09f0823415ec6431831c5f28bde98da4c29
+maybe-uninit 2.0.0 commit-hash matches tag "v2.0.0"
+maybe-uninit 2.0.0 files checked: 4 unmatched files: 0
+ranking: 186
+num-iter 0.1.42 has 13849171 downloads
+num-iter 0.1.42 repo url is https://github.com/rust-num/num-iter
+num-iter 0.1.42 scm hash ddb14c1e796d401014c6c7a727de61d8109ad986
+num-iter 0.1.42 commit-hash matches tag "num-iter-0.1.42"
+num-iter 0.1.42 files checked: 2 unmatched files: 0
+ranking: 187
+utf8-ranges 1.0.4 has 13810682 downloads
+utf8-ranges 1.0.4 repo url is https://github.com/BurntSushi/utf8-ranges
+utf8-ranges 1.0.4 scm hash 8d38a931b7e34f9da339c058cbbca6ded624ea58
+utf8-ranges 1.0.4 commit-hash matches tag "1.0.4"
+utf8-ranges 1.0.4 files checked: 3 unmatched files: 0
+ranking: 188
+spin 0.9.2 has 13800365 downloads
+spin 0.9.2 repo url is https://github.com/mvdnes/spin-rs.git
+spin 0.9.2 scm hash 95e2993afe52104d6d585173ddedb3da6afba533
+spin 0.9.2 ERROR: tag match fail: []
+spin 0.9.2 files checked: 10 unmatched files: 0
+ranking: 189
+yaml-rust 0.4.5 has 13672964 downloads
+yaml-rust 0.4.5 repo url is https://github.com/chyh1990/yaml-rust
+yaml-rust 0.4.5 scm hash 6cd3ce4abe6894443645c48bdc375808ec911493
+yaml-rust 0.4.5 commit-hash matches tag "0.4.5"
+yaml-rust 0.4.5 files checked: 9 unmatched files: 0
+ranking: 190
+backtrace-sys 0.1.37 has 13499446 downloads
+backtrace-sys 0.1.37 repo url is https://github.com/alexcrichton/backtrace-rs
+backtrace-sys 0.1.37 scm hash 8af627da46962c78a1ae0a0d457191c8dd223fff
+backtrace-sys 0.1.37 commit-hash matches tag "backtrace-sys-0.1.37"
+backtrace-sys 0.1.37 files checked: 2 unmatched files: 0
+ranking: 191
+stable_deref_trait 1.2.0 has 13481803 downloads
+stable_deref_trait 1.2.0 repo url is https://github.com/storyyeller/stable_deref_trait
+stable_deref_trait 1.2.0 scm hash 66f9d8a15b7209c45f58edee6c1b6bb497b7bd31
+fatal: remote error: upload-pack: not our ref 66f9d8a15b7209c45f58edee6c1b6bb497b7bd31
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '66f9d8a15b7209c45f58edee6c1b6bb497b7bd31']' returned non-zero exit status 128.
+stable_deref_trait 1.2.0 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '66f9d8a15b7209c45f58edee6c1b6bb497b7bd31']' returned non-zero exit status 128.
+shallow match failed.
+stable_deref_trait 1.2.0 doing full repo clone...
+stable_deref_trait 1.2.0 files checked: 1 unmatched files: 0
+ranking: 192
+rand_os 0.2.2 has 13411920 downloads
+rand_os 0.2.2 repo url is https://github.com/rust-random/rand
+rand_os 0.2.2 scm hash c388cb2d109e99afc3a48e0bbf90d15085e86156
+rand_os 0.2.2 commit-hash matches tag "rand_os-0.2.2"
+rand_os 0.2.2 files checked: 1 unmatched files: 0
+ranking: 193
+rand_isaac 0.3.0 has 13378685 downloads
+rand_isaac 0.3.0 repo url is https://github.com/rust-random/rngs
+rand_isaac 0.3.0 scm hash eae0a9b91c5de272706134d25bc1ea3457bc9670
+rand_isaac 0.3.0 commit-hash matches tag "rand_isaac-0.3.0"
+rand_isaac 0.3.0 files checked: 4 unmatched files: 0
+ranking: 194
+proc-macro-error-attr 1.0.4 has 13168164 downloads
+proc-macro-error-attr 1.0.4 repo url is https://gitlab.com/CreepySkeleton/proc-macro-error
+proc-macro-error-attr 1.0.4 scm hash e231741c47af1beda78d53aee29500cccb8266cd
+proc-macro-error-attr 1.0.4 commit-hash matches tag "v1.0.4"
+proc-macro-error-attr 1.0.4 files checked: 4 unmatched files: 0
+ranking: 195
+nodrop 0.1.14 has 13166307 downloads
+nodrop 0.1.14 repo url is https://github.com/bluss/arrayvec
+nodrop 0.1.14 scm hash c110696a963b7f3be9410b1a421a2c32a0015ed2
+nodrop 0.1.14 commit-hash matches tag "nodrop-0.1.14"
+nodrop 0.1.14 files checked: 1 unmatched files: 0
+ranking: 196
+regex-automata 0.1.10 has 12988949 downloads
+regex-automata 0.1.10 repo url is https://github.com/BurntSushi/regex-automata
+regex-automata 0.1.10 scm hash dd59a74be412e349bf6df528a216a13c2cf57262
+regex-automata 0.1.10 commit-hash matches tag "0.1.10"
+regex-automata 0.1.10 files checked: 23 unmatched files: 0
+ranking: 197
+which 4.2.2 has 12985314 downloads
+which 4.2.2 repo url is https://github.com/harryfei/which-rs.git
+which 4.2.2 scm hash bdd46e52931db0b693e30bc08c4edfa499392903
+which 4.2.2 commit-hash matches tag "4.2.2"
+which 4.2.2 files checked: 6 unmatched files: 0
+ranking: 198
+hmac 0.11.0 has 12976522 downloads
+hmac 0.11.0 repo url is https://github.com/RustCrypto/MACs
+hmac 0.11.0 scm hash 82d93cae1c24f833a4c4e1312d58d0f624b9415d
+hmac 0.11.0 ERROR: tag match fail: []
+hmac 0.11.0 files checked: 2 unmatched files: 0
+ranking: 199
+async-trait 0.1.51 has 12968902 downloads
+async-trait 0.1.51 repo url is https://github.com/dtolnay/async-trait
+async-trait 0.1.51 scm hash a976397bfb05bc0e46daf37165952adb47f0c1f1
+async-trait 0.1.51 commit-hash matches tag "0.1.51"
+async-trait 0.1.51 files checked: 19 unmatched files: 0
+ranking: 200
+term 0.7.0 has 12908788 downloads
+term 0.7.0 repo url is https://github.com/Stebalien/term
+term 0.7.0 scm hash 8d1259b21b25b00974122f6660ea8b9866a4dae6
+term 0.7.0 commit-hash matches tag "v0.7.0"
+term 0.7.0 files checked: 8 unmatched files: 0
+ranking: 201
+mio-uds 0.6.8 has 12848275 downloads
+mio-uds 0.6.8 repo url is https://github.com/deprecrated/mio-uds
+mio-uds 0.6.8 scm hash 16a585e14966e3ca1f962c19bb1880979d55755b
+mio-uds 0.6.8 commit-hash matches tag "0.6.8"
+mio-uds 0.6.8 files checked: 5 unmatched files: 0
+ranking: 202
+adler32 1.2.0 has 12764250 downloads
+adler32 1.2.0 repo url is https://github.com/remram44/adler32-rs
+adler32 1.2.0 scm hash 2ff95ca1db58c9db85ddaf59e4755e4ae94ac49d
+adler32 1.2.0 commit-hash matches tag "1.2.0"
+adler32 1.2.0 files checked: 2 unmatched files: 0
+ranking: 203
+ring 0.17.0-alpha.10 has 12686005 downloads
+ring 0.17.0-alpha.10 repo url is https://github.com/briansmith/ring
+ERROR: no .cargo_vcs_info file in crate tarball
+ring 0.17.0-alpha.10 ERROR: failed to extract crate metadata
+shallow match failed.
+ring 0.17.0-alpha.10 doing full repo clone...
+ring 0.17.0-alpha.10 files checked: 102 unmatched files: 0
+ranking: 204
+structopt-derive 0.4.16 has 12681081 downloads
+structopt-derive 0.4.16 repo url is https://github.com/TeXitoi/structopt
+structopt-derive 0.4.16 scm hash 88e5402df017c052f1524f293b2e13bd01810819
+structopt-derive 0.4.16 ERROR: tag match fail: ['v0.3.23']
+structopt-derive 0.4.16 files checked: 6 unmatched files: 0
+ranking: 205
+structopt 0.3.23 has 12655520 downloads
+structopt 0.3.23 repo url is https://github.com/TeXitoi/structopt
+structopt 0.3.23 scm hash 88e5402df017c052f1524f293b2e13bd01810819
+structopt 0.3.23 commit-hash matches tag "v0.3.23"
+structopt 0.3.23 files checked: 82 unmatched files: 0
+ranking: 206
+untrusted 0.9.0 has 12493214 downloads
+untrusted 0.9.0 repo url is https://github.com/briansmith/untrusted
+untrusted 0.9.0 scm hash 89c8b8415f692d3803d183fc5fbf9ec08a6adcf4
+untrusted 0.9.0 ERROR: tag match fail: []
+untrusted 0.9.0 files checked: 5 unmatched files: 0
+ranking: 207
+filetime 0.2.15 has 12427393 downloads
+filetime 0.2.15 repo url is https://github.com/alexcrichton/filetime
+filetime 0.2.15 scm hash bb4058bf5ef15476ac6c4a49e2bb08f7bf81dc90
+filetime 0.2.15 ERROR: tag match fail: []
+filetime 0.2.15 files checked: 10 unmatched files: 0
+ranking: 208
+num-complex 0.4.0 has 12310131 downloads
+num-complex 0.4.0 repo url is https://github.com/rust-num/num-complex
+num-complex 0.4.0 scm hash 3a89daa2c616154035dd27d706bf7938bcbf30a8
+num-complex 0.4.0 commit-hash matches tag "num-complex-0.4.0"
+num-complex 0.4.0 files checked: 4 unmatched files: 0
+ranking: 209
+num 0.4.0 has 12192688 downloads
+num 0.4.0 repo url is https://github.com/rust-num/num
+num 0.4.0 scm hash 644384f43d30c5d350beeec00ec2de9523f5c616
+num 0.4.0 commit-hash matches tag "num-0.4.0"
+num 0.4.0 files checked: 1 unmatched files: 0
+ranking: 210
+rand_jitter 0.3.0 has 12165395 downloads
+rand_jitter 0.3.0 repo url is https://github.com/rust-random/rngs
+rand_jitter 0.3.0 scm hash fab64a4ab2f600756019eb9183b98822f92e7d77
+rand_jitter 0.3.0 ERROR: tag match fail: []
+rand_jitter 0.3.0 files checked: 5 unmatched files: 0
+ranking: 211
+static_assertions 1.1.0 has 11933209 downloads
+static_assertions 1.1.0 repo url is https://github.com/nvzqz/static-assertions-rs
+static_assertions 1.1.0 scm hash 18bc65a094d890fe1faa5d3ccb70f12b89eabf56
+static_assertions 1.1.0 commit-hash matches tag "v1.1.0"
+static_assertions 1.1.0 files checked: 10 unmatched files: 0
+ranking: 212
+ahash 0.7.4 has 11923860 downloads
+ahash 0.7.4 repo url is https://github.com/tkaitchuck/ahash
+ahash 0.7.4 scm hash ffa04fcb81f39755f636c75c9b7aa06533c0ae75
+ahash 0.7.4 ERROR: tag match fail: []
+ahash 0.7.4 files checked: 14 unmatched files: 0
+ranking: 213
+siphasher 0.3.7 has 11778937 downloads
+siphasher 0.3.7 repo url is https://github.com/jedisct1/rust-siphash
+ERROR: no .cargo_vcs_info file in crate tarball
+siphasher 0.3.7 ERROR: failed to extract crate metadata
+shallow match failed.
+siphasher 0.3.7 doing full repo clone...
+siphasher 0.3.7 files checked: 5 unmatched files: 0
+ranking: 214
+winapi-util 0.1.5 has 11513500 downloads
+winapi-util 0.1.5 repo url is https://github.com/BurntSushi/winapi-util
+winapi-util 0.1.5 scm hash 8f291c9da272b24699f31e22c521404255462642
+winapi-util 0.1.5 commit-hash matches tag "winapi-util-0.1.5"
+winapi-util 0.1.5 files checked: 4 unmatched files: 0
+ranking: 215
+tokio-io 0.2.0-alpha.6 has 11503906 downloads
+tokio-io 0.2.0-alpha.6 repo url is https://github.com/tokio-rs/tokio
+ERROR: no .cargo_vcs_info file in crate tarball
+tokio-io 0.2.0-alpha.6 ERROR: failed to extract crate metadata
+shallow match failed.
+tokio-io 0.2.0-alpha.6 doing full repo clone...
+tokio-io 0.2.0-alpha.6 files checked: 40 unmatched files: 0
+ranking: 216
+scoped-tls 1.0.0 has 11462991 downloads
+scoped-tls 1.0.0 repo url is https://github.com/alexcrichton/scoped-tls
+scoped-tls 1.0.0 scm hash 52df1890cab1f8ff07c17ddf7bd4a18c706c5f41
+scoped-tls 1.0.0 commit-hash matches tag "1.0.0"
+scoped-tls 1.0.0 files checked: 1 unmatched files: 0
+ranking: 217
+tokio-timer 0.3.0-alpha.6 has 11392589 downloads
+tokio-timer 0.3.0-alpha.6 repo url is https://github.com/tokio-rs/tokio
+ERROR: no .cargo_vcs_info file in crate tarball
+tokio-timer 0.3.0-alpha.6 ERROR: failed to extract crate metadata
+shallow match failed.
+tokio-timer 0.3.0-alpha.6 doing full repo clone...
+tokio-timer 0.3.0-alpha.6 files checked: 29 unmatched files: 0
+ranking: 218
+form_urlencoded 1.0.1 has 11266973 downloads
+form_urlencoded 1.0.1 repo url is https://github.com/servo/rust-url
+form_urlencoded 1.0.1 scm hash ea7a69e9d69248ca6f69a6294abed225754f92fe
+form_urlencoded 1.0.1 ERROR: tag match fail: []
+form_urlencoded 1.0.1 files checked: 1 unmatched files: 0
+ranking: 219
+phf_shared 0.10.0 has 11177328 downloads
+phf_shared 0.10.0 repo url is https://github.com/sfackler/rust-phf
+phf_shared 0.10.0 scm hash 3ea14b2166553ad6e7b9afe7244144f5d661b6c6
+phf_shared 0.10.0 commit-hash matches tag "v0.10.0"
+phf_shared 0.10.0 files checked: 1 unmatched files: 0
+ranking: 220
+arc-swap 1.3.2 has 11171665 downloads
+arc-swap 1.3.2 repo url is https://github.com/vorner/arc-swap
+arc-swap 1.3.2 scm hash d57e1ea6f7bb1ebe71535d5011db82197864bf95
+arc-swap 1.3.2 commit-hash matches tag "v1.3.2"
+arc-swap 1.3.2 files checked: 25 unmatched files: 0
+ranking: 221
+pest 2.1.3 has 11152304 downloads
+pest 2.1.3 repo url is https://github.com/pest-parser/pest
+pest 2.1.3 scm hash c2e2ea4d7ec2b1a9a0431327c8c71819c052761d
+pest 2.1.3 ERROR: tag match fail: ['v2.1.2-generator', 'v2.1.3-meta', 'v2.1.3-pest']
+pest 2.1.3 files checked: 22 unmatched files: 0
+ranking: 222
+tokio-executor 0.2.0-alpha.6 has 11097589 downloads
+tokio-executor 0.2.0-alpha.6 repo url is https://github.com/tokio-rs/tokio
+ERROR: no .cargo_vcs_info file in crate tarball
+tokio-executor 0.2.0-alpha.6 ERROR: failed to extract crate metadata
+shallow match failed.
+tokio-executor 0.2.0-alpha.6 doing full repo clone...
+tokio-executor 0.2.0-alpha.6 files checked: 44 unmatched files: 0
+ranking: 223
+libz-sys 1.1.3 has 11079796 downloads
+libz-sys 1.1.3 repo url is https://github.com/rust-lang/libz-sys
+libz-sys 1.1.3 scm hash c126f58d9ac5433821708f45af3784d844bd1ee6
+libz-sys 1.1.3 commit-hash matches tag "1.1.3"
+libz-sys 1.1.3 files checked: 2 unmatched files: 0
+ranking: 224
+fixedbitset 0.4.0 has 11015559 downloads
+fixedbitset 0.4.0 repo url is https://github.com/bluss/fixedbitset
+fixedbitset 0.4.0 scm hash 5ae6d8c6175acea4ee1f8c704bc9de0122b72d0a
+fixedbitset 0.4.0 ERROR: tag match fail: []
+fixedbitset 0.4.0 files checked: 3 unmatched files: 0
+ranking: 225
+rustc-serialize 0.3.24 has 11007750 downloads
+rustc-serialize 0.3.24 repo url is https://github.com/rust-lang/rustc-serialize
+ERROR: no .cargo_vcs_info file in crate tarball
+rustc-serialize 0.3.24 ERROR: failed to extract crate metadata
+shallow match failed.
+rustc-serialize 0.3.24 doing full repo clone...
+rustc-serialize 0.3.24 files checked: 9 unmatched files: 0
+ranking: 226
+httpdate 1.0.1 has 10807339 downloads
+httpdate 1.0.1 repo url is https://github.com/pyfisch/httpdate
+httpdate 1.0.1 scm hash 7952a747024facf58c3bf48eb79072a36598dfae
+httpdate 1.0.1 commit-hash matches tag "v1.0.1"
+httpdate 1.0.1 files checked: 2 unmatched files: 0
+ranking: 227
+safemem 0.3.3 has 10795043 downloads
+safemem 0.3.3 repo url is https://github.com/abonander/safemem
+safemem 0.3.3 scm hash f43cabeac8b42a62582f74162eebaa55e71333fc
+safemem 0.3.3 ERROR: tag match fail: []
+safemem 0.3.3 files checked: 1 unmatched files: 0
+ranking: 228
+petgraph 0.6.0 has 10644302 downloads
+petgraph 0.6.0 repo url is https://github.com/petgraph/petgraph
+petgraph 0.6.0 scm hash 9c832eb1a001bfec4dca43b8e7bcde99e22a7ba6
+petgraph 0.6.0 commit-hash matches tag "0.6.0"
+petgraph 0.6.0 files checked: 69 unmatched files: 0
+ranking: 229
+tinyvec_macros 0.1.0 has 10591366 downloads
+tinyvec_macros 0.1.0 repo url is https://github.com/Soveu/tinyvec_macros
+tinyvec_macros 0.1.0 scm hash 24f1c4e9c8b878c904c1673b0becb912f7d55518
+tinyvec_macros 0.1.0 ERROR: tag match fail: []
+tinyvec_macros 0.1.0 files checked: 1 unmatched files: 0
+ranking: 230
+tokio-reactor 0.2.0-alpha.1 has 10453958 downloads
+tokio-reactor 0.2.0-alpha.1 repo url is https://github.com/tokio-rs/tokio
+tokio-reactor 0.2.0-alpha.1 scm hash 50e5d401df9931eafabee554bb1a370958fc57d2
+tokio-reactor 0.2.0-alpha.1 ERROR: tag match fail: ['tokio-0.2.0-alpha.1']
+tokio-reactor 0.2.0-alpha.1 files checked: 5 unmatched files: 0
+ranking: 231
+hermit-abi 0.1.19 has 10451839 downloads
+hermit-abi 0.1.19 repo url is https://github.com/hermitcore/libhermit-rs
+hermit-abi 0.1.19 scm hash b39c83fbe13e0b73628609093bc526ebf8feb202
+fatal: remote error: upload-pack: not our ref b39c83fbe13e0b73628609093bc526ebf8feb202
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'b39c83fbe13e0b73628609093bc526ebf8feb202']' returned non-zero exit status 128.
+hermit-abi 0.1.19 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'b39c83fbe13e0b73628609093bc526ebf8feb202']' returned non-zero exit status 128.
+shallow match failed.
+hermit-abi 0.1.19 doing full repo clone...
+hermit-abi 0.1.19 ERROR: file not in repo: hermit-abi-0.1.19/src/lib.rs
+hermit-abi 0.1.19 ERROR: file not in repo: hermit-abi-0.1.19/src/tcplistener.rs
+hermit-abi 0.1.19 ERROR: file not in repo: hermit-abi-0.1.19/src/tcpstream.rs
+hermit-abi 0.1.19 files checked: 3 unmatched files: 3
+hermit-abi 0.1.19 ERROR: 3 files not found in repo
+ranking: 232
+phf 0.10.0 has 10351842 downloads
+phf 0.10.0 repo url is https://github.com/sfackler/rust-phf
+phf 0.10.0 scm hash 3cc6f05cb07933af4cf886645d1170bdcb306b6b
+phf 0.10.0 ERROR: tag match fail: []
+phf 0.10.0 files checked: 5 unmatched files: 0
+ranking: 233
+libloading 0.7.0 has 10350427 downloads
+libloading 0.7.0 repo url is https://github.com/nagisa/rust_libloading/
+libloading 0.7.0 scm hash 7fbd3a34336f7839bdd6d6aaf83a9a763c4fa1e5
+libloading 0.7.0 commit-hash matches tag "0.7.0"
+libloading 0.7.0 files checked: 14 unmatched files: 0
+ranking: 234
+tokio-threadpool 0.2.0-alpha.1 has 10279102 downloads
+tokio-threadpool 0.2.0-alpha.1 repo url is https://github.com/tokio-rs/tokio
+tokio-threadpool 0.2.0-alpha.1 scm hash 50e5d401df9931eafabee554bb1a370958fc57d2
+tokio-threadpool 0.2.0-alpha.1 ERROR: tag match fail: ['tokio-0.2.0-alpha.1']
+tokio-threadpool 0.2.0-alpha.1 files checked: 30 unmatched files: 0
+ranking: 235
+rustls 0.20.0-beta2 has 10137049 downloads
+rustls 0.20.0-beta2 repo url is https://github.com/ctz/rustls
+rustls 0.20.0-beta2 scm hash 79b48e3d4adecc8262811ab781477ad24c09f496
+rustls 0.20.0-beta2 ERROR: tag match fail: ['v/0.20.0-beta2']
+rustls 0.20.0-beta2 files checked: 74 unmatched files: 0
+ranking: 236
+dirs-sys 0.3.6 has 10108543 downloads
+dirs-sys 0.3.6 repo url is https://github.com/dirs-dev/dirs-sys-rs
+dirs-sys 0.3.6 scm hash 8b540aa831e91a298a22af9b61d4b650480559d2
+dirs-sys 0.3.6 ERROR: tag match fail: []
+dirs-sys 0.3.6 files checked: 2 unmatched files: 0
+ranking: 237
+csv 1.1.6 has 10043993 downloads
+csv 1.1.6 repo url is https://github.com/BurntSushi/rust-csv
+csv 1.1.6 scm hash d1fe79738d4948d3167f8f3331d4eed4b67c4a10
+csv 1.1.6 commit-hash matches tag "1.1.6"
+csv 1.1.6 files checked: 48 unmatched files: 0
+ranking: 238
+core-foundation-sys 0.8.2 has 10012496 downloads
+core-foundation-sys 0.8.2 repo url is https://github.com/servo/core-foundation-rs
+core-foundation-sys 0.8.2 scm hash d2ff40289a1aa96567b26579da3cb00e67306bd2
+core-foundation-sys 0.8.2 commit-hash matches tag "core-foundation-sys-v0.8.2"
+core-foundation-sys 0.8.2 files checked: 21 unmatched files: 0
+ranking: 239
+derive_more 0.99.16 has 10003199 downloads
+derive_more 0.99.16 repo url is https://github.com/JelteF/derive_more
+derive_more 0.99.16 scm hash 0ad1ef9b34e5c3c86a22d57b469fcdd046ed2e4a
+derive_more 0.99.16 commit-hash matches tag "v0.99.16"
+derive_more 0.99.16 files checked: 63 unmatched files: 0
+ranking: 240
+cookie 0.16.0-rc.1 has 9989949 downloads
+cookie 0.16.0-rc.1 repo url is https://github.com/SergioBenitez/cookie-rs
+cookie 0.16.0-rc.1 scm hash 6af6e6f109ca250fc7305092aa8ba3289980f587
+cookie 0.16.0-rc.1 commit-hash matches tag "0.16.0-rc.1"
+cookie 0.16.0-rc.1 files checked: 13 unmatched files: 0
+ranking: 241
+bincode 1.3.3 has 9811529 downloads
+bincode 1.3.3 repo url is https://github.com/servo/bincode
+bincode 1.3.3 scm hash c44b5e364e7084cdbabf9f94b63a3c7f32b8fb68
+bincode 1.3.3 commit-hash matches tag "v1.3.3"
+bincode 1.3.3 files checked: 14 unmatched files: 0
+ranking: 242
+tokio-tcp 0.2.0-alpha.1 has 9782199 downloads
+tokio-tcp 0.2.0-alpha.1 repo url is https://github.com/tokio-rs/tokio
+tokio-tcp 0.2.0-alpha.1 scm hash 50e5d401df9931eafabee554bb1a370958fc57d2
+tokio-tcp 0.2.0-alpha.1 ERROR: tag match fail: ['tokio-0.2.0-alpha.1']
+tokio-tcp 0.2.0-alpha.1 files checked: 10 unmatched files: 0
+ranking: 243
+core-foundation 0.9.1 has 9774065 downloads
+core-foundation 0.9.1 repo url is https://github.com/servo/core-foundation-rs
+core-foundation 0.9.1 scm hash 4a26ac3970d2ac134f016d5e1d32e5dc7aae790e
+fatal: remote error: upload-pack: not our ref 4a26ac3970d2ac134f016d5e1d32e5dc7aae790e
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '4a26ac3970d2ac134f016d5e1d32e5dc7aae790e']' returned non-zero exit status 128.
+core-foundation 0.9.1 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '4a26ac3970d2ac134f016d5e1d32e5dc7aae790e']' returned non-zero exit status 128.
+shallow match failed.
+core-foundation 0.9.1 doing full repo clone...
+core-foundation 0.9.1 files checked: 21 unmatched files: 0
+ranking: 244
+wasm-bindgen 0.2.77 has 9734737 downloads
+wasm-bindgen 0.2.77 repo url is https://github.com/rustwasm/wasm-bindgen
+ERROR: no .cargo_vcs_info file in crate tarball
+wasm-bindgen 0.2.77 ERROR: failed to extract crate metadata
+shallow match failed.
+wasm-bindgen 0.2.77 doing full repo clone...
+wasm-bindgen 0.2.77 files checked: 54 unmatched files: 0
+ranking: 245
+wasm-bindgen-backend 0.2.77 has 9668161 downloads
+wasm-bindgen-backend 0.2.77 repo url is https://github.com/rustwasm/wasm-bindgen/tree/master/crates/backend
+ERROR: no .cargo_vcs_info file in crate tarball
+wasm-bindgen-backend 0.2.77 ERROR: failed to extract crate metadata
+shallow match failed.
+wasm-bindgen-backend 0.2.77 doing full repo clone...
+wasm-bindgen-backend 0.2.77 files checked: 6 unmatched files: 0
+ranking: 246
+wasm-bindgen-macro 0.2.77 has 9668061 downloads
+wasm-bindgen-macro 0.2.77 repo url is https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro
+ERROR: no .cargo_vcs_info file in crate tarball
+wasm-bindgen-macro 0.2.77 ERROR: failed to extract crate metadata
+shallow match failed.
+wasm-bindgen-macro 0.2.77 doing full repo clone...
+wasm-bindgen-macro 0.2.77 files checked: 20 unmatched files: 0
+ranking: 247
+wasm-bindgen-macro-support 0.2.77 has 9650153 downloads
+wasm-bindgen-macro-support 0.2.77 repo url is https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro-support
+ERROR: no .cargo_vcs_info file in crate tarball
+wasm-bindgen-macro-support 0.2.77 ERROR: failed to extract crate metadata
+shallow match failed.
+wasm-bindgen-macro-support 0.2.77 doing full repo clone...
+wasm-bindgen-macro-support 0.2.77 files checked: 2 unmatched files: 0
+ranking: 248
+wasm-bindgen-shared 0.2.77 has 9622124 downloads
+wasm-bindgen-shared 0.2.77 repo url is https://github.com/rustwasm/wasm-bindgen/tree/master/crates/shared
+ERROR: no .cargo_vcs_info file in crate tarball
+wasm-bindgen-shared 0.2.77 ERROR: failed to extract crate metadata
+shallow match failed.
+wasm-bindgen-shared 0.2.77 doing full repo clone...
+wasm-bindgen-shared 0.2.77 files checked: 3 unmatched files: 0
+ranking: 249
+owning_ref 0.4.1 has 9552846 downloads
+owning_ref 0.4.1 repo url is https://github.com/Kimundi/owning-ref-rs
+owning_ref 0.4.1 scm hash 677c5bbe33210e65ababfd46eeb2b7aaab41f94d
+owning_ref 0.4.1 ERROR: tag match fail: []
+owning_ref 0.4.1 files checked: 1 unmatched files: 0
+ranking: 250
+ucd-trie 0.1.3 has 9538697 downloads
+ucd-trie 0.1.3 repo url is https://github.com/BurntSushi/ucd-generate
+ucd-trie 0.1.3 scm hash d8469ed40f8a460b9af491d5033c1a3248ac78c9
+fatal: remote error: upload-pack: not our ref d8469ed40f8a460b9af491d5033c1a3248ac78c9
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'd8469ed40f8a460b9af491d5033c1a3248ac78c9']' returned non-zero exit status 128.
+ucd-trie 0.1.3 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'd8469ed40f8a460b9af491d5033c1a3248ac78c9']' returned non-zero exit status 128.
+shallow match failed.
+ucd-trie 0.1.3 doing full repo clone...
+ucd-trie 0.1.3 files checked: 4 unmatched files: 0
+ranking: 251
+bumpalo 3.7.0 has 9516552 downloads
+bumpalo 3.7.0 repo url is https://github.com/fitzgen/bumpalo
+bumpalo 3.7.0 scm hash a0b03414463d65dfcb67e4cd7626a278d5b3d47b
+bumpalo 3.7.0 commit-hash matches tag "3.7.0"
+bumpalo 3.7.0 files checked: 22 unmatched files: 0
+ranking: 252
+tracing-attributes 0.1.15 has 9410930 downloads
+tracing-attributes 0.1.15 repo url is https://github.com/tokio-rs/tracing
+tracing-attributes 0.1.15 scm hash 742b21461bffc59c60ba4d5726e752144b3fffc3
+tracing-attributes 0.1.15 commit-hash matches tag "tracing-attributes-0.1.15"
+tracing-attributes 0.1.15 files checked: 10 unmatched files: 0
+ranking: 253
+csv-core 0.1.10 has 9363568 downloads
+csv-core 0.1.10 repo url is https://github.com/BurntSushi/rust-csv
+csv-core 0.1.10 scm hash 70c8600b29349f9ee0501577284d8300ae9c8055
+csv-core 0.1.10 commit-hash matches tag "csv-core-0.1.10"
+csv-core 0.1.10 files checked: 4 unmatched files: 0
+ranking: 254
+paste 1.0.5 has 9343719 downloads
+paste 1.0.5 repo url is https://github.com/dtolnay/paste
+paste 1.0.5 scm hash b38636e38862f1df2c7b167073b022fcc8819a05
+paste 1.0.5 commit-hash matches tag "1.0.5"
+paste 1.0.5 files checked: 23 unmatched files: 0
+ranking: 255
+phf_generator 0.10.0 has 9328856 downloads
+phf_generator 0.10.0 repo url is https://github.com/sfackler/rust-phf
+phf_generator 0.10.0 scm hash 3ea14b2166553ad6e7b9afe7244144f5d661b6c6
+phf_generator 0.10.0 commit-hash matches tag "v0.10.0"
+phf_generator 0.10.0 files checked: 3 unmatched files: 0
+ranking: 256
+tokio-current-thread 0.2.0-alpha.1 has 9270634 downloads
+tokio-current-thread 0.2.0-alpha.1 repo url is https://github.com/tokio-rs/tokio
+tokio-current-thread 0.2.0-alpha.1 scm hash 50e5d401df9931eafabee554bb1a370958fc57d2
+tokio-current-thread 0.2.0-alpha.1 ERROR: tag match fail: ['tokio-0.2.0-alpha.1']
+tokio-current-thread 0.2.0-alpha.1 files checked: 3 unmatched files: 0
+ranking: 257
+maplit 1.0.2 has 9239890 downloads
+maplit 1.0.2 repo url is https://github.com/bluss/maplit
+maplit 1.0.2 scm hash 04936f703da907bc4ffdaced121e4cfd5ecbaec6
+maplit 1.0.2 commit-hash matches tag "v1.0.2"
+maplit 1.0.2 files checked: 2 unmatched files: 0
+ranking: 258
+serde_yaml 0.8.20 has 9208604 downloads
+serde_yaml 0.8.20 repo url is https://github.com/dtolnay/serde-yaml
+serde_yaml 0.8.20 scm hash 269de16a5c77b21884ca0b79c628459c9c5c8040
+serde_yaml 0.8.20 commit-hash matches tag "0.8.20"
+serde_yaml 0.8.20 files checked: 18 unmatched files: 0
+ranking: 259
+jobserver 0.1.24 has 9167244 downloads
+jobserver 0.1.24 repo url is https://github.com/alexcrichton/jobserver-rs
+jobserver 0.1.24 scm hash 476763724c4ca4db0853eb5ddcea282959ba95cd
+jobserver 0.1.24 commit-hash matches tag "0.1.24"
+jobserver 0.1.24 files checked: 9 unmatched files: 0
+ranking: 260
+gcc 0.3.55 has 9087570 downloads
+gcc 0.3.55 repo url is https://github.com/alexcrichton/gcc-rs
+ERROR: no .cargo_vcs_info file in crate tarball
+gcc 0.3.55 ERROR: failed to extract crate metadata
+shallow match failed.
+gcc 0.3.55 doing full repo clone...
+gcc 0.3.55 files checked: 10 unmatched files: 0
+ranking: 261
+arrayref 0.3.6 has 9023234 downloads
+arrayref 0.3.6 repo url is https://github.com/droundy/arrayref
+arrayref 0.3.6 scm hash 8144865370eb064d4aefa49ab59e72c42029bca6
+arrayref 0.3.6 ERROR: tag match fail: []
+arrayref 0.3.6 files checked: 4 unmatched files: 0
+ranking: 262
+constant_time_eq 0.1.5 has 9014674 downloads
+constant_time_eq 0.1.5 repo url is https://github.com/cesarb/constant_time_eq
+constant_time_eq 0.1.5 scm hash 8db4b026a1936dd0544587546275ce73fff9effa
+constant_time_eq 0.1.5 commit-hash matches tag "0.1.5"
+constant_time_eq 0.1.5 files checked: 2 unmatched files: 0
+ranking: 263
+shlex 1.1.0 has 9009914 downloads
+shlex 1.1.0 repo url is https://github.com/comex/rust-shlex
+shlex 1.1.0 scm hash 8638f145d9356eed9c83e7b2f13c5209e72f0e27
+shlex 1.1.0 ERROR: tag match fail: []
+shlex 1.1.0 files checked: 1 unmatched files: 0
+ranking: 264
+ipnet 2.3.1 has 8966640 downloads
+ipnet 2.3.1 repo url is https://github.com/krisprice/ipnet
+ipnet 2.3.1 scm hash 7fd6856b0821ec9f3e8313328a01244beb28038d
+ipnet 2.3.1 commit-hash matches tag "2.3.1"
+ipnet 2.3.1 files checked: 5 unmatched files: 0
+ranking: 265
+webpki 0.22.0 has 8946441 downloads
+webpki 0.22.0 repo url is https://github.com/briansmith/webpki
+webpki 0.22.0 scm hash 6c334a2cf5853fb0aa93b5eb0318c031fc2f6f98
+webpki 0.22.0 ERROR: tag match fail: []
+webpki 0.22.0 files checked: 16 unmatched files: 0
+ranking: 266
+js-sys 0.3.54 has 8917814 downloads
+js-sys 0.3.54 repo url is https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys
+ERROR: no .cargo_vcs_info file in crate tarball
+js-sys 0.3.54 ERROR: failed to extract crate metadata
+shallow match failed.
+js-sys 0.3.54 doing full repo clone...
+js-sys 0.3.54 files checked: 40 unmatched files: 0
+ranking: 267
+crossbeam 0.8.1 has 8904093 downloads
+crossbeam 0.8.1 repo url is https://github.com/crossbeam-rs/crossbeam
+crossbeam 0.8.1 scm hash 6d4cdd4daf9a897deef6cde9569f2fbf12c29bc5
+crossbeam 0.8.1 commit-hash matches tag "crossbeam-0.8.1"
+crossbeam 0.8.1 files checked: 3 unmatched files: 0
+ranking: 268
+tokio-sync 0.2.0-alpha.6 has 8888816 downloads
+tokio-sync 0.2.0-alpha.6 repo url is https://github.com/tokio-rs/tokio
+ERROR: no .cargo_vcs_info file in crate tarball
+tokio-sync 0.2.0-alpha.6 ERROR: failed to extract crate metadata
+shallow match failed.
+tokio-sync 0.2.0-alpha.6 doing full repo clone...
+tokio-sync 0.2.0-alpha.6 files checked: 30 unmatched files: 0
+ranking: 269
+language-tags 0.3.2 has 8744481 downloads
+language-tags 0.3.2 repo url is https://github.com/pyfisch/rust-language-tags
+language-tags 0.3.2 scm hash 96171963d2767d2a3a9bbb994383cd70ed62e5df
+language-tags 0.3.2 commit-hash matches tag "v0.3.2"
+language-tags 0.3.2 files checked: 5 unmatched files: 0
+ranking: 270
+tracing-futures 0.2.5 has 8738174 downloads
+tracing-futures 0.2.5 repo url is https://github.com/tokio-rs/tracing
+tracing-futures 0.2.5 scm hash f8b7d699977025743e4a5a97e4f2a11e388c2700
+tracing-futures 0.2.5 commit-hash matches tag "tracing-futures-0.2.5"
+tracing-futures 0.2.5 files checked: 8 unmatched files: 0
+ranking: 271
+unreachable 1.0.0 has 8725451 downloads
+unreachable 1.0.0 repo url is https://github.com/reem/rust-unreachable.git
+ERROR: no .cargo_vcs_info file in crate tarball
+unreachable 1.0.0 ERROR: failed to extract crate metadata
+shallow match failed.
+unreachable 1.0.0 doing full repo clone...
+unreachable 1.0.0 files checked: 1 unmatched files: 0
+ranking: 272
+sct 0.7.0 has 8696102 downloads
+sct 0.7.0 repo url is https://github.com/ctz/sct.rs
+sct 0.7.0 scm hash 5b9bbbd310e21c9b4e6be714695b7b4dda2bab19
+sct 0.7.0 ERROR: tag match fail: ['v/0.7.0']
+sct 0.7.0 files checked: 4 unmatched files: 0
+ranking: 273
+vcpkg 0.2.15 has 8668058 downloads
+vcpkg 0.2.15 repo url is https://github.com/mcgoo/vcpkg-rs
+vcpkg 0.2.15 scm hash e7d37e095ef2aa85c80242aa3850d442832b7b54
+vcpkg 0.2.15 ERROR: tag match fail: ['vcpkg-rs-0.2.15']
+vcpkg 0.2.15 files checked: 1 unmatched files: 0
+ranking: 274
+xml-rs 0.8.4 has 8652492 downloads
+xml-rs 0.8.4 repo url is https://github.com/netvl/xml-rs
+xml-rs 0.8.4 scm hash 7cd06954fd6e22b7dbf9ea02ff4e22f9ff6309fd
+xml-rs 0.8.4 ERROR: tag match fail: []
+xml-rs 0.8.4 files checked: 31 unmatched files: 0
+ranking: 275
+cpuid-bool 0.99.99 has 8574517 downloads
+cpuid-bool 0.99.99 repo url is https://github.com/RustCrypto/utils/tree/master/cpufeatures
+ERROR: no .cargo_vcs_info file in crate tarball
+cpuid-bool 0.99.99 ERROR: failed to extract crate metadata
+shallow match failed.
+cpuid-bool 0.99.99 doing full repo clone...
+cpuid-bool 0.99.99 ERROR: file not in repo: cpuid-bool-0.99.99/src/lib.rs
+cpuid-bool 0.99.99 files checked: 1 unmatched files: 1
+cpuid-bool 0.99.99 ERROR: 1 files not found in repo
+ranking: 276
+hostname 0.3.1 has 8572701 downloads
+hostname 0.3.1 repo url is https://github.com/svartalf/hostname
+hostname 0.3.1 scm hash 8b2b83de2fa29ab361d1902fa0504c6626824361
+hostname 0.3.1 commit-hash matches tag "v0.3.1"
+hostname 0.3.1 files checked: 5 unmatched files: 0
+ranking: 277
+web-sys 0.3.54 has 8394971 downloads
+web-sys 0.3.54 repo url is https://github.com/rustwasm/wasm-bindgen/tree/master/crates/web-sys
+ERROR: no .cargo_vcs_info file in crate tarball
+web-sys 0.3.54 ERROR: failed to extract crate metadata
+shallow match failed.
+web-sys 0.3.54 doing full repo clone...
+web-sys 0.3.54 files checked: 1458 unmatched files: 0
+ranking: 278
+ws2_32-sys 0.2.1 has 8375436 downloads
+ws2_32-sys 0.2.1 repo url is https://github.com/retep998/winapi-rs
+ERROR: no .cargo_vcs_info file in crate tarball
+ws2_32-sys 0.2.1 ERROR: failed to extract crate metadata
+shallow match failed.
+ws2_32-sys 0.2.1 doing full repo clone...
+ws2_32-sys 0.2.1 files checked: 2 unmatched files: 0
+ranking: 279
+lexical-core 0.8.0 has 8357525 downloads
+lexical-core 0.8.0 repo url is https://github.com/Alexhuszagh/rust-lexical
+lexical-core 0.8.0 scm hash 1ca2d4b2bd292870b81b44ce85eab1dd1dbecfbd
+lexical-core 0.8.0 ERROR: tag match fail: []
+lexical-core 0.8.0 files checked: 3 unmatched files: 0
+ranking: 280
+sha1 0.6.0 has 8304619 downloads
+sha1 0.6.0 repo url is https://github.com/mitsuhiko/rust-sha1
+ERROR: no .cargo_vcs_info file in crate tarball
+sha1 0.6.0 ERROR: failed to extract crate metadata
+shallow match failed.
+sha1 0.6.0 doing full repo clone...
+sha1 0.6.0 files checked: 2 unmatched files: 0
+ranking: 281
+ucd-util 0.1.8 has 8239996 downloads
+ucd-util 0.1.8 repo url is https://github.com/BurntSushi/ucd-generate
+ucd-util 0.1.8 scm hash f3ee88e7c05e6a2a95de70ce792ef25e4c0b2e37
+ucd-util 0.1.8 commit-hash matches tag "ucd-util-0.1.8"
+ucd-util 0.1.8 files checked: 9 unmatched files: 0
+ranking: 282
+const_fn 0.4.8 has 8224735 downloads
+const_fn 0.4.8 repo url is https://github.com/taiki-e/const_fn
+const_fn 0.4.8 scm hash cf39457d56e9a96c996b7134f64cc1235aa3b9e5
+const_fn 0.4.8 commit-hash matches tag "v0.4.8"
+const_fn 0.4.8 files checked: 7 unmatched files: 0
+ranking: 283
+webpki-roots 0.22.0 has 8191871 downloads
+webpki-roots 0.22.0 repo url is https://github.com/ctz/webpki-roots
+webpki-roots 0.22.0 scm hash ab71a9521aa44a3ff83003be2fd5e34c875691df
+webpki-roots 0.22.0 ERROR: tag match fail: ['v/0.22.0']
+webpki-roots 0.22.0 files checked: 2 unmatched files: 0
+ranking: 284
+zeroize 1.4.1 has 8191844 downloads
+zeroize 1.4.1 repo url is https://github.com/iqlusioninc/crates/tree/main/zeroize
+zeroize 1.4.1 scm hash 3de13e288e9e86178425412e8bde995a2558f22e
+zeroize 1.4.1 ERROR: tag match fail: []
+zeroize 1.4.1 files checked: 3 unmatched files: 0
+ranking: 285
+bit-vec 0.6.3 has 8147662 downloads
+bit-vec 0.6.3 repo url is https://github.com/contain-rs/bit-vec
+bit-vec 0.6.3 scm hash 975189772f60f87ee84b77b8cd648beac6b86703
+bit-vec 0.6.3 ERROR: tag match fail: []
+bit-vec 0.6.3 files checked: 2 unmatched files: 0
+ranking: 286
+futures-cpupool 0.1.8 has 8145818 downloads
+futures-cpupool 0.1.8 repo url is https://github.com/alexcrichton/futures-rs
+ERROR: no .cargo_vcs_info file in crate tarball
+futures-cpupool 0.1.8 ERROR: failed to extract crate metadata
+shallow match failed.
+futures-cpupool 0.1.8 doing full repo clone...
+futures-cpupool 0.1.8 files checked: 2 unmatched files: 0
+ranking: 287
+phf_codegen 0.10.0 has 8107043 downloads
+phf_codegen 0.10.0 repo url is https://github.com/sfackler/rust-phf
+phf_codegen 0.10.0 scm hash 3ea14b2166553ad6e7b9afe7244144f5d661b6c6
+phf_codegen 0.10.0 commit-hash matches tag "v0.10.0"
+phf_codegen 0.10.0 files checked: 1 unmatched files: 0
+ranking: 288
+ctor 0.1.21 has 8061808 downloads
+ctor 0.1.21 repo url is https://github.com/mmastrac/rust-ctor
+ctor 0.1.21 scm hash 558c09549079e7cb97f998e9947afdebd06adb49
+ctor 0.1.21 ERROR: tag match fail: []
+ctor 0.1.21 files checked: 2 unmatched files: 0
+ranking: 289
+tempdir 0.3.7 has 8009924 downloads
+tempdir 0.3.7 repo url is https://github.com/rust-lang/tempdir
+ERROR: no .cargo_vcs_info file in crate tarball
+tempdir 0.3.7 ERROR: failed to extract crate metadata
+shallow match failed.
+tempdir 0.3.7 doing full repo clone...
+tempdir 0.3.7 files checked: 2 unmatched files: 0
+ranking: 290
+schannel 0.1.19 has 7995902 downloads
+schannel 0.1.19 repo url is https://github.com/steffengy/schannel-rs
+schannel 0.1.19 scm hash 1d612388d5264577662a3dd89ecb04cd05db6fef
+schannel 0.1.19 commit-hash matches tag "v0.1.19"
+schannel 0.1.19 files checked: 15 unmatched files: 0
+ranking: 291
+tokio-rustls 0.22.0 has 7910413 downloads
+tokio-rustls 0.22.0 repo url is https://github.com/tokio-rs/tls
+tokio-rustls 0.22.0 scm hash f85882fbc7c0f5e5aafbe3f8637ec333be7ecd68
+tokio-rustls 0.22.0 ERROR: tag match fail: []
+tokio-rustls 0.22.0 files checked: 9 unmatched files: 0
+ranking: 292
+tokio-udp 0.2.0-alpha.1 has 7798198 downloads
+tokio-udp 0.2.0-alpha.1 repo url is https://github.com/tokio-rs/tokio
+tokio-udp 0.2.0-alpha.1 scm hash 50e5d401df9931eafabee554bb1a370958fc57d2
+tokio-udp 0.2.0-alpha.1 ERROR: tag match fail: ['tokio-0.2.0-alpha.1']
+tokio-udp 0.2.0-alpha.1 files checked: 5 unmatched files: 0
+ranking: 293
+cloudabi 0.1.0 has 7727108 downloads
+cloudabi 0.1.0 repo url is https://github.com/nuxinl/cloudabi
+cloudabi 0.1.0 scm hash 35a4b60fbdcca21dfc93ee1715130db5fdf44159
+cloudabi 0.1.0 ERROR: tag match fail: []
+cloudabi 0.1.0 files checked: 1 unmatched files: 0
+ranking: 294
+tokio-tls 0.3.1 has 7721657 downloads
+tokio-tls 0.3.1 repo url is https://github.com/tokio-rs/tokio
+tokio-tls 0.3.1 scm hash 13e2a366defe7b68d64af09e78507bedcbc11448
+tokio-tls 0.3.1 ERROR: tag match fail: []
+tokio-tls 0.3.1 files checked: 6 unmatched files: 0
+ranking: 295
+tokio-codec 0.2.0-alpha.6 has 7672810 downloads
+tokio-codec 0.2.0-alpha.6 repo url is https://github.com/tokio-rs/tokio
+ERROR: no .cargo_vcs_info file in crate tarball
+tokio-codec 0.2.0-alpha.6 ERROR: failed to extract crate metadata
+shallow match failed.
+tokio-codec 0.2.0-alpha.6 doing full repo clone...
+tokio-codec 0.2.0-alpha.6 files checked: 15 unmatched files: 0
+ranking: 296
+ordered-float 2.8.0 has 7627573 downloads
+ordered-float 2.8.0 repo url is https://github.com/reem/rust-ordered-float
+ordered-float 2.8.0 scm hash 5cf18febbdf38dd3d88f3cff101285561a39f146
+ordered-float 2.8.0 commit-hash matches tag "v2.8.0"
+ordered-float 2.8.0 files checked: 2 unmatched files: 0
+ranking: 297
+tokio-fs 0.2.0-alpha.6 has 7607077 downloads
+tokio-fs 0.2.0-alpha.6 repo url is https://github.com/tokio-rs/tokio
+ERROR: no .cargo_vcs_info file in crate tarball
+tokio-fs 0.2.0-alpha.6 ERROR: failed to extract crate metadata
+shallow match failed.
+tokio-fs 0.2.0-alpha.6 doing full repo clone...
+tokio-fs 0.2.0-alpha.6 files checked: 34 unmatched files: 0
+ranking: 298
+string 0.2.1 has 7505443 downloads
+string 0.2.1 repo url is https://github.com/carllerche/string
+string 0.2.1 scm hash d0b7eb735c4fcf2ef070b3b863cf6ade96e9b348
+string 0.2.1 ERROR: tag match fail: []
+string 0.2.1 files checked: 1 unmatched files: 0
+ranking: 299
+tokio-uds 0.3.0-alpha.1 has 7482225 downloads
+tokio-uds 0.3.0-alpha.1 repo url is https://github.com/tokio-rs/tokio
+tokio-uds 0.3.0-alpha.1 scm hash 50e5d401df9931eafabee554bb1a370958fc57d2
+tokio-uds 0.3.0-alpha.1 ERROR: tag match fail: ['tokio-0.2.0-alpha.1']
+tokio-uds 0.3.0-alpha.1 files checked: 9 unmatched files: 0
+ranking: 300
+rustc-hash 1.1.0 has 7421663 downloads
+rustc-hash 1.1.0 repo url is https://github.com/rust-lang-nursery/rustc-hash
+rustc-hash 1.1.0 scm hash 6fc9a706a9312ee801c7e77ca06c0782fa9eadef
+fatal: remote error: upload-pack: not our ref 6fc9a706a9312ee801c7e77ca06c0782fa9eadef
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '6fc9a706a9312ee801c7e77ca06c0782fa9eadef']' returned non-zero exit status 128.
+rustc-hash 1.1.0 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '6fc9a706a9312ee801c7e77ca06c0782fa9eadef']' returned non-zero exit status 128.
+shallow match failed.
+rustc-hash 1.1.0 doing full repo clone...
+ranking: 301
+darling_core 0.13.0 has 7333623 downloads
+darling_core 0.13.0 repo url is https://github.com/TedDriggs/darling
+darling_core 0.13.0 scm hash efcfa073b096b10db998dedd30b3bbb0b939981d
+darling_core 0.13.0 commit-hash matches tag "v0.13.0"
+darling_core 0.13.0 files checked: 57 unmatched files: 0
+ranking: 302
+darling 0.13.0 has 7333542 downloads
+darling 0.13.0 repo url is https://github.com/TedDriggs/darling
+darling 0.13.0 scm hash efcfa073b096b10db998dedd30b3bbb0b939981d
+darling 0.13.0 commit-hash matches tag "v0.13.0"
+darling 0.13.0 files checked: 28 unmatched files: 0
+ranking: 303
+darling_macro 0.13.0 has 7333407 downloads
+darling_macro 0.13.0 repo url is https://github.com/TedDriggs/darling
+darling_macro 0.13.0 scm hash efcfa073b096b10db998dedd30b3bbb0b939981d
+darling_macro 0.13.0 commit-hash matches tag "v0.13.0"
+darling_macro 0.13.0 files checked: 1 unmatched files: 0
+ranking: 304
+colored 2.0.0 has 7308192 downloads
+colored 2.0.0 repo url is https://github.com/mackwic/colored
+colored 2.0.0 scm hash 015f2a58bfac8da6f0db8518c6813c79ec063f7f
+colored 2.0.0 commit-hash matches tag "v2.0.0"
+colored 2.0.0 files checked: 10 unmatched files: 0
+ranking: 305
+difference 2.0.0 has 7264477 downloads
+difference 2.0.0 repo url is https://github.com/johannhof/difference.rs
+ERROR: no .cargo_vcs_info file in crate tarball
+difference 2.0.0 ERROR: failed to extract crate metadata
+shallow match failed.
+difference 2.0.0 doing full repo clone...
+difference 2.0.0 files checked: 9 unmatched files: 0
+ranking: 306
+strum_macros 0.21.1 has 7248892 downloads
+strum_macros 0.21.1 repo url is https://github.com/Peternator7/strum
+strum_macros 0.21.1 scm hash 5326d3229f081beee841e672ae66be3f1de84a33
+strum_macros 0.21.1 ERROR: tag match fail: []
+strum_macros 0.21.1 files checked: 18 unmatched files: 0
+ranking: 307
+security-framework 2.4.2 has 7236559 downloads
+security-framework 2.4.2 repo url is https://github.com/kornelski/rust-security-framework
+security-framework 2.4.2 scm hash 6f06d832affc9e78894ffd2c9ffbc8d10ae88e72
+security-framework 2.4.2 ERROR: tag match fail: []
+security-framework 2.4.2 files checked: 35 unmatched files: 0
+ranking: 308
+pest_derive 2.1.0 has 7210414 downloads
+pest_derive 2.1.0 repo url is https://github.com/pest-parser/pest
+pest_derive 2.1.0 scm hash f781c62e1aa15784c2c25a7a33dae44d7caf0f6b
+pest_derive 2.1.0 commit-hash matches tag "v2.1.0"
+pest_derive 2.1.0 files checked: 5 unmatched files: 0
+ranking: 309
+fuchsia-zircon 0.3.3 has 7209207 downloads
+fuchsia-zircon 0.3.3 repo url is https://fuchsia.googlesource.com/garnet/
+ERROR: no .cargo_vcs_info file in crate tarball
+fuchsia-zircon 0.3.3 ERROR: failed to extract crate metadata
+shallow match failed.
+fuchsia-zircon 0.3.3 doing full repo clone...
+fatal: could not read Username for 'https://fuchsia.googlesource.com': terminal prompts disabled
+git error: Command '['git', 'clone', '-q', '--bare', 'https://fuchsia.googlesource.com/garnet/', '.']' returned non-zero exit status 128.
+fuchsia-zircon 0.3.3 ERROR: failed to clone repo: Command '['git', 'clone', '-q', '--bare', 'https://fuchsia.googlesource.com/garnet/', '.']' returned non-zero exit status 128.
+ranking: 310
+fuchsia-zircon-sys 0.3.3 has 7207137 downloads
+fuchsia-zircon-sys 0.3.3 repo url is https://fuchsia.googlesource.com/garnet/
+ERROR: no .cargo_vcs_info file in crate tarball
+fuchsia-zircon-sys 0.3.3 ERROR: failed to extract crate metadata
+shallow match failed.
+fuchsia-zircon-sys 0.3.3 doing full repo clone...
+fatal: could not read Username for 'https://fuchsia.googlesource.com': terminal prompts disabled
+git error: Command '['git', 'clone', '-q', '--bare', 'https://fuchsia.googlesource.com/garnet/', '.']' returned non-zero exit status 128.
+fuchsia-zircon-sys 0.3.3 ERROR: failed to clone repo: Command '['git', 'clone', '-q', '--bare', 'https://fuchsia.googlesource.com/garnet/', '.']' returned non-zero exit status 128.
+ranking: 311
+md5 0.7.0 has 7142168 downloads
+md5 0.7.0 repo url is https://github.com/stainless-steel/md5
+md5 0.7.0 scm hash 3236fc93c26af909923767e65be87e45c47aab89
+md5 0.7.0 ERROR: tag match fail: []
+md5 0.7.0 files checked: 2 unmatched files: 0
+ranking: 312
+security-framework-sys 2.4.2 has 7087795 downloads
+security-framework-sys 2.4.2 repo url is https://github.com/kornelski/rust-security-framework
+security-framework-sys 2.4.2 scm hash 6f06d832affc9e78894ffd2c9ffbc8d10ae88e72
+security-framework-sys 2.4.2 ERROR: tag match fail: []
+security-framework-sys 2.4.2 files checked: 22 unmatched files: 0
+ranking: 313
+tar 0.4.37 has 7074348 downloads
+tar 0.4.37 repo url is https://github.com/alexcrichton/tar-rs
+tar 0.4.37 scm hash a746675cd2f2b40231cc251c5bf3b3f4d606bc48
+tar 0.4.37 commit-hash matches tag "0.4.37"
+tar 0.4.37 files checked: 15 unmatched files: 0
+ranking: 314
+signal-hook 0.3.10 has 7070969 downloads
+signal-hook 0.3.10 repo url is https://github.com/vorner/signal-hook
+signal-hook 0.3.10 scm hash 0386c98ccaf130c4d965f91bb2a53979affae6e5
+signal-hook 0.3.10 commit-hash matches tag "v0.3.10"
+signal-hook 0.3.10 files checked: 17 unmatched files: 0
+ranking: 315
+console 0.14.1 has 7036762 downloads
+console 0.14.1 repo url is https://github.com/mitsuhiko/console
+console 0.14.1 scm hash 9c5aa18f88cee2b6b20f5b214255832a0af60b1a
+console 0.14.1 commit-hash matches tag "0.14.1"
+console 0.14.1 files checked: 13 unmatched files: 0
+ranking: 316
+winreg 0.9.0 has 7033690 downloads
+winreg 0.9.0 repo url is https://github.com/gentoo90/winreg-rs
+winreg 0.9.0 scm hash 9ea048c88e32b629a8a083adaec04df1d0a488d9
+winreg 0.9.0 commit-hash matches tag "v0.9.0"
+winreg 0.9.0 files checked: 16 unmatched files: 0
+ranking: 317
+strum 0.21.0 has 7019514 downloads
+strum 0.21.0 repo url is https://github.com/Peternator7/strum
+strum 0.21.0 scm hash 263421c52ea596f837ffdd8c3003ba0949e88031
+strum 0.21.0 ERROR: tag match fail: []
+strum 0.21.0 files checked: 2 unmatched files: 0
+ranking: 318
+cmake 0.1.45 has 6936103 downloads
+cmake 0.1.45 repo url is https://github.com/alexcrichton/cmake-rs
+cmake 0.1.45 scm hash e4075041eb0ab4f54b49dde755072b5704ea1e49
+cmake 0.1.45 commit-hash matches tag "0.1.45"
+cmake 0.1.45 files checked: 1 unmatched files: 0
+ranking: 319
+globset 0.4.8 has 6908184 downloads
+globset 0.4.8 repo url is https://github.com/BurntSushi/ripgrep/tree/master/crates/globset
+globset 0.4.8 scm hash caba5c4348767a0379a23d3fa8b247e35db4b53b
+globset 0.4.8 commit-hash matches tag "globset-0.4.8"
+globset 0.4.8 files checked: 5 unmatched files: 0
+ranking: 320
+threadpool 1.8.1 has 6903665 downloads
+threadpool 1.8.1 repo url is https://github.com/rust-threadpool/rust-threadpool
+threadpool 1.8.1 scm hash f27711f02c383a1267cf1f35b9d21c7eb3f1d82f
+threadpool 1.8.1 commit-hash matches tag "1.8.1"
+threadpool 1.8.1 files checked: 1 unmatched files: 0
+ranking: 321
+wasm-bindgen-futures 0.4.27 has 6892566 downloads
+wasm-bindgen-futures 0.4.27 repo url is https://github.com/rustwasm/wasm-bindgen/tree/master/crates/futures
+ERROR: no .cargo_vcs_info file in crate tarball
+wasm-bindgen-futures 0.4.27 ERROR: failed to extract crate metadata
+shallow match failed.
+wasm-bindgen-futures 0.4.27 doing full repo clone...
+wasm-bindgen-futures 0.4.27 files checked: 7 unmatched files: 0
+ranking: 322
+bindgen 0.59.1 has 6821995 downloads
+bindgen 0.59.1 repo url is https://github.com/rust-lang/rust-bindgen
+bindgen 0.59.1 scm hash 9a9438f3d6a3523c69d7bc890e8608b63dbe38a5
+bindgen 0.59.1 commit-hash matches tag "v0.59.1"
+bindgen 0.59.1 files checked: 49 unmatched files: 0
+ranking: 323
+getopts 0.2.21 has 6821830 downloads
+getopts 0.2.21 repo url is https://github.com/rust-lang/getopts
+getopts 0.2.21 scm hash be919b8323f57ba238ea9cd6e68190029809e278
+getopts 0.2.21 commit-hash matches tag "v0.2.21"
+getopts 0.2.21 files checked: 3 unmatched files: 0
+ranking: 324
+lru-cache 0.1.2 has 6705124 downloads
+lru-cache 0.1.2 repo url is https://github.com/contain-rs/lru-cache
+lru-cache 0.1.2 scm hash dbde7d74a6ac026cfc3bd935bc5732e19c4dafe2
+lru-cache 0.1.2 ERROR: tag match fail: []
+lru-cache 0.1.2 files checked: 2 unmatched files: 0
+ranking: 325
+tracing-subscriber 0.2.20 has 6680127 downloads
+tracing-subscriber 0.2.20 repo url is https://github.com/tokio-rs/tracing
+tracing-subscriber 0.2.20 scm hash 26506d5eaa5c00a42d0e6e60256c94f1c0b3cc48
+tracing-subscriber 0.2.20 commit-hash matches tag "tracing-subscriber-0.2.20"
+tracing-subscriber 0.2.20 files checked: 44 unmatched files: 0
+ranking: 326
+redox_users 0.4.0 has 6639236 downloads
+redox_users 0.4.0 repo url is https://gitlab.redox-os.org/redox-os/users
+redox_users 0.4.0 scm hash 744dd42603625d89608d7e79bf25c1a59fe6d4bf
+redox_users 0.4.0 commit-hash matches tag "0.4.0"
+redox_users 0.4.0 files checked: 1 unmatched files: 0
+ranking: 327
+pulldown-cmark 0.8.0 has 6610747 downloads
+pulldown-cmark 0.8.0 repo url is https://github.com/raphlinus/pulldown-cmark
+pulldown-cmark 0.8.0 scm hash d4bf0872b14f68c1afedee918710fb401e3e6e9a
+pulldown-cmark 0.8.0 commit-hash matches tag "v0.8.0"
+pulldown-cmark 0.8.0 files checked: 30 unmatched files: 0
+ranking: 328
+clang-sys 1.2.2 has 6557983 downloads
+clang-sys 1.2.2 repo url is https://github.com/KyleMayes/clang-sys
+clang-sys 1.2.2 scm hash fa181dee9b829be68d581ec02583c0568576bbed
+clang-sys 1.2.2 ERROR: tag match fail: []
+clang-sys 1.2.2 files checked: 8 unmatched files: 0
+ranking: 329
+cast 0.3.0 has 6553527 downloads
+cast 0.3.0 repo url is https://github.com/japaric/cast.rs
+cast 0.3.0 scm hash 052288097de1846b938e854e27845a93a6f4b59d
+cast 0.3.0 commit-hash matches tag "v0.3.0"
+cast 0.3.0 files checked: 2 unmatched files: 0
+ranking: 330
+pest_generator 2.1.3 has 6513970 downloads
+pest_generator 2.1.3 repo url is https://github.com/pest-parser/pest
+pest_generator 2.1.3 scm hash 7dee2a7770daa213b45f88e6af730868f764927a
+pest_generator 2.1.3 ERROR: tag match fail: ['v2.1.3-generator']
+pest_generator 2.1.3 files checked: 3 unmatched files: 0
+ranking: 331
+pest_meta 2.1.3 has 6494502 downloads
+pest_meta 2.1.3 repo url is https://github.com/pest-parser/pest
+ERROR: no .cargo_vcs_info file in crate tarball
+pest_meta 2.1.3 ERROR: failed to extract crate metadata
+shallow match failed.
+pest_meta 2.1.3 doing full repo clone...
+pest_meta 2.1.3 ERROR: file not in repo: pest_meta-2.1.3/src/grammar.rs
+pest_meta 2.1.3 files checked: 12 unmatched files: 1
+pest_meta 2.1.3 ERROR: 1 files not found in repo
+ranking: 332
+memmap 0.7.0 has 6469304 downloads
+memmap 0.7.0 repo url is https://github.com/danburkert/memmap-rs
+memmap 0.7.0 scm hash 9df15482815998d876648d0d2013b30f910d34ea
+memmap 0.7.0 commit-hash matches tag "0.7.0"
+memmap 0.7.0 files checked: 4 unmatched files: 0
+ranking: 333
+ident_case 1.0.1 has 6413322 downloads
+ident_case 1.0.1 repo url is https://github.com/TedDriggs/ident_case
+ident_case 1.0.1 scm hash bf0d863e3006b40a0d923a81d7b2dd2db1136c2c
+ident_case 1.0.1 ERROR: tag match fail: []
+ident_case 1.0.1 files checked: 1 unmatched files: 0
+ranking: 334
+standback 0.3.5 has 6402102 downloads
+standback 0.3.5 repo url is https://github.com/jhpratt/standback
+standback 0.3.5 scm hash b8190bc9ff627e5f2a7c2f8bc24484e87bdbbbba
+standback 0.3.5 commit-hash matches tag "v0.3.5"
+standback 0.3.5 files checked: 32 unmatched files: 0
+ranking: 335
+criterion 0.3.5 has 6380073 downloads
+criterion 0.3.5 repo url is https://github.com/bheisler/criterion.rs
+criterion 0.3.5 scm hash 4e773a3b8523a73e7105e11f0b2d4b545827712e
+criterion 0.3.5 commit-hash matches tag "0.3.5"
+criterion 0.3.5 files checked: 69 unmatched files: 0
+ranking: 336
+synom 0.11.3 has 6374472 downloads
+synom 0.11.3 repo url is https://github.com/dtolnay/syn
+ERROR: no .cargo_vcs_info file in crate tarball
+synom 0.11.3 ERROR: failed to extract crate metadata
+shallow match failed.
+synom 0.11.3 doing full repo clone...
+synom 0.11.3 files checked: 3 unmatched files: 0
+ranking: 337
+utf-8 0.7.6 has 6338605 downloads
+utf-8 0.7.6 repo url is https://github.com/SimonSapin/rust-utf8
+utf-8 0.7.6 scm hash 9b4165786edaea2ef9cf48f75756537eacf7f20d
+utf-8 0.7.6 ERROR: tag match fail: []
+utf-8 0.7.6 files checked: 5 unmatched files: 0
+ranking: 338
+time-macros-impl 0.1.2 has 6320085 downloads
+time-macros-impl 0.1.2 repo url is https://github.com/time-rs/time
+ERROR: no .cargo_vcs_info file in crate tarball
+time-macros-impl 0.1.2 ERROR: failed to extract crate metadata
+shallow match failed.
+time-macros-impl 0.1.2 doing full repo clone...
+time-macros-impl 0.1.2 files checked: 7 unmatched files: 0
+ranking: 339
+time-macros 0.2.2 has 6285255 downloads
+time-macros 0.2.2 repo url is https://github.com/time-rs/time
+time-macros 0.2.2 scm hash 4020fd632f6cad4fb2ba9a3bc972f6769c210e87
+time-macros 0.2.2 ERROR: tag match fail: ['v0.3.2']
+time-macros 0.2.2 files checked: 15 unmatched files: 0
+ranking: 340
+cargo_metadata 0.14.0 has 6255994 downloads
+cargo_metadata 0.14.0 repo url is https://github.com/oli-obk/cargo_metadata
+cargo_metadata 0.14.0 scm hash 59c4c0181e046280632dd0c69159d65605ad8a80
+cargo_metadata 0.14.0 commit-hash matches tag "v0.14.0"
+cargo_metadata 0.14.0 files checked: 7 unmatched files: 0
+ranking: 341
+libgit2-sys 0.12.23+1.2.0 has 6245081 downloads
+libgit2-sys 0.12.23+1.2.0 repo url is https://github.com/rust-lang/git2-rs
+libgit2-sys 0.12.23+1.2.0 scm hash 94b6240106210f1804dd8e272e0a4c1349d31c81
+libgit2-sys 0.12.23+1.2.0 commit-hash matches tag "libgit2-sys-0.12.23+1.2.0"
+libgit2-sys 0.12.23+1.2.0 files checked: 2 unmatched files: 0
+ranking: 342
+traitobject 0.1.0 has 6222561 downloads
+traitobject 0.1.0 repo url is https://github.com/reem/rust-traitobject.git
+ERROR: no .cargo_vcs_info file in crate tarball
+traitobject 0.1.0 ERROR: failed to extract crate metadata
+shallow match failed.
+traitobject 0.1.0 doing full repo clone...
+traitobject 0.1.0 files checked: 2 unmatched files: 0
+ranking: 343
+git2 0.13.22 has 6214044 downloads
+git2 0.13.22 repo url is https://github.com/rust-lang/git2-rs
+git2 0.13.22 scm hash 94b6240106210f1804dd8e272e0a4c1349d31c81
+git2 0.13.22 commit-hash matches tag "0.13.22"
+git2 0.13.22 files checked: 75 unmatched files: 0
+ranking: 344
+criterion-plot 0.4.4 has 6213547 downloads
+criterion-plot 0.4.4 repo url is https://github.com/bheisler/criterion.rs
+criterion-plot 0.4.4 scm hash 97a70ee543c8984ce21c56824099fcfb96554c80
+fatal: remote error: upload-pack: not our ref 97a70ee543c8984ce21c56824099fcfb96554c80
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '97a70ee543c8984ce21c56824099fcfb96554c80']' returned non-zero exit status 128.
+criterion-plot 0.4.4 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '97a70ee543c8984ce21c56824099fcfb96554c80']' returned non-zero exit status 128.
+shallow match failed.
+criterion-plot 0.4.4 doing full repo clone...
+criterion-plot 0.4.4 files checked: 14 unmatched files: 0
+ranking: 345
+approx 0.5.0 has 6186811 downloads
+approx 0.5.0 repo url is https://github.com/brendanzab/approx
+approx 0.5.0 scm hash 11f6fdac5a32b9367bd8e6cd780ed539e4e9e142
+approx 0.5.0 commit-hash matches tag "v0.5.0"
+approx 0.5.0 files checked: 10 unmatched files: 0
+ranking: 346
+derivative 2.2.0 has 6151143 downloads
+derivative 2.2.0 repo url is https://github.com/mcarton/rust-derivative
+derivative 2.2.0 scm hash 770c67484a872470ca782202e13fc70a35e2695b
+derivative 2.2.0 commit-hash matches tag "v2.2.0"
+derivative 2.2.0 files checked: 98 unmatched files: 0
+ranking: 347
+cexpr 0.5.0 has 6141480 downloads
+cexpr 0.5.0 repo url is https://github.com/jethrogb/rust-cexpr
+cexpr 0.5.0 scm hash 6a43efb32cf14b8dc4cd294429d3de259d37e279
+cexpr 0.5.0 commit-hash matches tag "v0.5.0"
+cexpr 0.5.0 files checked: 5 unmatched files: 0
+ranking: 348
+fuchsia-cprng 0.1.1 has 6086296 downloads
+fuchsia-cprng 0.1.1 repo url is https://fuchsia.googlesource.com/fuchsia/+/master/garnet/public/rust/fuchsia-cprng
+ERROR: no .cargo_vcs_info file in crate tarball
+fuchsia-cprng 0.1.1 ERROR: failed to extract crate metadata
+shallow match failed.
+fuchsia-cprng 0.1.1 doing full repo clone...
+fatal: remote error: Git repository not found
+git error: Command '['git', 'clone', '-q', '--bare', 'https://fuchsia.googlesource.com/fuchsia/+/master/garnet/public/rust/fuchsia-cprng', '.']' returned non-zero exit status 128.
+fuchsia-cprng 0.1.1 ERROR: failed to clone repo: Command '['git', 'clone', '-q', '--bare', 'https://fuchsia.googlesource.com/fuchsia/+/master/garnet/public/rust/fuchsia-cprng', '.']' returned non-zero exit status 128.
+ranking: 349
+tinytemplate 1.2.1 has 6075088 downloads
+tinytemplate 1.2.1 repo url is https://github.com/bheisler/TinyTemplate
+tinytemplate 1.2.1 scm hash 522605e72e04dbd6ededa29743a485d2fad29dd4
+tinytemplate 1.2.1 commit-hash matches tag "1.2.1"
+tinytemplate 1.2.1 files checked: 7 unmatched files: 0
+ranking: 350
+multimap 0.8.3 has 6073398 downloads
+multimap 0.8.3 repo url is https://github.com/havarnov/multimap
+multimap 0.8.3 scm hash 96ba7c3ec674777cf40efb86fd1315a3d9cf6b25
+multimap 0.8.3 ERROR: tag match fail: []
+multimap 0.8.3 files checked: 3 unmatched files: 0
+ranking: 351
+fxhash 0.2.1 has 6036534 downloads
+fxhash 0.2.1 repo url is https://github.com/cbreeden/fxhash
+ERROR: no .cargo_vcs_info file in crate tarball
+fxhash 0.2.1 ERROR: failed to extract crate metadata
+shallow match failed.
+fxhash 0.2.1 doing full repo clone...
+fxhash 0.2.1 files checked: 2 unmatched files: 0
+ranking: 352
+rdrand 0.8.0 has 5977157 downloads
+rdrand 0.8.0 repo url is https://github.com/nagisa/rust_rdrand/
+rdrand 0.8.0 scm hash d59a986dc02a330bce0bdc3febfe5d8fb007d7c9
+rdrand 0.8.0 commit-hash matches tag "0.8.0"
+rdrand 0.8.0 files checked: 4 unmatched files: 0
+ranking: 353
+curl-sys 0.4.45+curl-7.78.0 has 5936081 downloads
+curl-sys 0.4.45+curl-7.78.0 repo url is https://github.com/alexcrichton/curl-rust
+curl-sys 0.4.45+curl-7.78.0 scm hash f56f767cc88e60963c222d74c39ad27264bc6f57
+curl-sys 0.4.45+curl-7.78.0 ERROR: tag match fail: ['curl-sys-0.4.45']
+curl-sys 0.4.45+curl-7.78.0 files checked: 2 unmatched files: 0
+ranking: 354
+quickcheck 1.0.3 has 5881886 downloads
+quickcheck 1.0.3 repo url is https://github.com/BurntSushi/quickcheck
+quickcheck 1.0.3 scm hash defde6fb0ce20b0c8c4e672aa9ae821f7d1f5b38
+quickcheck 1.0.3 commit-hash matches tag "1.0.3"
+quickcheck 1.0.3 files checked: 10 unmatched files: 0
+ranking: 355
+proc-macro-crate 1.0.0 has 5845605 downloads
+proc-macro-crate 1.0.0 repo url is https://github.com/bkchr/proc-macro-crate
+proc-macro-crate 1.0.0 scm hash 9509a79c821c7bd7b50f29d609f29d2eceb97757
+proc-macro-crate 1.0.0 ERROR: tag match fail: []
+proc-macro-crate 1.0.0 files checked: 1 unmatched files: 0
+ranking: 356
+sharded-slab 0.1.3 has 5842058 downloads
+sharded-slab 0.1.3 repo url is https://github.com/hawkw/sharded-slab
+sharded-slab 0.1.3 scm hash 240346746a17f3d56f2c1c2014013aed3987c10f
+sharded-slab 0.1.3 commit-hash matches tag "0.1.3"
+sharded-slab 0.1.3 files checked: 17 unmatched files: 0
+ranking: 357
+match_cfg 0.1.0 has 5839616 downloads
+match_cfg 0.1.0 repo url is https://github.com/gnzlbg/match_cfg
+match_cfg 0.1.0 scm hash 30f0802785ad5c1def540085a183642dff4aa48b
+match_cfg 0.1.0 ERROR: tag match fail: []
+match_cfg 0.1.0 files checked: 1 unmatched files: 0
+ranking: 358
+tracing-log 0.1.2 has 5808355 downloads
+tracing-log 0.1.2 repo url is https://github.com/tokio-rs/tracing
+tracing-log 0.1.2 scm hash a0201ba798b86739ba633d15d297ec233b905e4e
+tracing-log 0.1.2 commit-hash matches tag "tracing-log-0.1.2"
+tracing-log 0.1.2 files checked: 6 unmatched files: 0
+ranking: 359
+prost-derive 0.8.0 has 5788770 downloads
+prost-derive 0.8.0 repo url is https://github.com/tokio-rs/prost
+prost-derive 0.8.0 scm hash bb986cd78fd03b40f16845ab46865cd3be9a9f6c
+prost-derive 0.8.0 ERROR: tag match fail: []
+prost-derive 0.8.0 files checked: 7 unmatched files: 0
+ranking: 360
+bit-set 0.5.2 has 5782779 downloads
+bit-set 0.5.2 repo url is https://github.com/contain-rs/bit-set
+bit-set 0.5.2 scm hash 8ba6d0d96e9df714d55167b7b6ccde96885cf46d
+bit-set 0.5.2 ERROR: tag match fail: []
+bit-set 0.5.2 files checked: 1 unmatched files: 0
+ranking: 361
+prost 0.8.0 has 5776046 downloads
+prost 0.8.0 repo url is https://github.com/tokio-rs/prost
+prost 0.8.0 scm hash bb986cd78fd03b40f16845ab46865cd3be9a9f6c
+prost 0.8.0 ERROR: tag match fail: []
+prost 0.8.0 files checked: 6 unmatched files: 0
+ranking: 362
+trust-dns-proto 0.21.0-alpha.2 has 5737653 downloads
+trust-dns-proto 0.21.0-alpha.2 repo url is https://github.com/bluejekyll/trust-dns
+trust-dns-proto 0.21.0-alpha.2 scm hash 057735a1dc5c3113c7f9615bcf583bdf8e4a70d0
+trust-dns-proto 0.21.0-alpha.2 commit-hash matches tag "v0.21.0-alpha.2"
+trust-dns-proto 0.21.0-alpha.2 files checked: 107 unmatched files: 0
+ranking: 363
+peeking_take_while 1.0.0 has 5735722 downloads
+peeking_take_while 1.0.0 repo url is https://github.com/fitzgen/peeking_take_while
+peeking_take_while 1.0.0 scm hash f201f1457476f0829c4d7704a1cc02bef7aacb83
+peeking_take_while 1.0.0 ERROR: tag match fail: []
+peeking_take_while 1.0.0 files checked: 1 unmatched files: 0
+ranking: 364
+matchers 0.1.0 has 5690650 downloads
+matchers 0.1.0 repo url is https://github.com/hawkw/matchers
+matchers 0.1.0 scm hash 6e5f38da23303a0c66133c9c2981818b93ab746d
+matchers 0.1.0 commit-hash matches tag "0.1.0"
+matchers 0.1.0 files checked: 1 unmatched files: 0
+ranking: 365
+crc 2.0.0 has 5665220 downloads
+crc 2.0.0 repo url is https://github.com/mrhooray/crc-rs.git
+crc 2.0.0 scm hash 8a8d9622a9de96e87be63f62dc7853eef85fcbb9
+crc 2.0.0 commit-hash matches tag "v2.0.0"
+crc 2.0.0 files checked: 8 unmatched files: 0
+ranking: 366
+bitvec 0.22.3 has 5617299 downloads
+bitvec 0.22.3 repo url is https://github.com/myrrlyn/bitvec
+bitvec 0.22.3 scm hash fbfadf1ffe118e82afac5403d46ac3267dba5989
+bitvec 0.22.3 ERROR: tag match fail: ['v0/22/3']
+bitvec 0.22.3 files checked: 54 unmatched files: 0
+ranking: 367
+half 1.7.1 has 5551770 downloads
+half 1.7.1 repo url is https://github.com/starkat99/half-rs
+half 1.7.1 scm hash 4476873652bf25676f0610764b0f14a2f5d2ce62
+half 1.7.1 commit-hash matches tag "v1.7.1"
+half 1.7.1 files checked: 9 unmatched files: 0
+ranking: 368
+doc-comment 0.4.1 has 5538939 downloads
+doc-comment 0.4.1 repo url is https://github.com/GuillaumeGomez/doc-comment
+doc-comment 0.4.1 scm hash 60c02370ba37924c2bebab8e580d60278727d02d
+doc-comment 0.4.1 ERROR: tag match fail: []
+doc-comment 0.4.1 files checked: 1 unmatched files: 0
+ranking: 369
+data-encoding 2.3.2 has 5520609 downloads
+data-encoding 2.3.2 repo url is https://github.com/ia0/data-encoding
+data-encoding 2.3.2 scm hash 1a6521e1646403c7ce56e591e4752131b558071e
+data-encoding 2.3.2 commit-hash matches tag "v2.3.2"
+data-encoding 2.3.2 files checked: 1 unmatched files: 0
+ranking: 370
+serde_cbor 0.11.2 has 5512592 downloads
+serde_cbor 0.11.2 repo url is https://github.com/pyfisch/cbor
+serde_cbor 0.11.2 scm hash 347a3f096d5a1e8e380b9968e74838c9037a5b14
+serde_cbor 0.11.2 commit-hash matches tag "v0.11.2"
+serde_cbor 0.11.2 files checked: 20 unmatched files: 0
+ranking: 371
+num-derive 0.3.3 has 5497935 downloads
+num-derive 0.3.3 repo url is https://github.com/rust-num/num-derive
+num-derive 0.3.3 scm hash 61a6e5294ec133448b1fb8da35e152a0cedbf870
+num-derive 0.3.3 commit-hash matches tag "num-derive-0.3.3"
+num-derive 0.3.3 files checked: 11 unmatched files: 0
+ranking: 372
+xattr 0.2.2 has 5495004 downloads
+xattr 0.2.2 repo url is https://github.com/Stebalien/xattr
+ERROR: no .cargo_vcs_info file in crate tarball
+xattr 0.2.2 ERROR: failed to extract crate metadata
+shallow match failed.
+xattr 0.2.2 doing full repo clone...
+xattr 0.2.2 files checked: 10 unmatched files: 0
+ranking: 373
+thread-id 4.0.0 has 5490883 downloads
+thread-id 4.0.0 repo url is https://github.com/ruuda/thread-id
+thread-id 4.0.0 scm hash 53a950903f0622dcbecb906625ae3ac236008fa7
+thread-id 4.0.0 commit-hash matches tag "v4.0.0"
+thread-id 4.0.0 files checked: 1 unmatched files: 0
+ranking: 374
+build_const 0.2.2 has 5468367 downloads
+build_const 0.2.2 repo url is https://github.com/vitiral/build_const
+build_const 0.2.2 scm hash 0133284bfd772517fbc72a584bf23994c4c78ff3
+build_const 0.2.2 ERROR: tag match fail: []
+build_const 0.2.2 files checked: 2 unmatched files: 0
+ranking: 375
+protobuf 2.25.1 has 5448676 downloads
+protobuf 2.25.1 repo url is https://github.com/stepancheg/rust-protobuf/
+protobuf 2.25.1 scm hash d65abd3c6cee1dacef1448146b488ee168492a7d
+protobuf 2.25.1 commit-hash matches tag "v2.25.1"
+protobuf 2.25.1 files checked: 72 unmatched files: 0
+ranking: 376
+prost-types 0.8.0 has 5410970 downloads
+prost-types 0.8.0 repo url is https://github.com/tokio-rs/prost
+prost-types 0.8.0 scm hash bb986cd78fd03b40f16845ab46865cd3be9a9f6c
+prost-types 0.8.0 ERROR: tag match fail: []
+prost-types 0.8.0 files checked: 3 unmatched files: 0
+ranking: 377
+hyper-rustls 0.22.1 has 5365351 downloads
+hyper-rustls 0.22.1 repo url is https://github.com/ctz/hyper-rustls
+hyper-rustls 0.22.1 scm hash 5a30ca520ab382bdeb06ba37a1401b6f5aeb971f
+hyper-rustls 0.22.1 ERROR: tag match fail: ['v/0.22.1']
+hyper-rustls 0.22.1 files checked: 6 unmatched files: 0
+ranking: 378
+c2-chacha 0.3.1 has 5340435 downloads
+c2-chacha 0.3.1 repo url is https://github.com/cryptocorrosion/cryptocorrosion
+c2-chacha 0.3.1 scm hash 8e31b3c65fd979181f563feac90ac11c900b350d
+c2-chacha 0.3.1 commit-hash matches tag "c2-chacha-0.3.1"
+c2-chacha 0.3.1 files checked: 4 unmatched files: 0
+ranking: 379
+prost-build 0.8.0 has 5258555 downloads
+prost-build 0.8.0 repo url is https://github.com/tokio-rs/prost
+prost-build 0.8.0 scm hash bb986cd78fd03b40f16845ab46865cd3be9a9f6c
+prost-build 0.8.0 ERROR: tag match fail: []
+prost-build 0.8.0 files checked: 8 unmatched files: 0
+ranking: 380
+tracing-serde 0.1.2 has 5212098 downloads
+tracing-serde 0.1.2 repo url is https://github.com/tokio-rs/tracing
+tracing-serde 0.1.2 scm hash 52667624e8eace993f081bd69f77a43ea9a9f96a
+tracing-serde 0.1.2 commit-hash matches tag "tracing-serde-0.1.2"
+tracing-serde 0.1.2 files checked: 2 unmatched files: 0
+ranking: 381
+pretty_assertions 0.7.2 has 5208095 downloads
+pretty_assertions 0.7.2 repo url is https://github.com/colin-kiegel/rust-pretty-assertions
+pretty_assertions 0.7.2 scm hash da3cf9ad7a0a1120105efcd607b2b8c2bda37213
+pretty_assertions 0.7.2 commit-hash matches tag "v0.7.2"
+pretty_assertions 0.7.2 files checked: 4 unmatched files: 0
+ranking: 382
+curl 0.5.0 has 5170455 downloads
+curl 0.5.0 repo url is https://github.com/alexcrichton/curl-rust
+ERROR: no .cargo_vcs_info file in crate tarball
+curl 0.5.0 ERROR: failed to extract crate metadata
+shallow match failed.
+curl 0.5.0 doing full repo clone...
+curl 0.5.0 files checked: 15 unmatched files: 0
+ranking: 383
+fs2 0.4.3 has 5152894 downloads
+fs2 0.4.3 repo url is https://github.com/danburkert/fs2-rs
+ERROR: no .cargo_vcs_info file in crate tarball
+fs2 0.4.3 ERROR: failed to extract crate metadata
+shallow match failed.
+fs2 0.4.3 doing full repo clone...
+fs2 0.4.3 files checked: 3 unmatched files: 0
+ranking: 384
+trust-dns-resolver 0.21.0-alpha.2 has 5138393 downloads
+trust-dns-resolver 0.21.0-alpha.2 repo url is https://github.com/bluejekyll/trust-dns
+trust-dns-resolver 0.21.0-alpha.2 scm hash 057735a1dc5c3113c7f9615bcf583bdf8e4a70d0
+trust-dns-resolver 0.21.0-alpha.2 commit-hash matches tag "v0.21.0-alpha.2"
+trust-dns-resolver 0.21.0-alpha.2 files checked: 27 unmatched files: 0
+ranking: 385
+tokio-buf 0.2.0-alpha.1 has 5136698 downloads
+tokio-buf 0.2.0-alpha.1 repo url is https://github.com/tokio-rs/tokio
+tokio-buf 0.2.0-alpha.1 scm hash 50e5d401df9931eafabee554bb1a370958fc57d2
+tokio-buf 0.2.0-alpha.1 ERROR: tag match fail: ['tokio-0.2.0-alpha.1']
+tokio-buf 0.2.0-alpha.1 files checked: 21 unmatched files: 0
+ranking: 386
+paste-impl 0.1.18 has 5103405 downloads
+paste-impl 0.1.18 repo url is https://github.com/dtolnay/paste
+paste-impl 0.1.18 scm hash ca72ba450ad4859c5a7557371560a022649b1b1e
+paste-impl 0.1.18 commit-hash matches tag "0.1.18"
+paste-impl 0.1.18 files checked: 3 unmatched files: 0
+ranking: 387
+radium 0.6.2 has 5088534 downloads
+radium 0.6.2 repo url is https://github.com/bitvecto-rs/radium
+radium 0.6.2 scm hash 0be1533842656d9c4be48575fe11af60d7ae50d7
+radium 0.6.2 ERROR: tag match fail: []
+radium 0.6.2 files checked: 4 unmatched files: 0
+ranking: 388
+fallible-iterator 0.2.1 has 4963727 downloads
+fallible-iterator 0.2.1 repo url is https://github.com/sfackler/rust-fallible-iterator
+fallible-iterator 0.2.1 scm hash 1d72ed18fc103d1e9f8a613b5acde28ee1f82e61
+fallible-iterator 0.2.1 ERROR: tag match fail: []
+fallible-iterator 0.2.1 files checked: 2 unmatched files: 0
+ranking: 389
+unindent 0.1.7 has 4953355 downloads
+unindent 0.1.7 repo url is https://github.com/dtolnay/indoc
+unindent 0.1.7 scm hash 663fdd66518bfcc5ebd233b1d9d8cead2e7f319c
+unindent 0.1.7 ERROR: tag match fail: ['1.0.3']
+unindent 0.1.7 files checked: 1 unmatched files: 0
+ranking: 390
+handlebars 4.1.2 has 4913423 downloads
+handlebars 4.1.2 repo url is https://github.com/sunng87/handlebars-rust
+handlebars 4.1.2 scm hash 68bb096250916e3b52c6649c698a9914249a0406
+handlebars 4.1.2 commit-hash matches tag "v4.1.2"
+handlebars 4.1.2 files checked: 49 unmatched files: 0
+ranking: 391
+resolv-conf 0.7.0 has 4907312 downloads
+resolv-conf 0.7.0 repo url is http://github.com/tailhook/resolv-conf
+resolv-conf 0.7.0 scm hash 2bedcfaa6ee349f6e9d3e5156c06981da0c07ef8
+resolv-conf 0.7.0 commit-hash matches tag "v0.7.0"
+resolv-conf 0.7.0 files checked: 6 unmatched files: 0
+ranking: 392
+blake2b_simd 0.5.11 has 4880932 downloads
+blake2b_simd 0.5.11 repo url is https://github.com/oconnor663/blake2_simd
+blake2b_simd 0.5.11 scm hash 95e87ef21de3e4f51a3514f29961f511af73d577
+blake2b_simd 0.5.11 commit-hash matches tag "0.5.11"
+blake2b_simd 0.5.11 files checked: 8 unmatched files: 0
+ranking: 393
+crunchy 0.2.2 has 4830569 downloads
+crunchy 0.2.2 repo url is 
+crunchy 0.2.2 scm hash 1bf90cf2d0a8cfcb2c5592275a23ab028dff6468
+fatal: no path specified; see 'git help pull' for valid url syntax
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '1bf90cf2d0a8cfcb2c5592275a23ab028dff6468']' returned non-zero exit status 128.
+crunchy 0.2.2 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', '1bf90cf2d0a8cfcb2c5592275a23ab028dff6468']' returned non-zero exit status 128.
+shallow match failed.
+crunchy 0.2.2 doing full repo clone...
+fatal: repository '' does not exist
+git error: Command '['git', 'clone', '-q', '--bare', '', '.']' returned non-zero exit status 128.
+crunchy 0.2.2 ERROR: failed to clone repo: Command '['git', 'clone', '-q', '--bare', '', '.']' returned non-zero exit status 128.
+ranking: 394
+oorandom 11.1.3 has 4828390 downloads
+oorandom 11.1.3 repo url is https://sr.ht/~icefox/oorandom/
+ERROR: no .cargo_vcs_info file in crate tarball
+oorandom 11.1.3 ERROR: failed to extract crate metadata
+shallow match failed.
+oorandom 11.1.3 doing full repo clone...
+fatal: remote error: 
+
+You have tried to clone a project from sourcehut, but you probably meant to
+clone a specific git repository for this project instead. A single project on
+sourcehut often has more than one git repository.
+
+To browse all of the available repositories for this project, visit this URL:
+
+  https://sr.ht/~icefox/oorandom/sources
+
+git error: Command '['git', 'clone', '-q', '--bare', 'https://sr.ht/~icefox/oorandom/', '.']' returned non-zero exit status 128.
+oorandom 11.1.3 ERROR: failed to clone repo: Command '['git', 'clone', '-q', '--bare', 'https://sr.ht/~icefox/oorandom/', '.']' returned non-zero exit status 128.
+ranking: 395
+encode_unicode 0.3.6 has 4825070 downloads
+encode_unicode 0.3.6 repo url is https://github.com/tormol/encode_unicode
+encode_unicode 0.3.6 scm hash 47f8483a1b2ab022a93f06deb0ca954171c920ec
+encode_unicode 0.3.6 commit-hash matches tag "v0.3.6"
+encode_unicode 0.3.6 files checked: 13 unmatched files: 0
+ranking: 396
+ignore 0.4.18 has 4789016 downloads
+ignore 0.4.18 repo url is https://github.com/BurntSushi/ripgrep/tree/master/crates/ignore
+ignore 0.4.18 scm hash 14860b0f16ce9cab3c8bb9205a8268b5be22dc30
+ignore 0.4.18 commit-hash matches tag "ignore-0.4.18"
+ignore 0.4.18 files checked: 10 unmatched files: 0
+ranking: 397
+async-stream 0.3.2 has 4779348 downloads
+async-stream 0.3.2 repo url is https://github.com/tokio-rs/async-stream
+async-stream 0.3.2 scm hash b28da881695e3c66e1782f0c2c330d4e162eb7c2
+async-stream 0.3.2 commit-hash matches tag "v0.3.2"
+async-stream 0.3.2 files checked: 12 unmatched files: 0
+ranking: 398
+async-stream-impl 0.3.2 has 4777699 downloads
+async-stream-impl 0.3.2 repo url is https://github.com/tokio-rs/async-stream
+async-stream-impl 0.3.2 scm hash b28da881695e3c66e1782f0c2c330d4e162eb7c2
+async-stream-impl 0.3.2 commit-hash matches tag "v0.3.2"
+async-stream-impl 0.3.2 files checked: 1 unmatched files: 0
+ranking: 399
+png 0.17.1 has 4752832 downloads
+png 0.17.1 repo url is https://github.com/image-rs/image-png.git
+png 0.17.1 scm hash dbddea4956dad3957279a5405b837a3d88ef9dd3
+png 0.17.1 ERROR: tag match fail: []
+png 0.17.1 files checked: 14 unmatched files: 0
+ranking: 400
+plotters 0.3.1 has 4729139 downloads
+plotters 0.3.1 repo url is https://github.com/38/plotters
+plotters 0.3.1 scm hash 94a4886623b33902373dbf9c0877037fd60bac71
+plotters 0.3.1 commit-hash matches tag "v0.3.1"
+plotters 0.3.1 files checked: 94 unmatched files: 0
+ranking: 401
+libssh2-sys 0.2.21 has 4700489 downloads
+libssh2-sys 0.2.21 repo url is https://github.com/alexcrichton/ssh2-rs
+libssh2-sys 0.2.21 scm hash 3b9fc6f60812a40ca22e265283f6e56d5379f0d3
+libssh2-sys 0.2.21 commit-hash matches tag "libssh2-sys-0.2.21"
+libssh2-sys 0.2.21 files checked: 2 unmatched files: 0
+ranking: 402
+async-task 4.0.3 has 4683135 downloads
+async-task 4.0.3 repo url is https://github.com/stjepang/async-task
+async-task 4.0.3 scm hash b5ec84da08e36c72c3686d8a1e88169013db91ae
+async-task 4.0.3 commit-hash matches tag "v4.0.3"
+async-task 4.0.3 files checked: 19 unmatched files: 0
+ranking: 403
+miniz-sys 0.1.12 has 4666836 downloads
+miniz-sys 0.1.12 repo url is https://github.com/alexcrichton/flate2-rs
+miniz-sys 0.1.12 scm hash 7d3cbe57e28b3c34de5b397647b1d9cd139376af
+miniz-sys 0.1.12 commit-hash matches tag "miniz-sys-0.1.12"
+miniz-sys 0.1.12 files checked: 2 unmatched files: 0
+ranking: 404
+terminal_size 0.1.17 has 4663153 downloads
+terminal_size 0.1.17 repo url is https://github.com/eminence/terminal-size
+terminal_size 0.1.17 scm hash 631b74e586531a207510cfdf679971545f84ee6b
+terminal_size 0.1.17 commit-hash matches tag "v0.1.17"
+terminal_size 0.1.17 files checked: 4 unmatched files: 0
+ranking: 405
+deflate 0.9.1 has 4626245 downloads
+deflate 0.9.1 repo url is https://github.com/image-rs/deflate-rs
+deflate 0.9.1 scm hash 630ec291657c49d371b2adad91daa6257e8a55eb
+deflate 0.9.1 ERROR: tag match fail: []
+deflate 0.9.1 files checked: 23 unmatched files: 0
+ranking: 406
+rustversion 1.0.5 has 4584989 downloads
+rustversion 1.0.5 repo url is https://github.com/dtolnay/rustversion
+rustversion 1.0.5 scm hash ecc07fb53f45a093811484d4ee1ac791144defd7
+rustversion 1.0.5 commit-hash matches tag "1.0.5"
+rustversion 1.0.5 files checked: 23 unmatched files: 0
+ranking: 407
+wait-timeout 0.2.0 has 4582272 downloads
+wait-timeout 0.2.0 repo url is https://github.com/alexcrichton/wait-timeout
+wait-timeout 0.2.0 scm hash 7bb31d4901baa5196bd554e9e332bd9534eeb93b
+wait-timeout 0.2.0 commit-hash matches tag "0.2.0"
+wait-timeout 0.2.0 files checked: 7 unmatched files: 0
+ranking: 408
+publicsuffix 2.1.0 has 4554747 downloads
+publicsuffix 2.1.0 repo url is https://github.com/rushmorem/publicsuffix
+publicsuffix 2.1.0 scm hash 3787f3ffec45ba6466cce1044cd10dbe6dde78ec
+publicsuffix 2.1.0 commit-hash matches tag "v2.1.0"
+publicsuffix 2.1.0 files checked: 5 unmatched files: 0
+ranking: 409
+indoc 1.0.3 has 4550623 downloads
+indoc 1.0.3 repo url is https://github.com/dtolnay/indoc
+indoc 1.0.3 scm hash 663fdd66518bfcc5ebd233b1d9d8cead2e7f319c
+indoc 1.0.3 commit-hash matches tag "1.0.3"
+indoc 1.0.3 files checked: 18 unmatched files: 0
+ranking: 410
+image 0.23.14 has 4538934 downloads
+image 0.23.14 repo url is https://github.com/image-rs/image
+image 0.23.14 scm hash 2a79d33e663d27e402c76bfc6aa5ca78b1cc9895
+image 0.23.14 commit-hash matches tag "v0.23.14"
+image 0.23.14 files checked: 60 unmatched files: 0
+ranking: 411
+dirs-sys-next 0.1.2 has 4538796 downloads
+dirs-sys-next 0.1.2 repo url is https://github.com/xdg-rs/dirs/tree/master/dirs-sys
+dirs-sys-next 0.1.2 scm hash a3b404648ab17c66dfe8321174c0d010d214f4fe
+dirs-sys-next 0.1.2 ERROR: tag match fail: ['dirs-sys-v0.1.2']
+dirs-sys-next 0.1.2 files checked: 2 unmatched files: 0
+ranking: 412
+combine 4.6.1 has 4510668 downloads
+combine 4.6.1 repo url is https://github.com/Marwes/combine
+combine 4.6.1 scm hash cd35e54a4e9c555da87984fa665542e31f04e306
+combine 4.6.1 commit-hash matches tag "v4.6.1"
+combine 4.6.1 files checked: 37 unmatched files: 0
+ranking: 413
+aes-soft 0.99.99 has 4493447 downloads
+aes-soft 0.99.99 repo url is https://github.com/RustCrypto/block-ciphers/tree/master/aes
+ERROR: no .cargo_vcs_info file in crate tarball
+aes-soft 0.99.99 ERROR: failed to extract crate metadata
+shallow match failed.
+aes-soft 0.99.99 doing full repo clone...
+aes-soft 0.99.99 ERROR: file not in repo: aes-soft-0.99.99/src/lib.rs
+aes-soft 0.99.99 files checked: 1 unmatched files: 1
+aes-soft 0.99.99 ERROR: 1 files not found in repo
+ranking: 414
+aes 0.7.5 has 4489504 downloads
+aes 0.7.5 repo url is https://github.com/RustCrypto/block-ciphers
+aes 0.7.5 scm hash e39cf00f1b6de69623aa48c403bef5a9104aab8d
+aes 0.7.5 ERROR: tag match fail: []
+aes 0.7.5 files checked: 31 unmatched files: 0
+ranking: 415
+rand_xoshiro 0.6.0 has 4477081 downloads
+rand_xoshiro 0.6.0 repo url is https://github.com/rust-random/rngs
+rand_xoshiro 0.6.0 scm hash eae0a9b91c5de272706134d25bc1ea3457bc9670
+rand_xoshiro 0.6.0 commit-hash matches tag "rand_xoshiro-0.6.0"
+rand_xoshiro 0.6.0 files checked: 18 unmatched files: 0
+ranking: 416
+parking 2.0.0 has 4468907 downloads
+parking 2.0.0 repo url is https://github.com/stjepang/parking
+parking 2.0.0 scm hash 066537672816ba4d8b6f7b1575728135961302e5
+parking 2.0.0 commit-hash matches tag "v2.0.0"
+parking 2.0.0 files checked: 2 unmatched files: 0
+ranking: 417
+enum-as-inner 0.3.3 has 4441691 downloads
+enum-as-inner 0.3.3 repo url is https://github.com/bluejekyll/enum-as-inner
+enum-as-inner 0.3.3 scm hash 3c16433b8a509850c37dd125560b2a846ca3d6e7
+enum-as-inner 0.3.3 ERROR: tag match fail: []
+enum-as-inner 0.3.3 files checked: 7 unmatched files: 0
+ranking: 418
+mio-extras 2.0.6 has 4414178 downloads
+mio-extras 2.0.6 repo url is https://github.com/dimbleby/mio-extras
+mio-extras 2.0.6 scm hash b2ad4709eed08231ddbe0018e053fdc9a248f1d5
+fatal: remote error: upload-pack: not our ref b2ad4709eed08231ddbe0018e053fdc9a248f1d5
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'b2ad4709eed08231ddbe0018e053fdc9a248f1d5']' returned non-zero exit status 128.
+mio-extras 2.0.6 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'b2ad4709eed08231ddbe0018e053fdc9a248f1d5']' returned non-zero exit status 128.
+shallow match failed.
+mio-extras 2.0.6 doing full repo clone...
+mio-extras 2.0.6 files checked: 6 unmatched files: 0
+ranking: 419
+fastrand 1.5.0 has 4413636 downloads
+fastrand 1.5.0 repo url is https://github.com/smol-rs/fastrand
+fastrand 1.5.0 scm hash 1d64e8aad20f30d4cc0bfc5466ee3c0c1eeac5ae
+fastrand 1.5.0 commit-hash matches tag "v1.5.0"
+fastrand 1.5.0 files checked: 3 unmatched files: 0
+ranking: 420
+string_cache 0.8.1 has 4408299 downloads
+string_cache 0.8.1 repo url is https://github.com/servo/string-cache
+string_cache 0.8.1 scm hash 82ac0d955d2d1785eb5634cdbf61465adc0d759e
+string_cache 0.8.1 commit-hash matches tag "v0.8.1"
+string_cache 0.8.1 files checked: 7 unmatched files: 0
+ranking: 421
+typeable 0.1.2 has 4338137 downloads
+typeable 0.1.2 repo url is https://github.com/reem/rust-typeable
+ERROR: no .cargo_vcs_info file in crate tarball
+typeable 0.1.2 ERROR: failed to extract crate metadata
+shallow match failed.
+typeable 0.1.2 doing full repo clone...
+typeable 0.1.2 files checked: 1 unmatched files: 0
+ranking: 422
+zip 0.5.13 has 4334943 downloads
+zip 0.5.13 repo url is https://github.com/zip-rs/zip.git
+zip 0.5.13 scm hash 7edf2489d5cff8b80f02ee6fc5febf3efd0a9442
+zip 0.5.13 ERROR: tag match fail: []
+zip 0.5.13 files checked: 22 unmatched files: 0
+ranking: 423
+concurrent-queue 1.2.2 has 4322568 downloads
+concurrent-queue 1.2.2 repo url is https://github.com/stjepang/concurrent-queue
+concurrent-queue 1.2.2 scm hash db15df1c27508c21f3e07a69607ebde3891eb7f5
+concurrent-queue 1.2.2 commit-hash matches tag "v1.2.2"
+concurrent-queue 1.2.2 files checked: 7 unmatched files: 0
+ranking: 424
+ascii 1.0.0 has 4308337 downloads
+ascii 1.0.0 repo url is https://github.com/tomprogrammer/rust-ascii
+ascii 1.0.0 scm hash 8429bc3e6bc220a130e5ea18790fc9c5eea96d2e
+ascii 1.0.0 commit-hash matches tag "v1.0.0"
+ascii 1.0.0 files checked: 10 unmatched files: 0
+ranking: 425
+cache-padded 1.1.1 has 4303811 downloads
+cache-padded 1.1.1 repo url is https://github.com/stjepang/cache-padded
+cache-padded 1.1.1 scm hash 4552d305c1209dff2e5fdb4f709c635a82131aae
+cache-padded 1.1.1 commit-hash matches tag "v1.1.1"
+cache-padded 1.1.1 files checked: 2 unmatched files: 0
+ranking: 426
+take_mut 0.2.2 has 4295789 downloads
+take_mut 0.2.2 repo url is https://github.com/Sgeo/take_mut
+ERROR: no .cargo_vcs_info file in crate tarball
+take_mut 0.2.2 ERROR: failed to extract crate metadata
+shallow match failed.
+take_mut 0.2.2 doing full repo clone...
+take_mut 0.2.2 files checked: 2 unmatched files: 0
+ranking: 427
+tiny-keccak 2.0.2 has 4285755 downloads
+tiny-keccak 2.0.2 ERROR: invalid repo url: ""
+ranking: 428
+curve25519-dalek 4.0.0-pre.1 has 4266288 downloads
+curve25519-dalek 4.0.0-pre.1 repo url is https://github.com/dalek-cryptography/curve25519-dalek
+curve25519-dalek 4.0.0-pre.1 scm hash df4e2fa12966fb982c09b32f3732bfcffae378bf
+curve25519-dalek 4.0.0-pre.1 commit-hash matches tag "4.0.0-pre.1"
+curve25519-dalek 4.0.0-pre.1 files checked: 48 unmatched files: 0
+ranking: 429
+tungstenite 0.15.0 has 4238187 downloads
+tungstenite 0.15.0 repo url is https://github.com/snapview/tungstenite-rs
+tungstenite 0.15.0 scm hash 1d9d700bccc685f2c01f02523890e4bcb302df63
+tungstenite 0.15.0 commit-hash matches tag "v0.15.0"
+tungstenite 0.15.0 files checked: 29 unmatched files: 0
+ranking: 430
+diff 0.1.12 has 4234352 downloads
+diff 0.1.12 repo url is https://github.com/utkarshkukreti/diff.rs
+diff 0.1.12 scm hash 5de4cb51da9349ff5af96766af03d54329baa7f0
+diff 0.1.12 commit-hash matches tag "0.1.12"
+diff 0.1.12 files checked: 4 unmatched files: 0
+ranking: 431
+errno 0.2.7 has 4231310 downloads
+errno 0.2.7 repo url is https://github.com/lambda-fairy/rust-errno
+errno 0.2.7 scm hash 6d8f379e79c3e9baab7c4db4393b3f683aca6516
+errno 0.2.7 commit-hash matches tag "v0.2.7"
+errno 0.2.7 files checked: 5 unmatched files: 0
+ranking: 432
+futures-timer 3.0.2 has 4219881 downloads
+futures-timer 3.0.2 repo url is https://github.com/async-rs/futures-timer
+futures-timer 3.0.2 scm hash 30e562cdde45b8a6ee93d22094df8664ff8dfdfb
+futures-timer 3.0.2 ERROR: tag match fail: []
+futures-timer 3.0.2 files checked: 12 unmatched files: 0
+ranking: 433
+dirs-next 2.0.0 has 4207363 downloads
+dirs-next 2.0.0 repo url is https://github.com/xdg-rs/dirs
+dirs-next 2.0.0 scm hash 1e1aae3136f09ae78495a806d3126a95ea0707dd
+dirs-next 2.0.0 ERROR: tag match fail: ['dirs-v2.0.0']
+dirs-next 2.0.0 files checked: 5 unmatched files: 0
+ranking: 434
+futures-lite 1.12.0 has 4192399 downloads
+futures-lite 1.12.0 repo url is https://github.com/smol-rs/futures-lite
+futures-lite 1.12.0 scm hash 7b1f141c725738e3edadcef8a21e801bfa8b4870
+futures-lite 1.12.0 commit-hash matches tag "v1.12.0"
+futures-lite 1.12.0 files checked: 5 unmatched files: 0
+ranking: 435
+twoway 0.2.2 has 4191565 downloads
+twoway 0.2.2 repo url is https://github.com/bluss/twoway
+twoway 0.2.2 scm hash e99b3c718df1117ad7f54c33f6540c8f46cc17dd
+twoway 0.2.2 commit-hash matches tag "0.2.2"
+twoway 0.2.2 files checked: 6 unmatched files: 0
+ranking: 436
+tokio-native-tls 0.3.0 has 4183446 downloads
+tokio-native-tls 0.3.0 repo url is https://github.com/tokio-rs/tls
+tokio-native-tls 0.3.0 scm hash 794659740dcc399f79058c4eba325ffd97474c7b
+tokio-native-tls 0.3.0 ERROR: tag match fail: []
+tokio-native-tls 0.3.0 files checked: 6 unmatched files: 0
+ranking: 437
+cookie_store 0.15.0 has 4180824 downloads
+cookie_store 0.15.0 repo url is https://github.com/pfernie/cookie_store
+cookie_store 0.15.0 scm hash 7e829d481ca559dac08e658b2671c1ed760a9a3b
+cookie_store 0.15.0 commit-hash matches tag "v0.15.0"
+cookie_store 0.15.0 files checked: 7 unmatched files: 0
+ranking: 438
+notify 5.0.0-pre.12 has 4179592 downloads
+notify 5.0.0-pre.12 repo url is https://github.com/notify-rs/notify.git
+notify 5.0.0-pre.12 scm hash c0d4b9d8a034c9d940a278cdbd93f972408f1485
+notify 5.0.0-pre.12 commit-hash matches tag "5.0.0-pre.12"
+notify 5.0.0-pre.12 files checked: 14 unmatched files: 0
+ranking: 439
+waker-fn 1.1.0 has 4130301 downloads
+waker-fn 1.1.0 repo url is https://github.com/stjepang/waker-fn
+waker-fn 1.1.0 scm hash f1419be1139111ecf8a1267468edb3e9e7ae46b1
+waker-fn 1.1.0 commit-hash matches tag "v1.1.0"
+waker-fn 1.1.0 files checked: 1 unmatched files: 0
+ranking: 440
+event-listener 2.5.1 has 4126175 downloads
+event-listener 2.5.1 repo url is https://github.com/stjepang/event-listener
+event-listener 2.5.1 scm hash f28e3c601028a93aaefd28564f29849210975cf3
+event-listener 2.5.1 commit-hash matches tag "v2.5.1"
+event-listener 2.5.1 files checked: 3 unmatched files: 0
+ranking: 441
+ghost 0.1.2 has 4120749 downloads
+ghost 0.1.2 repo url is https://github.com/dtolnay/ghost
+ghost 0.1.2 scm hash 338faa7446f2337c4c7710861f6b739e54a062c1
+ghost 0.1.2 commit-hash matches tag "0.1.2"
+ghost 0.1.2 files checked: 6 unmatched files: 0
+ranking: 442
+precomputed-hash 0.2.0 has 4119906 downloads
+precomputed-hash 0.2.0 repo url is https://github.com/emilio/precomputed-hash
+ERROR: no .cargo_vcs_info file in crate tarball
+precomputed-hash 0.2.0 ERROR: failed to extract crate metadata
+shallow match failed.
+precomputed-hash 0.2.0 doing full repo clone...
+precomputed-hash 0.2.0 files checked: 1 unmatched files: 0
+ranking: 443
+serde_bytes 0.11.5 has 4111233 downloads
+serde_bytes 0.11.5 repo url is https://github.com/serde-rs/bytes
+serde_bytes 0.11.5 scm hash 7f2e50869d87a50f45229d36740d9ad874ec9f4b
+serde_bytes 0.11.5 commit-hash matches tag "0.11.5"
+serde_bytes 0.11.5 files checked: 8 unmatched files: 0
+ranking: 444
+rust-argon2 0.8.3 has 4079093 downloads
+rust-argon2 0.8.3 repo url is https://github.com/sru-systems/rust-argon2
+rust-argon2 0.8.3 scm hash 79b3176d831e891507e64cfb5405d1179e80519c
+rust-argon2 0.8.3 commit-hash matches tag "0.8.3"
+rust-argon2 0.8.3 files checked: 16 unmatched files: 0
+ranking: 445
+try_from 0.3.2 has 4048815 downloads
+try_from 0.3.2 repo url is https://github.com/derekjw/try_from
+try_from 0.3.2 scm hash 1606a9ae37788360dc422d9fc09c80920e318ddf
+try_from 0.3.2 ERROR: tag match fail: []
+try_from 0.3.2 files checked: 3 unmatched files: 0
+ranking: 446
+tokio-stream 0.1.7 has 4047782 downloads
+tokio-stream 0.1.7 repo url is https://github.com/tokio-rs/tokio
+tokio-stream 0.1.7 scm hash 5d61c997e9281e00f35c7ea426786996945f47f5
+tokio-stream 0.1.7 commit-hash matches tag "tokio-stream-0.1.7"
+tokio-stream 0.1.7 files checked: 53 unmatched files: 0
+ranking: 447
+input_buffer 0.5.0 has 4012912 downloads
+input_buffer 0.5.0 repo url is https://github.com/snapview/input_buffer
+input_buffer 0.5.0 scm hash 59c3de23b489941888664c9f4efb27ca5277a57e
+input_buffer 0.5.0 commit-hash matches tag "v0.5.0"
+input_buffer 0.5.0 files checked: 1 unmatched files: 0
+ranking: 448
+async-std 1.10.0 has 3999832 downloads
+async-std 1.10.0 repo url is https://github.com/async-rs/async-std
+async-std 1.10.0 scm hash 5640a7ff1f8ca5ff157f26a9ccb47a0b95d22fb4
+async-std 1.10.0 commit-hash matches tag "v1.10.0"
+async-std 1.10.0 files checked: 277 unmatched files: 0
+ranking: 449
+utf8parse 0.2.0 has 3998039 downloads
+utf8parse 0.2.0 repo url is https://github.com/jwilm/vte
+utf8parse 0.2.0 scm hash b844c38d5d4b8eff5db07b1d4d5a14d626411698
+utf8parse 0.2.0 ERROR: tag match fail: ['v0.5.0']
+utf8parse 0.2.0 files checked: 3 unmatched files: 0
+ranking: 450
+inotify 0.9.3 has 3983356 downloads
+inotify 0.9.3 repo url is https://github.com/hannobraun/inotify
+inotify 0.9.3 scm hash 7dc7ff01a0319bab91e73f7e6aa09750a5f665ab
+inotify 0.9.3 commit-hash matches tag "v0.9.3"
+inotify 0.9.3 files checked: 10 unmatched files: 0
+ranking: 451
+termios 0.3.3 has 3978825 downloads
+termios 0.3.3 repo url is https://github.com/dcuddeback/termios-rs
+termios 0.3.3 scm hash c0a99bf904ab41a152a43dd9cdd2c44eb0857b47
+termios 0.3.3 commit-hash matches tag "v0.3.3"
+termios 0.3.3 files checked: 12 unmatched files: 0
+ranking: 452
+prometheus 0.12.0 has 3969002 downloads
+prometheus 0.12.0 repo url is https://github.com/tikv/rust-prometheus
+prometheus 0.12.0 scm hash de89aae865d5315d08c5d89b52c46764c1981dc4
+prometheus 0.12.0 commit-hash matches tag "v0.12.0"
+prometheus 0.12.0 files checked: 35 unmatched files: 0
+ranking: 453
+home 0.5.3 has 3956941 downloads
+home 0.5.3 repo url is https://github.com/brson/home
+home 0.5.3 scm hash 4607d98f2cd1d356b6a252f2b573072caebefefd
+home 0.5.3 commit-hash matches tag "0.5.3"
+home 0.5.3 files checked: 2 unmatched files: 0
+ranking: 454
+term_size 1.0.0-beta1 has 3951387 downloads
+term_size 1.0.0-beta1 repo url is https://github.com/kbknapp/term_size-rs.git
+ERROR: no .cargo_vcs_info file in crate tarball
+term_size 1.0.0-beta1 ERROR: failed to extract crate metadata
+shallow match failed.
+term_size 1.0.0-beta1 doing full repo clone...
+term_size 1.0.0-beta1 files checked: 5 unmatched files: 0
+ranking: 455
+funty 1.2.0 has 3951315 downloads
+funty 1.2.0 repo url is https://github.com/myrrlyn/funty
+funty 1.2.0 scm hash 7ef0d890fbcd8b3def1635ac1a877fc298488446
+funty 1.2.0 ERROR: tag match fail: []
+funty 1.2.0 files checked: 1 unmatched files: 0
+ranking: 456
+inventory 0.1.10 has 3935697 downloads
+inventory 0.1.10 repo url is https://github.com/dtolnay/inventory
+inventory 0.1.10 scm hash e9eb7685a31e8423ba251a17633309251a815c19
+inventory 0.1.10 commit-hash matches tag "0.1.10"
+inventory 0.1.10 files checked: 3 unmatched files: 0
+ranking: 457
+new_debug_unreachable 1.0.4 has 3935536 downloads
+new_debug_unreachable 1.0.4 repo url is https://github.com/mbrubeck/rust-debug-unreachable
+new_debug_unreachable 1.0.4 scm hash d82486c6d9a87b245ab04555d210626fafcc4758
+new_debug_unreachable 1.0.4 commit-hash matches tag "v1.0.4"
+new_debug_unreachable 1.0.4 files checked: 3 unmatched files: 0
+ranking: 458
+inventory-impl 0.1.10 has 3927301 downloads
+inventory-impl 0.1.10 repo url is https://github.com/dtolnay/inventory
+inventory-impl 0.1.10 scm hash e9eb7685a31e8423ba251a17633309251a815c19
+inventory-impl 0.1.10 commit-hash matches tag "0.1.10"
+inventory-impl 0.1.10 files checked: 1 unmatched files: 0
+ranking: 459
+scoped_threadpool 0.1.9 has 3925235 downloads
+scoped_threadpool 0.1.9 repo url is https://github.com/Kimundi/scoped-threadpool-rs
+ERROR: no .cargo_vcs_info file in crate tarball
+scoped_threadpool 0.1.9 ERROR: failed to extract crate metadata
+shallow match failed.
+scoped_threadpool 0.1.9 doing full repo clone...
+scoped_threadpool 0.1.9 files checked: 2 unmatched files: 0
+ranking: 460
+async-channel 1.6.1 has 3924715 downloads
+async-channel 1.6.1 repo url is https://github.com/smol-rs/async-channel
+async-channel 1.6.1 scm hash eaeb9b8ce58d6585c5a4d99b3e4d07a9d4d9dbf3
+async-channel 1.6.1 commit-hash matches tag "v1.6.1"
+async-channel 1.6.1 files checked: 3 unmatched files: 0
+ranking: 461
+libm 0.2.1 has 3922809 downloads
+libm 0.2.1 repo url is https://github.com/rust-lang/libm
+libm 0.2.1 scm hash 3d729b7a85daad3b4d54b22e02d00681762bc602
+libm 0.2.1 commit-hash matches tag "0.2.1"
+libm 0.2.1 files checked: 120 unmatched files: 0
+ranking: 462
+dotenv 0.15.0 has 3904954 downloads
+dotenv 0.15.0 repo url is https://github.com/dotenv-rs/dotenv
+dotenv 0.15.0 scm hash fa467c4febe3e1b1f406fbe5e3550afedffe5d82
+dotenv 0.15.0 ERROR: tag match fail: []
+dotenv 0.15.0 files checked: 18 unmatched files: 0
+ranking: 463
+number_prefix 0.4.0 has 3848607 downloads
+number_prefix 0.4.0 repo url is https://github.com/ogham/rust-number-prefix
+number_prefix 0.4.0 scm hash eb6ebd215d50df1b199737f0356b988bebaedc84
+number_prefix 0.4.0 commit-hash matches tag "v0.4.0"
+number_prefix 0.4.0 files checked: 3 unmatched files: 0
+ranking: 464
+wincolor 1.0.3 has 3836939 downloads
+wincolor 1.0.3 repo url is https://github.com/BurntSushi/termcolor/tree/master/wincolor
+wincolor 1.0.3 scm hash 1d8fcbb056ee5e4b039400efc813af55901c4c5f
+wincolor 1.0.3 ERROR: tag match fail: []
+wincolor 1.0.3 files checked: 2 unmatched files: 0
+ranking: 465
+fs_extra 1.2.0 has 3835369 downloads
+fs_extra 1.2.0 repo url is https://github.com/webdesus/fs_extra
+fs_extra 1.2.0 scm hash 9b972027bac127236d00da3f807891d1972ff49c
+fs_extra 1.2.0 commit-hash matches tag "1.2.0"
+fs_extra 1.2.0 files checked: 7 unmatched files: 0
+ranking: 466
+slog 2.7.0 has 3833970 downloads
+slog 2.7.0 repo url is https://github.com/slog-rs/slog
+slog 2.7.0 scm hash af366446d935193e0b6b650549084f2a2a8f1fbc
+fatal: remote error: upload-pack: not our ref af366446d935193e0b6b650549084f2a2a8f1fbc
+fatal: the remote end hung up unexpectedly
+git error: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'af366446d935193e0b6b650549084f2a2a8f1fbc']' returned non-zero exit status 128.
+slog 2.7.0 ERROR: failed to shallow-clone repo: Command '['git', 'fetch', '-q', '-t', '--depth=1', 'origin', 'af366446d935193e0b6b650549084f2a2a8f1fbc']' returned non-zero exit status 128.
+shallow match failed.
+slog 2.7.0 doing full repo clone...
+slog 2.7.0 files checked: 11 unmatched files: 0
+ranking: 467
+serde_test 1.0.130 has 3798694 downloads
+serde_test 1.0.130 repo url is https://github.com/serde-rs/serde
+serde_test 1.0.130 scm hash 65e1a50749938612cfbdb69b57fc4cf249f87149
+serde_test 1.0.130 commit-hash matches tag "v1.0.130"
+serde_test 1.0.130 files checked: 7 unmatched files: 0
+ranking: 468
+termion 1.5.6 has 3793554 downloads
+termion 1.5.6 repo url is https://gitlab.redox-os.org/redox-os/termion
+termion 1.5.6 scm hash dce5e7500fd709987f9bf8f3911e4daa61d0ad14
+termion 1.5.6 commit-hash matches tag "1.5.6"
+termion 1.5.6 files checked: 36 unmatched files: 0
+ranking: 469
+tower-layer 0.3.1 has 3777683 downloads
+tower-layer 0.3.1 repo url is https://github.com/tower-rs/tower
+tower-layer 0.3.1 scm hash 44ad621c56e437d690bcd193313b81acc168895b
+tower-layer 0.3.1 commit-hash matches tag "tower-layer-0.3.1"
+tower-layer 0.3.1 files checked: 4 unmatched files: 0
+ranking: 470
+dashmap 4.0.2 has 3776049 downloads
+dashmap 4.0.2 repo url is https://github.com/xacrimon/dashmap
+dashmap 4.0.2 scm hash 1a31f4f5989fa42f5faa80ae0537e214d55cb0e4
+dashmap 4.0.2 ERROR: tag match fail: []
+dashmap 4.0.2 files checked: 18 unmatched files: 0
+ranking: 471
+libflate 1.1.1 has 3734161 downloads
+libflate 1.1.1 repo url is https://github.com/sile/libflate
+libflate 1.1.1 scm hash 7e0e56f60e60c1fc4db795e0ec9ac16882205595
+libflate 1.1.1 commit-hash matches tag "1.1.1"
+libflate 1.1.1 files checked: 21 unmatched files: 0
+ranking: 472
+md-5 0.9.1 has 3733898 downloads
+md-5 0.9.1 repo url is https://github.com/RustCrypto/hashes
+md-5 0.9.1 scm hash 22f903a754ff4b846101869bc151d3879d7e77d3
+md-5 0.9.1 ERROR: tag match fail: ['md5-v0.9.1', 'ripemd160-v0.9.1', 'sha3-v0.9.1']
+md-5 0.9.1 files checked: 6 unmatched files: 0
+ranking: 473
+ntapi 0.3.6 has 3720802 downloads
+ntapi 0.3.6 repo url is https://github.com/MSxDOS/ntapi
+ntapi 0.3.6 scm hash cbea31ea9d624169f01ae0997e6698baceb51867
+ntapi 0.3.6 ERROR: tag match fail: []
+ntapi 0.3.6 files checked: 37 unmatched files: 0
+ranking: 474
+cpufeatures 0.2.1 has 3718996 downloads
+cpufeatures 0.2.1 repo url is https://github.com/RustCrypto/utils
+cpufeatures 0.2.1 scm hash f85795bc0cfb2b7601a799e600b49b45215493cf
+cpufeatures 0.2.1 ERROR: tag match fail: []
+cpufeatures 0.2.1 files checked: 5 unmatched files: 0
+ranking: 475
+kv-log-macro 1.0.7 has 3717718 downloads
+kv-log-macro 1.0.7 repo url is https://github.com/yoshuawuyts/kv-log-macro
+kv-log-macro 1.0.7 scm hash b1ec3d2194835a83146d7b720203b5f9c731bc58
+kv-log-macro 1.0.7 ERROR: tag match fail: []
+kv-log-macro 1.0.7 files checked: 3 unmatched files: 0
+ranking: 476
+zeroize_derive 1.1.0 has 3678951 downloads
+zeroize_derive 1.1.0 repo url is https://github.com/iqlusioninc/crates/tree/main/zeroize/derive
+zeroize_derive 1.1.0 scm hash 9ccd6171b86d40c70716769de9f7ea5fedcf4565
+zeroize_derive 1.1.0 ERROR: tag match fail: []
+zeroize_derive 1.1.0 files checked: 1 unmatched files: 0
+ranking: 477
+inotify-sys 0.1.5 has 3616125 downloads
+inotify-sys 0.1.5 repo url is https://github.com/hannobraun/inotify-sys
+inotify-sys 0.1.5 scm hash 57f7facfa12ae0aff2054972691b4cd5f5afc154
+inotify-sys 0.1.5 commit-hash matches tag "v0.1.5"
+inotify-sys 0.1.5 files checked: 1 unmatched files: 0
+ranking: 478
+string_cache_codegen 0.5.1 has 3593457 downloads
+string_cache_codegen 0.5.1 repo url is https://github.com/servo/string-cache
+string_cache_codegen 0.5.1 scm hash 86a33eb3dcfe4a55de0a343f9771f6d782fc7dc7
+string_cache_codegen 0.5.1 commit-hash matches tag "string_cache_codegen-v0.5.1"
+string_cache_codegen 0.5.1 files checked: 1 unmatched files: 0
+ranking: 479
+actix-web 4.0.0-beta.9 has 3588946 downloads
+actix-web 4.0.0-beta.9 repo url is https://github.com/actix/actix-web
+ERROR: no .cargo_vcs_info file in crate tarball
+actix-web 4.0.0-beta.9 ERROR: failed to extract crate metadata
+shallow match failed.
+actix-web 4.0.0-beta.9 doing full repo clone...
+actix-web 4.0.0-beta.9 files checked: 83 unmatched files: 0
+ranking: 480
+tap 1.0.1 has 3580794 downloads
+tap 1.0.1 repo url is https://github.com/myrrlyn/tap
+tap 1.0.1 scm hash f5315f0f5ca90ce6399daac76c1fe3ba645a4e4e
+tap 1.0.1 ERROR: tag match fail: []
+tap 1.0.1 files checked: 4 unmatched files: 0
+ranking: 481
+wyz 0.4.0 has 3574928 downloads
+wyz 0.4.0 repo url is https://github.com/myrrlyn/wyz
+wyz 0.4.0 scm hash 183b5771369510cebf820df17b7218a46ab8f365
+wyz 0.4.0 ERROR: tag match fail: []
+wyz 0.4.0 files checked: 5 unmatched files: 0
+ranking: 482
+blocking 1.0.2 has 3541218 downloads
+blocking 1.0.2 repo url is https://github.com/stjepang/blocking
+blocking 1.0.2 scm hash 85f57af2dc05a92014f246910b62086fcc2ef4d5
+blocking 1.0.2 commit-hash matches tag "v1.0.2"
+blocking 1.0.2 files checked: 3 unmatched files: 0
+ranking: 483
+mio-named-pipes 0.1.7 has 3525891 downloads
+mio-named-pipes 0.1.7 repo url is https://github.com/bbqsrc/mio-named-pipes
+mio-named-pipes 0.1.7 scm hash c3b8f62d94fa1f265cd147eea60d691d981acfdd
+mio-named-pipes 0.1.7 commit-hash matches tag "v0.1.7"
+mio-named-pipes 0.1.7 files checked: 3 unmatched files: 0
+ranking: 484
+color_quant 1.1.0 has 3519308 downloads
+color_quant 1.1.0 repo url is https://github.com/image-rs/color_quant.git
+color_quant 1.1.0 scm hash 6c302d2d1540496584476d513dd75b815f14e7a1
+color_quant 1.1.0 commit-hash matches tag "v1.1.0"
+color_quant 1.1.0 files checked: 2 unmatched files: 0
+ranking: 485
+const-random-macro 0.1.13 has 3503982 downloads
+const-random-macro 0.1.13 repo url is https://github.com/tkaitchuck/constrandom
+const-random-macro 0.1.13 scm hash 889dd4862b21e50544ca533108ce4611df44ba70
+const-random-macro 0.1.13 ERROR: tag match fail: []
+const-random-macro 0.1.13 files checked: 2 unmatched files: 0
+ranking: 486
+const-random 0.1.13 has 3490002 downloads
+const-random 0.1.13 repo url is https://github.com/tkaitchuck/constrandom
+const-random 0.1.13 scm hash 889dd4862b21e50544ca533108ce4611df44ba70
+const-random 0.1.13 ERROR: tag match fail: []
+const-random 0.1.13 files checked: 2 unmatched files: 0
+ranking: 487
+pem 0.8.3 has 3473993 downloads
+pem 0.8.3 repo url is https://github.com/jcreekmore/pem-rs.git
+pem 0.8.3 scm hash e869f244552321015e0173a3c71dbb45a43cb981
+pem 0.8.3 commit-hash matches tag "v0.8.3"
+pem 0.8.3 files checked: 3 unmatched files: 0
+ranking: 488
+polling 2.1.0 has 3466760 downloads
+polling 2.1.0 repo url is https://github.com/smol-rs/polling
+polling 2.1.0 scm hash 952fccb2f56fbc6eaf7d6d80de5e6704a76f4c21
+polling 2.1.0 commit-hash matches tag "v2.1.0"
+polling 2.1.0 files checked: 9 unmatched files: 0
+ranking: 489
+async-io 1.6.0 has 3464893 downloads
+async-io 1.6.0 repo url is https://github.com/smol-rs/async-io
+async-io 1.6.0 scm hash 36ab1d28a9341ffe92dd2265d70c42990c6754b8
+async-io 1.6.0 commit-hash matches tag "v1.6.0"
+async-io 1.6.0 files checked: 9 unmatched files: 0
+ranking: 490
+sized-chunks 0.6.5 has 3462206 downloads
+sized-chunks 0.6.5 repo url is https://github.com/bodil/sized-chunks
+sized-chunks 0.6.5 scm hash 9d4c7f1471fa84b8d0ab654963f1e3ee98d3ec99
+sized-chunks 0.6.5 commit-hash matches tag "v0.6.5"
+sized-chunks 0.6.5 files checked: 17 unmatched files: 0
+ranking: 491
+actix-rt 2.2.0 has 3439694 downloads
+actix-rt 2.2.0 repo url is https://github.com/actix/actix-net
+ERROR: no .cargo_vcs_info file in crate tarball
+actix-rt 2.2.0 ERROR: failed to extract crate metadata
+shallow match failed.
+actix-rt 2.2.0 doing full repo clone...
+actix-rt 2.2.0 files checked: 7 unmatched files: 0
+ranking: 492
+copyless 0.1.5 has 3439493 downloads
+copyless 0.1.5 repo url is https://github.com/kvark/copyless
+copyless 0.1.5 scm hash 3116e6d607028a732d54d969b369ef328ad26f57
+copyless 0.1.5 commit-hash matches tag "v0.1.5"
+copyless 0.1.5 files checked: 3 unmatched files: 0
+ranking: 493
+actix-utils 3.0.0 has 3416546 downloads
+actix-utils 3.0.0 repo url is https://github.com/actix/actix-net
+ERROR: no .cargo_vcs_info file in crate tarball
+actix-utils 3.0.0 ERROR: failed to extract crate metadata
+shallow match failed.
+actix-utils 3.0.0 doing full repo clone...
+actix-utils 3.0.0 files checked: 6 unmatched files: 0
+ranking: 494
+ctrlc 3.2.0 has 3415831 downloads
+ctrlc 3.2.0 repo url is https://github.com/Detegr/rust-ctrlc.git
+ctrlc 3.2.0 scm hash 75cc933bbad7a1948ae6e077741d787c005c90f3
+ctrlc 3.2.0 commit-hash matches tag "3.2.0"
+ctrlc 3.2.0 files checked: 9 unmatched files: 0
+ranking: 495
+serde_derive_internals 0.26.0 has 3404936 downloads
+serde_derive_internals 0.26.0 repo url is https://github.com/serde-rs/serde
+serde_derive_internals 0.26.0 scm hash 7aa4950504e64dc3987f0c69718d97b4b106d650
+serde_derive_internals 0.26.0 ERROR: tag match fail: []
+serde_derive_internals 0.26.0 files checked: 10 unmatched files: 0
+ranking: 496
+widestring 0.4.3 has 3402837 downloads
+widestring 0.4.3 repo url is https://github.com/starkat99/widestring-rs.git
+widestring 0.4.3 scm hash e7236b62b9ffe8bf159644dfbf9b624060c8a843
+widestring 0.4.3 ERROR: tag match fail: []
+widestring 0.4.3 files checked: 8 unmatched files: 0
+ranking: 497
+shell-escape 0.1.5 has 3389021 downloads
+shell-escape 0.1.5 repo url is https://github.com/sfackler/shell-escape
+shell-escape 0.1.5 scm hash 9bfec037f6fde99a7e4caf029919b0bb4b808c85
+shell-escape 0.1.5 commit-hash matches tag "v0.1.5"
+shell-escape 0.1.5 files checked: 1 unmatched files: 0
+ranking: 498
+pretty_env_logger 0.4.0 has 3385176 downloads
+pretty_env_logger 0.4.0 repo url is https://github.com/seanmonstar/pretty-env-logger
+pretty_env_logger 0.4.0 scm hash fa4e28537f153a20e655349556ec982e3657a848
+pretty_env_logger 0.4.0 commit-hash matches tag "v0.4.0"
+pretty_env_logger 0.4.0 files checked: 1 unmatched files: 0
+ranking: 499
+tower 0.4.8 has 3384312 downloads
+tower 0.4.8 repo url is https://github.com/tower-rs/tower
+tower 0.4.8 scm hash b5d2c8f1d30cdaf8401102ea64c0708524b7f724
+tower 0.4.8 commit-hash matches tag "tower-0.4.8"
+tower 0.4.8 files checked: 119 unmatched files: 0

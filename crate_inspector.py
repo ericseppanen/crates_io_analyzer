@@ -432,6 +432,8 @@ def main():
 
     db = CratesDbDump(args.dbdumpfile)
 
+    print(f'There are {len(db.crates)} crates in this database dump.')
+
     if args.crate:
         # Search for the crate by name
         for crate_db_row in db.crates:

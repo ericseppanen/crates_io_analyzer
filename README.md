@@ -78,9 +78,9 @@ Unfortunately, only 319 crates (64% of the top 500) would earn the "gold star" b
 
 **11 crates** (2%) contain a git hash in `.cargo_vcs_info.json`, but that hash does not exist in the upstream repository.
 
-**5 crates** (1%) don't have a working git repository link. Three of these crates (`fuchsia-zircon`, `fuchsia-zircon-sys`, and `fuchsia-cprng`) point to `fuchsia.googlesource.com`, and return "permission denied" errors to both a web browser and a git client. 
+**4 crates** (1%) don't have a working git repository link. Three of these crates (`fuchsia-zircon`, `fuchsia-zircon-sys`, and `fuchsia-cprng`) point to `fuchsia.googlesource.com`, and return "permission denied" errors to both a web browser and a git client. The `crunchy` crate is missing the repository link in its `Cargo.toml` manifest.
 
-**1 crate** (`crunchy`) is unique among the top 500 in providing what appears to be a mercurial repository.
+**1 crate** (`oorandom`) is unique among the top 500 in providing what appears to be a mercurial repository.
 
 **5 crates** (1%) contain files in the crates.io tarball that do not appear anywhere in the linked git repo:
 - `matches 0.1.9` contains a unit test file that [does not appear](https://github.com/SimonSapin/rust-std-candidates/issues/24) in the upstream repo.

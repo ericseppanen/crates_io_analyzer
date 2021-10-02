@@ -14,9 +14,9 @@ If you just want to download a crate's source code without adding it as a depend
 
 I didn't find the crates.io download URL advertised anywhere, but you can construct it yourself: the URL is simply
 
-> `https://crates.io/api/v1/crates/{name}/{version}/download`
+> `https://static.crates.io/crates/{name}/{name}-{version}.crate`
 
-So if you want to download `semver` `1.0.4`, the download url is `https://crates.io/api/v1/crates/semver/1.0.4/download`. You will receive a gzipped tarball with the source for that crate.
+So if you want to download `semver` `1.0.4`, the download url is `https://static.crates.io/crates/semver/semver-1.0.4.crate`. You will receive a gzipped tarball with the source for that crate.
 
 The crates.io download contains the rust source code, Cargo manifest, and tests. It may not contain everything in the upstream repo, however. If you look at the semver download from crates.io, it has the `src` and `test` directories but does not contain the `fuzz` directory. Upstream repositories often contain multiple rust crates; only one crate's source will appear in the crates.io download package.
 

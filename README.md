@@ -113,6 +113,18 @@ I could also imagine some more ambitious ideas:
 - Crates.io could run its own automated verification of all crates, as a way of flagging suspect crates.
 - If crate provenance/verification is widely accepted as a good idea, and crates.io were willing to publish some additional metadata, the Cargo could allow a local configuration setting that only permits "gold star" crates.
 
+### Related discussions
+
+Here I've collected a few links to related ideas/discussions.
+
+Cargo issue [#1281](https://github.com/rust-lang/cargo/issues/1281) and crates.io issue [#75](https://github.com/rust-lang/crates.io/issues/75) have some discussion of "crate signing" ideas.
+
+crates.io issues [#1592](https://github.com/rust-lang/crates.io/issues/1592) and [#2113](https://github.com/rust-lang/crates.io/issues/2113) describe some of the reasons for crate download URLs not being advertised.
+
+crates.io issue [#1462](https://github.com/rust-lang/crates.io/issues/1462) proposed a similar "publish from git" model.
+
+[cargo-crev](https://github.com/crev-dev/cargo-crev) demonstrates some interesting ideas for managing trust in dependencies.
+
 ### My crate analysis procedure
 
 Feel free to skip this part: it contains some additional details of how I scripted the analysis of the top 500 crates.

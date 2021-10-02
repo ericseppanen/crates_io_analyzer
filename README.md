@@ -117,6 +117,8 @@ I could also imagine some more ambitious ideas:
 
 Here I've collected a few links to related ideas/discussions.
 
+Some very similar ideas were discussed in 2018 [here](https://internals.rust-lang.org/t/making-crates-io-verify-code-against-repository/14075).
+
 Cargo issue [#1281](https://github.com/rust-lang/cargo/issues/1281) and crates.io issue [#75](https://github.com/rust-lang/crates.io/issues/75) have some discussion of "crate signing" ideas.
 
 crates.io issues [#1592](https://github.com/rust-lang/crates.io/issues/1592) and [#2113](https://github.com/rust-lang/crates.io/issues/2113) describe some of the reasons for crate download URLs not being advertised.

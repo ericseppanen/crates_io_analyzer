@@ -16,13 +16,15 @@ I didn't find the crates.io download URL advertised anywhere, but you can constr
 
 > `https://static.crates.io/crates/{name}/{name}-{version}.crate`
 
-So if you want to download `semver` `1.0.4`, the download url is `https://static.crates.io/crates/semver/semver-1.0.4.crate`. You will receive a gzipped tarball with the source for that crate.
+So if you want to download `semver 1.0.4`, the download url is `https://static.crates.io/crates/semver/semver-1.0.4.crate`. The resulting `.crate` file is a gzipped tarball containing the source for that crate, Cargo manifest, and tests. It may not contain everything in the original repo. If you look at `semver-1.0.4.crate` as downloaded from crates.io, it has the `src` and `test` directories but does not contain the `fuzz` directory. Sometimes the upstream repository will contain multiple rust crates; only one crate's source will appear in the `.crate` file.
 
-The crates.io download contains the rust source code, Cargo manifest, and tests. It may not contain everything in the upstream repo, however. If you look at the semver download from crates.io, it has the `src` and `test` directories but does not contain the `fuzz` directory. Upstream repositories often contain multiple rust crates; only one crate's source will appear in the crates.io download package.
+The integrity of the download can be verified by checking it against the sha256 checksum that is stored in the crates.io index.
 
-The crate download doesn't contain a cryptographic signature; the authenticity of the data is guaranteed by your client validating the crates.io TLS certificate when making HTTPS connections. There might be situations where we would want something more (if your company uses a local crate mirror, for example), but this is mostly orthogonal to the questions I wanted to answer.
+> The crates.io index is a [git repository](https://github.com/rust-lang/crates.io-index) that contains a crate listing and some useful metadata. It's used by Cargo to discover available crate versions. Because it's a git repository, it would be quite difficult for an attacker to modify the checksum of an existing crate, so the index provides some protection against supply-chain attacks. Since connections to crates.io are also secured by TLS, compromising the crate download process would be very difficult.
+>
+> Crates are not cryptographically signed, though there have been some discussions about doing this in the future.
 
-What is interesting is that most crates come with an extra file called `.cargo_vcs_info.json`. This file contains something very useful: a git hash.
+If we examine the `.crate` file that we downloaded, we find something useful: most crates come with an extra file called `.cargo_vcs_info.json`. This file contains a git hash:
 
 ```text
 $ cat semver-1.0.4/.cargo_vcs_info.json
@@ -96,9 +98,9 @@ I haven't done a detailed analysis of the other 66,727 crates published on crate
 
 I really hope this doesn't come across as an attack on crates.io or Rust. I think the Rust ecosystem is amazing, and I have a huge amount of respect for the Rust developers and the crates.io team, and I can only express my thanks for building an amazing set of tools, and fostering an amazing community.
 
-But it makes me sad that it's this hard to validate the provenance of source code bundles on crates.io. I wish that there was a robust set of best practices around crate publishing, and there was some way to nudge developers to follow those best practices.
+But it makes me sad that it's this hard to validate the provenance of source files in published crates. I wish that there was a robust set of best practices around crate publishing, and there was some way to nudge developers to follow those best practices.
 
-I expect that these sort of questions will be asked within large companies' security teams, when they consider how they will adopt Rust, and how they should regard tools that download freely from crates.io.
+I expect that these sort of questions will be asked within large companies' security teams, when they consider how they will adopt Rust, Cargo, and crates.io.
 
 I would like to start a conversation with the crates.io team, to better understand the situation and find out if there's anything that could be done to improve the state of things. As a starting point I would love to see crates.io raise the visibility of some publishing quality issues:
 
@@ -118,6 +120,8 @@ I could also imagine some more ambitious ideas:
 Here I've collected a few links to related ideas/discussions.
 
 Some very similar ideas were discussed in 2018 [here](https://internals.rust-lang.org/t/making-crates-io-verify-code-against-repository/14075).
+
+The Cargo Registry structure is explained in [the Rust Book](https://doc.rust-lang.org/cargo/reference/registries.html). The [crates_index](https://docs.rs/crates-index/) crate provides access to the crates.io index repository that contains crate version information (and sha256 checksums).
 
 Cargo issue [#1281](https://github.com/rust-lang/cargo/issues/1281) and crates.io issue [#75](https://github.com/rust-lang/crates.io/issues/75) have some discussion of "crate signing" ideas.
 

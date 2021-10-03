@@ -8,7 +8,7 @@ This project began the way many of my long Rust articles do-- I got curious abou
 
 <!-- more -->
 
-Why do I care about these things? There are a few reasons, but mostly this is a discussion about security and trust. Supply-chain attacks are unfortunately a real problem, and a compromized developer computer or a stolen crates.io token could allow a malicious package to be published and incorporated into a lot of downstream programs.
+Why do I care about these things? There are a few reasons, but mostly this is a discussion about security and trust. Supply-chain attacks are unfortunately a real problem, and a compromised developer computer or a stolen crates.io token could allow a malicious package to be published and incorporated into a lot of downstream programs.
 
 How quickly a malicious package would be detected depends a lot on how obvious the code change is. Not many people are likely to notice if a file is changed only in the published crate-- as developers we tend to assume that the upstream repository is the code that was published.
 
@@ -78,7 +78,7 @@ Reasonable people will probably disagree about what crate publishing best practi
 
 I wrote [a script][this-repo] to download all of the most popular crates, and report any problems found when trying to match git hashes, tags, and file contents.
 
-I limited my investigation to the most popular 500 crates, ranked by number of downloads. Heres' what I found:
+I limited my investigation to the most popular 500 crates, ranked by number of downloads. Here's what I found:
 
 Unfortunately, only 319 crates (64% of the top 500) would earn the "gold star" badge.
 

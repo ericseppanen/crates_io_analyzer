@@ -1,3 +1,5 @@
+This article was originally published at [Code and Bitters](https://codeandbitters.com/published-crate-analysis/). Please use that URL when sharing this article.
+
 # Rust: Does the published crate match the upstream source?
 
 This project began the way many of my long Rust articles do-- I got curious about something. I started to wonder a few weeks ago about the relationship between crates that I download from crates.io, and the crate's upstream repository. Here are some of the questions I wanted to answer:

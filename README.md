@@ -8,9 +8,17 @@ This project began the way many of my long Rust articles do-- I got curious abou
 
 <!-- more -->
 
+Why do I care about these things? There are a few reasons, but mostly this is a discussion about security and trust. Supply-chain attacks are unfortunately a real problem, and a compromized developer computer or a stolen crates.io token could allow a malicious package to be published and incorporated into a lot of downstream programs.
+
+How quickly a malicious package would be detected depends a lot on how obvious the code change is. Not many people are likely to notice if a file is changed only in the published crate-- as developers we tend to assume that the upstream repository is the code that was published.
+
+I don't believe there are monsters lurking under every bed, but I appreciate when the bed design allows me to see under every bed before deciding to sleep in it.
+
+There's another reason I care about the ease of matching a published crate to the corresponding source code in the repository. Sometimes if I am tracking down an obscure bug, I want to add some debugging patches to the library sources. I usually begin by cloning that library's repository, and checking out the commit that corresponds to the same version I was using before. Unfortunately, some repositories don't have git tags for every release. Without tags, it can be tricky to work out exactly which commit corresponds to that release.
+
 ### What to expect when you download a crate from crates.io
 
-If you just want to download a crate's source code without adding it as a dependency in another Rust project, you can install [cargo-download]. It hasn't been updated in years, but it still works fine.
+If you just want to download a crate's source code without adding it as a dependency in another Rust project, you can install [cargo-clone] or [cargo-download].
 
 I didn't find the crates.io download URL advertised anywhere, but you can construct it yourself: the URL is simply
 
@@ -162,5 +170,6 @@ Please get in touch on [twitter: @codeandbitters](https://twitter.com/codeandbit
 
 You can find my crate analysis script [here][this-repo].
 
+[cargo-clone]: https://github.com/JanLikar/cargo-clone
 [cargo-download]: https://github.com/Xion/cargo-download
 [this-repo]: https://github.com/ericseppanen/crates_io_analyzer

@@ -82,21 +82,21 @@ I limited my investigation to the most popular 500 crates, ranked by number of d
 
 Unfortunately, only 319 crates (64% of the top 500) would earn the "gold star" badge.
 
-**53 crates** (11%) contain no `.cargo_vcs_info.json` file.
+**53 crates** (11%) contain no `.cargo_vcs_info.json` file, so we cannot easily find the git commit corresponding to the published code.
 
 **115 crates** (23%) don't have an obviously matching git tag (e.g. `1.0.0` or `foo-v1.0.0`). A few crates are unfairly lumped in here because they have an unusual tagging style, but most of these (89 crates, 18%) don't have any git tags on the published commit.
 
 **11 crates** (2%) contain a git hash in `.cargo_vcs_info.json`, but that hash does not exist in the upstream repository.
 
-**4 crates** (1%) don't have a working git repository link. Three of these crates (`fuchsia-zircon`, `fuchsia-zircon-sys`, and `fuchsia-cprng`) point to `fuchsia.googlesource.com`, and return "permission denied" errors to both a web browser and a git client. The `crunchy` crate is missing the repository link in its `Cargo.toml` manifest.
+**4 crates** (1%) don't have a working git repository link. Three of these crates (`fuchsia-zircon`, `fuchsia-zircon-sys`, and `fuchsia-cprng`) point to `fuchsia.googlesource.com`, and return "permission denied" errors to both a web browser and a git client. Another crate is missing the repository link in its `Cargo.toml` manifest-- I opened an issue upstream, but haven't heard back yet.
 
-**1 crate** (`oorandom`) is unique among the top 500 in providing what appears to be a mercurial repository.
+**1 crate** (the 394th most downloaded) is unique among the top 500 in providing what appears to be a mercurial repository. I didn't add Mercurial support to my script, so I didn't analyze it further.
 
 **5 crates** (1%) contain files in the crates.io tarball that do not appear anywhere in the linked git repo:
-- `matches 0.1.9` contains a unit test file that [does not appear](https://github.com/SimonSapin/rust-std-candidates/issues/24) in the upstream repo.
-- `cpuid-bool 0.99.99` and `aes-soft 0.99.99` are dummy packages that only contain one source file that throws a deliberate compiler error. The dummy source file isn't committed into the upstream git repo, though.
-- `pest_meta 2.1.3` contains what looks like an auto-generated file that isn't committed to git.
-- `hermit-abi 0.1.19` accidentally [linked to the wrong repo](https://github.com/hermitcore/rusty-hermit/commit/8c73b4208e9a6d995e45757f072cf069e8ba85c6) (now fixed).
+- One crate contained a unit test file that did not appear in the upstream repo. I reported this upstream and it was fixed a few days later.
+- Two popular crates' latest releases are dummy packages that only contain one source file that throws a deliberate compiler error. The dummy source file isn't committed into the upstream git repo.
+- Another crate contains what looks like an auto-generated file that isn't committed to git.
+- The last mismatch in the top 500 had a `Cargo.toml` file that accidentally linked to the wrong repo. It had already been fixed by the time I went to report it.
 
 That's a high number of issues, considering these are the 500 most-downloaded crates, that are published by some of the most experienced Rust developers in the world.
 
@@ -145,7 +145,7 @@ Feel free to skip this part: it contains some additional details of how I script
 
 This process is not the most elegant thing in the world, and the source code is about what you'd expect from a weekend project that grew out of control. Feel free to [suggest improvements][this-repo]!
 
-The `crate_inspector.py` script builds its list of crates from the published [crates.io database dump](https://crates.io/data-access). I used a dump from 2021-09-09.
+The `crate_inspector.py` script builds its list of crates from the published [crates.io database dump](https://crates.io/data-access). I used a dump from 2021-09-09. I only analyzed the latest version of each crate.
 
 For each crate analyzed, the script does the following:
 - Attempt to download the crate. This should always succeed (because it's in the database dump), but there are a few crates that return `403 Forbidden`. I don't know why (presumably security concerns or legal issues?) Since none of these crates appear in the top 500 list, I didn't need to mention them above.

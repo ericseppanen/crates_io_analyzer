@@ -64,7 +64,7 @@ def latest_version(vlist):
 
 
 def download_crate(name, version):
-    url = f'https://crates.io/api/v1/crates/{name}/{version}/download'
+    url = f'https://static.crates.io/crates/{name}/{name}-{version}.crate'
     try:
         response = urllib.request.urlopen(url)
     except urllib.error.HTTPError as e:
